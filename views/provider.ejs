@@ -1,0 +1,92 @@
+<%- include('header') %>
+    <div class="container">
+        <div class="breadcrumb"><a href="/">Главная</a> → <a href="/providers">Провайдеры</a> → <%= provider.name %>
+        </div>
+        <div class="provider-detail">
+            <div class="provider-detail__header">
+                <div class="provider-logo provider-logo--lg"
+                    style="background: hsl(<%= Math.abs(provider.slug.charCodeAt(0) * 37) % 360 %>, 70%, 60%)">
+                    <%= provider.logo_hint_text || provider.name.substring(0,2).toUpperCase() %>
+                </div>
+                <div>
+                    <h1>
+                        <%= provider.name %>
+                    </h1>
+                    <div class="provider-detail__rating">⭐ <%= provider.rating.toFixed(1) %> <span>(<%=
+                                    provider.rating_count %> отзывов)</span></div>
+                    <a href="<%= provider.url %>" target="_blank" class="btn btn--outline btn--sm">Перейти на сайт ↗</a>
+                </div>
+            </div>
+            <div class="provider-detail__about">
+                <h2>О провайдере</h2>
+                <p>
+                    <%= provider.about_short || 'Облачные серверы и VPS/VDS для проектов любого масштаба.' %>
+                </p>
+            </div>
+            <div class="provider-detail__info">
+                <div class="info-item"><strong>Регионы:</strong>
+                    <%= provider.regions.join(', ') %></div>
+      <div class="info-item"><strong>CPU:</strong> <%= provider.cpu_brands.join(' , ') %></div>
+      <% if (provider.has_free_trial) { %><div class="info-item"><span class="badge badge--trial">Бесплатный тест: <%= provider.trial_days %> дней</span></div><% } %>
+      <% if (provider.promo_label) { %><div class="info-item"><span class="badge badge--promo"><%= provider.promo_label %> до <%= provider.promo_until %></span></div><% } %>
+    </div>
+    <h2>Предложения (<%= offers.length %>)</h2>
+    <div class="offers-table-wrap">
+      <table class="offers-table">
+        <thead><tr><th>Тариф</th><th>vCPU</th><th>RAM</th><th>Диск</th><th>CPU</th><th>Канал</th><th>Цена</th><th></th></tr></thead>
+        <tbody>
+          <% offers.forEach(function(o) { %>
+          <tr>
+            <td><a href="/offers/<%= o.id %>"><%= o.name %></a></td>
+            <td><%= o.vcpu %></td><td><%= o.ram_gb %> ГБ</td>
+            <td><%= (o.disk_system_type||' ssd').toUpperCase() %>
+                        <%= o.disk_system_size_gb %> ГБ</td>
+                            <td>
+                                <%= o.cpu_brand %>
+                                    <%= o.cpu_line %>
+                            </td>
+                            <td>
+                                <%= o.bandwidth_mbps>= 1000 ? (o.bandwidth_mbps/1000)+' Gbps' : o.bandwidth_mbps+' Mbps'
+                                    %>
+                            </td>
+                            <td><span class="price-old">
+                                    <%= Math.round(o.market_price_month) %> ₽
+                                </span> <strong class="price-promo">
+                                    <%= Math.round(o.promo_price_month) %> ₽
+                                </strong></td>
+                            <td><button class="btn btn--primary btn--sm"
+                                    onclick="openLeadModal('<%= o.provider_id %>','<%= o.id %>','<%= provider.name %>','<%= o.name %>','<%= Math.round(o.promo_price_month) %>')">Заказать</button>
+                            </td>
+                            </tr>
+                            <% }); %>
+                                </tbody>
+                                </table>
+                </div>
+                <% if (reviews.length> 0) { %>
+                    <h2>Отзывы (<%= reviewCount %>)</h2>
+                    <div class="reviews-list">
+                        <% reviews.forEach(function(r) { %>
+                            <div class="review-card">
+                                <div class="review-card__header"><strong>
+                                        <%= r.user_display_name %>
+                                    </strong><span class="review-card__role">
+                                        <%= r.user_role %>
+                                    </span><span class="review-card__rating">⭐ <%= r.rating.toFixed(1) %></span>
+                                    <%= r.verified ? '<span class="badge badge--success">✓</span>' : '' %>
+                                </div>
+                                <h4>
+                                    <%= r.title %>
+                                </h4>
+                                <% if(r.pros&&r.pros.length){ %>
+                                    <div class="review-card__pros">✅ <%= r.pros.join(', ') %></div><% } %>
+        <% if(r.cons&&r.cons.length){ %><div class="review-card__cons">❌ <%= r.cons.join(' , ') %></div><% } %>
+        <p><%= r.text %></p>
+        <div class="review-card__meta">👍 <%= r.likes %> · <%= r.use_case %> · <%= r.created_at %></div>
+      </div>
+      <% }); %>
+    </div>
+    <% } %>
+    <div class="cta__card" style="margin-top:2rem"><h3>Подобрать другой сервер?</h3><a href="/servers" class="btn btn--primary">Открыть конфигуратор →</a></div>
+  </div>
+</div>
+<%- include('footer') %>

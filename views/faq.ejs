@@ -1,0 +1,21 @@
+<%- include('header') %>
+    <div class="container">
+        <div class="page-header">
+            <h1>Часто задаваемые вопросы</h1>
+        </div>
+        <div class="faq-list">
+            <% faq.forEach(function(f) { %>
+                <div class="faq-item" onclick="this.classList.toggle('faq-item--open')">
+                    <div class="faq-item__question"><span>
+                            <%= f.title %>
+                        </span><span class="faq-item__arrow">▸</span></div>
+                    <div class="faq-item__answer">
+                        <p>
+                            <%= f.content_md || f.excerpt %>
+                        </p>
+                    </div>
+                </div>
+                <% }); %>
+        </div>
+    </div>
+    <%- include('footer') %>

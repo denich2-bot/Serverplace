@@ -1,0 +1,27 @@
+<%- include('header') %>
+    <div class="container">
+        <div class="page-header">
+            <h1>Блог</h1>
+            <p>Статьи, гайды и новости мира облачных серверов</p>
+        </div>
+        <div class="articles-grid">
+            <% articles.forEach(function(a) { %>
+                <a href="/blog/<%= a.slug %>" class="article-card">
+                    <div class="article-card__tags">
+                        <% if(a.tags) a.tags.forEach(function(t){ %><span class="tag">
+                                <%= t %>
+                            </span>
+                            <% }); %>
+                    </div>
+                    <h3>
+                        <%= a.title %>
+                    </h3>
+                    <p>
+                        <%= a.excerpt %>
+                    </p>
+                    <div class="article-card__meta">📅 <%= a.published_at %> · ⏱ <%= a.reading_time_min %> мин</div>
+                </a>
+                <% }); %>
+        </div>
+    </div>
+    <%- include('footer') %>

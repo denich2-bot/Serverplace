@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= title %></title>
+  <meta name="description" content="ServerPlace — маркетплейс сравнения облачных серверов VPS/VDS в России. Найдите лучший сервер от 140+ провайдеров.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container header__inner">
+      <a href="/" class="logo">
+        <span class="logo__icon">⚡</span>
+        <span class="logo__text">Server<span class="logo__accent">Place</span></span>
+      </a>
+      <nav class="nav">
+        <a href="/servers" class="nav__link <%= currentPage === 'servers' ? 'nav__link--active' : '' %>">Подобрать сервер</a>
+        <a href="/providers" class="nav__link <%= currentPage === 'providers' ? 'nav__link--active' : '' %>">Провайдеры</a>
+        <a href="/compare" class="nav__link <%= currentPage === 'compare' ? 'nav__link--active' : '' %>">Сравнение</a>
+        <a href="/reviews" class="nav__link <%= currentPage === 'reviews' ? 'nav__link--active' : '' %>">Отзывы</a>
+        <a href="/blog" class="nav__link <%= currentPage === 'blog' ? 'nav__link--active' : '' %>">Блог</a>
+        <a href="/faq" class="nav__link <%= currentPage === 'faq' ? 'nav__link--active' : '' %>">FAQ</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Меню">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main class="main">
+    <%- body %>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <span class="logo__icon">⚡</span>
+        <span class="logo__text">Server<span class="logo__accent">Place</span></span>
+        <p class="footer__desc">Маркетплейс сравнения облачных серверов в РФ</p>
+      </div>
+      <div class="footer__links">
+        <div class="footer__col">
+          <h4>Навигация</h4>
+          <a href="/servers">Подобрать сервер</a>
+          <a href="/providers">Провайдеры</a>
+          <a href="/compare">Сравнение</a>
+        </div>
+        <div class="footer__col">
+          <h4>Информация</h4>
+          <a href="/reviews">Отзывы</a>
+          <a href="/blog">Блог</a>
+          <a href="/faq">FAQ</a>
+          <a href="/contacts">Контакты</a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>© 2026 ServerPlace. Все права защищены.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lead modal -->
+  <div class="modal" id="leadModal">
+    <div class="modal__overlay" onclick="closeLeadModal()"></div>
+    <div class="modal__content">
+      <button class="modal__close" onclick="closeLeadModal()">&times;</button>
+      <div id="leadStep1" class="modal__step">
+        <h3>Заказать сервер</h3>
+        <p class="modal__provider" id="modalProviderName"></p>
+        <p class="modal__offer" id="modalOfferName"></p>
+        <p class="modal__price" id="modalPrice"></p>
+        <div class="form-group">
+          <label for="leadEmail">Email</label>
+          <input type="email" id="leadEmail" placeholder="your@email.com" required>
+          <span class="form-error" id="emailError"></span>
+        </div>
+        <input type="text" name="honeypot" id="leadHoneypot" style="display:none" tabindex="-1" autocomplete="off">
+        <button class="btn btn--primary btn--full" onclick="leadNextStep()">Продолжить</button>
+      </div>
+      <div id="leadStep2" class="modal__step" style="display:none">
+        <h3>Почти готово!</h3>
+        <div class="form-group">
+          <label for="leadPhone">Телефон</label>
+          <input type="tel" id="leadPhone" placeholder="+7 (___) ___-__-__" required>
+          <span class="form-error" id="phoneError"></span>
+        </div>
+        <button class="btn btn--primary btn--full" onclick="submitLead()">Заказать</button>
+        <button class="btn btn--ghost" onclick="leadPrevStep()">← Назад</button>
+      </div>
+      <div id="leadSuccess" class="modal__step" style="display:none">
+        <div class="modal__success-icon">✓</div>
+        <h3>Заявка отправлена!</h3>
+        <p>Ожидайте — провайдер с вами свяжется.</p>
+        <button class="btn btn--primary" onclick="closeLeadModal()">Вернуться к подбору</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Mobile nav toggle
+    document.getElementById('navToggle')?.addEventListener('click', function() {
+      document.querySelector('.nav').classList.toggle('nav--open');
+      this.classList.toggle('nav-toggle--active');
+    });
+
+    // Lead modal logic
+    let _leadData = {};
+
+    function openLeadModal(providerId, offerId, providerName, offerName, price) {
+      _leadData = { provider_id: providerId, offer_id: offerId };
+      document.getElementById('modalProviderName').textContent = providerName || '';
+      document.getElementById('modalOfferName').textContent = offerName || '';
+      document.getElementById('modalPrice').textContent = price ? price + ' ₽/мес' : '';
+      document.getElementById('leadStep1').style.display = 'block';
+      document.getElementById('leadStep2').style.display = 'none';
+      document.getElementById('leadSuccess').style.display = 'none';
+      document.getElementById('leadEmail').value = '';
+      document.getElementById('leadPhone').value = '';
+      document.getElementById('leadModal').classList.add('modal--active');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeLeadModal() {
+      document.getElementById('leadModal').classList.remove('modal--active');
+      document.body.style.overflow = '';
+    }
+
+    function leadNextStep() {
+      const email = document.getElementById('leadEmail').value.trim();
+      const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      if (!re.test(email)) {
+        document.getElementById('emailError').textContent = 'Введите корректный email';
+        return;
+      }
+      document.getElementById('emailError').textContent = '';
+      document.getElementById('leadStep1').style.display = 'none';
+      document.getElementById('leadStep2').style.display = 'block';
+    }
+
+    function leadPrevStep() {
+      document.getElementById('leadStep2').style.display = 'none';
+      document.getElementById('leadStep1').style.display = 'block';
+    }
+
+    function submitLead() {
+      const phone = document.getElementById('leadPhone').value.trim();
+      if (phone.length < 5) {
+        document.getElementById('phoneError').textContent = 'Введите номер телефона';
+        return;
+      }
+      document.getElementById('phoneError').textContent = '';
+      const body = {
+        ..._leadData,
+        email: document.getElementById('leadEmail').value.trim(),
+        phone: phone,
+        honeypot: document.getElementById('leadHoneypot').value,
+        page_url: window.location.href,
+        referrer: document.referrer,
+        utm: Object.fromEntries(new URLSearchParams(window.location.search))
+      };
+      fetch('/api/leads', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(body)
+      }).then(r => r.json()).then(data => {
+        if (data.success) {
+          document.getElementById('leadStep2').style.display = 'none';
+          document.getElementById('leadSuccess').style.display = 'block';
+        } else {
+          document.getElementById('phoneError').textContent = data.error || 'Ошибка отправки';
+        }
+      }).catch(() => {
+        document.getElementById('phoneError').textContent = 'Ошибка сети';
+      });
+    }
+
+    // Phone mask
+    document.getElementById('leadPhone')?.addEventListener('input', function(e) {
+      let v = this.value.replace(/\D/g, '');
+      if (v.startsWith('8')) v = '7' + v.substring(1);
+      if (!v.startsWith('7')) v = '7' + v;
+      let formatted = '+7';
+      if (v.length > 1) formatted += ' (' + v.substring(1, 4);
+      if (v.length > 4) formatted += ') ' + v.substring(4, 7);
+      if (v.length > 7) formatted += '-' + v.substring(7, 9);
+      if (v.length > 9) formatted += '-' + v.substring(9, 11);
+      this.value = formatted;
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,4756 @@
+[
+  {
+    "id": "p001",
+    "name": "1cloud",
+    "slug": "1cloud",
+    "url": "https://1cloud.ru",
+    "logo_hint": {
+      "type": "initials",
+      "text": "1C",
+      "seed": "1cloud"
+    },
+    "rating": 4.2,
+    "rating_count": 240,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "msk",
+      "nsk"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@1cloud.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p002",
+    "name": "1Gbits",
+    "slug": "1gbits",
+    "url": "https://1gbits.com",
+    "logo_hint": {
+      "type": "initials",
+      "text": "1G",
+      "seed": "1gbits"
+    },
+    "rating": 4.4,
+    "rating_count": 777,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "kzn",
+      "spb",
+      "nsk"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@1gbits.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p003",
+    "name": "1VPS",
+    "slug": "1vps",
+    "url": "https://1vps.org",
+    "logo_hint": {
+      "type": "initials",
+      "text": "1V",
+      "seed": "1vps"
+    },
+    "rating": 4.2,
+    "rating_count": 497,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "ekb"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@1vps.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p004",
+    "name": "4vps",
+    "slug": "4vps",
+    "url": "https://4vps.su",
+    "logo_hint": {
+      "type": "initials",
+      "text": "4V",
+      "seed": "4vps"
+    },
+    "rating": 4.4,
+    "rating_count": 260,
+    "has_free_trial": true,
+    "trial_days": 7,
+    "regions": [
+      "ekb",
+      "nsk"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@4vps.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p005",
+    "name": "62yun",
+    "slug": "62yun",
+    "url": "https://62yun.com",
+    "logo_hint": {
+      "type": "initials",
+      "text": "62",
+      "seed": "62yun"
+    },
+    "rating": 4.5,
+    "rating_count": 105,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "spb",
+      "nsk",
+      "kzn"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@62yun.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p006",
+    "name": "Adman",
+    "slug": "adman",
+    "url": "https://adman.com",
+    "logo_hint": {
+      "type": "initials",
+      "text": "AD",
+      "seed": "adman"
+    },
+    "rating": 4.1,
+    "rating_count": 224,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "spb",
+      "kzn"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@adman.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p007",
+    "name": "AdminVPS",
+    "slug": "adminvps",
+    "url": "https://adminvps.ru",
+    "logo_hint": {
+      "type": "initials",
+      "text": "AD",
+      "seed": "adminvps"
+    },
+    "rating": 4.5,
+    "rating_count": 28,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "kzn",
+      "spb"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@adminvps.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p008",
+    "name": "Akamai",
+    "slug": "akamai",
+    "url": "https://www.akamai.com",
+    "logo_hint": {
+      "type": "initials",
+      "text": "AK",
+      "seed": "akamai"
+    },
+    "rating": 4.4,
+    "rating_count": 194,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "ekb",
+      "kzn",
+      "msk"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@akamai.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p009",
+    "name": "AlexHost",
+    "slug": "alexhost",
+    "url": "https://alexhost.com",
+    "logo_hint": {
+      "type": "initials",
+      "text": "AL",
+      "seed": "alexhost"
+    },
+    "rating": 4.5,
+    "rating_count": 797,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "nsk"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@alexhost.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p010",
+    "name": "ArionVPS",
+    "slug": "arionvps",
+    "url": "https://arionvps.com",
+    "logo_hint": {
+      "type": "initials",
+      "text": "AR",
+      "seed": "arionvps"
+    },
+    "rating": 4.2,
+    "rating_count": 340,
+    "has_free_trial": true,
+    "trial_days": 14,
+    "regions": [
+      "kzn",
+      "spb"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@arionvps.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p011",
+    "name": "AvaHost",
+    "slug": "avahost",
+    "url": "https://avahost.ru",
+    "logo_hint": {
+      "type": "initials",
+      "text": "AV",
+      "seed": "avahost"
+    },
+    "rating": 4.7,
+    "rating_count": 446,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "spb"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@avahost.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p012",
+    "name": "AvenaCloud",
+    "slug": "avenacloud",
+    "url": "https://avenacloud.com",
+    "logo_hint": {
+      "type": "initials",
+      "text": "AV",
+      "seed": "avenacloud"
+    },
+    "rating": 4.8,
+    "rating_count": 401,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "ekb",
+      "msk"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@avenacloud.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p013",
+    "name": "Bacloud",
+    "slug": "bacloud",
+    "url": "https://bacloud.com",
+    "logo_hint": {
+      "type": "initials",
+      "text": "BA",
+      "seed": "bacloud"
+    },
+    "rating": 4.2,
+    "rating_count": 112,
+    "has_free_trial": true,
+    "trial_days": 3,
+    "regions": [
+      "spb",
+      "nsk",
+      "ekb"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@bacloud.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p014",
+    "name": "Beget",
+    "slug": "beget",
+    "url": "https://beget.com",
+    "logo_hint": {
+      "type": "initials",
+      "text": "BE",
+      "seed": "beget"
+    },
+    "rating": 4.6,
+    "rating_count": 39,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "ekb",
+      "kzn",
+      "msk"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@beget.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p015",
+    "name": "Big Data Hosting",
+    "slug": "big-data-hosting",
+    "url": "https://bigdatahosting.ru",
+    "logo_hint": {
+      "type": "initials",
+      "text": "BI",
+      "seed": "big-data-hosting"
+    },
+    "rating": 4.4,
+    "rating_count": 56,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "spb"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@big-data-hosting.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p016",
+    "name": "BigVDS",
+    "slug": "bigvds",
+    "url": "https://bigvds.ru",
+    "logo_hint": {
+      "type": "initials",
+      "text": "BI",
+      "seed": "bigvds"
+    },
+    "rating": 4.5,
+    "rating_count": 280,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "nsk",
+      "kzn",
+      "msk"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@bigvds.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p017",
+    "name": "BlueVPS",
+    "slug": "bluevps",
+    "url": "https://bluevps.ru",
+    "logo_hint": {
+      "type": "initials",
+      "text": "BL",
+      "seed": "bluevps"
+    },
+    "rating": 4.1,
+    "rating_count": 652,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "msk"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@bluevps.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p018",
+    "name": "CISHost",
+    "slug": "cishost",
+    "url": "https://cishost.ru",
+    "logo_hint": {
+      "type": "initials",
+      "text": "CI",
+      "seed": "cishost"
+    },
+    "rating": 4.3,
+    "rating_count": 263,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "ekb",
+      "msk",
+      "spb"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@cishost.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p019",
+    "name": "Cloud.ru",
+    "slug": "cloud-ru",
+    "url": "https://cloud.ru",
+    "logo_hint": {
+      "type": "initials",
+      "text": "CL",
+      "seed": "cloud-ru"
+    },
+    "rating": 4.2,
+    "rating_count": 128,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "kzn",
+      "nsk"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@cloud-ru.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p020",
+    "name": "CloudX",
+    "slug": "cloudx",
+    "url": "https://cloudx.ru",
+    "logo_hint": {
+      "type": "initials",
+      "text": "CL",
+      "seed": "cloudx"
+    },
+    "rating": 4.3,
+    "rating_count": 409,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "msk"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@cloudx.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p021",
+    "name": "Datacheap",
+    "slug": "datacheap",
+    "url": "https://datacheap.ru",
+    "logo_hint": {
+      "type": "initials",
+      "text": "DA",
+      "seed": "datacheap"
+    },
+    "rating": 4.5,
+    "rating_count": 500,
+    "has_free_trial": true,
+    "trial_days": 30,
+    "regions": [
+      "ekb",
+      "spb"
+    ],
+    "cpu_brands": [
+      "AMD"
+    ],
+    "support": {
+      "email": "support@datacheap.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p022",
+    "name": "DeepHost",
+    "slug": "deephost",
+    "url": "https://deephost.ru",
+    "logo_hint": {
+      "type": "initials",
+      "text": "DE",
+      "seed": "deephost"
+    },
+    "rating": 4.6,
+    "rating_count": 662,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "msk"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@deephost.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p023",
+    "name": "DigitalOcean",
+    "slug": "digitalocean",
+    "url": "https://www.digitalocean.com",
+    "logo_hint": {
+      "type": "initials",
+      "text": "DI",
+      "seed": "digitalocean"
+    },
+    "rating": 4.9,
+    "rating_count": 131,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "nsk"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@digitalocean.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p024",
+    "name": "DLine Media",
+    "slug": "dline-media",
+    "url": "https://dline.media",
+    "logo_hint": {
+      "type": "initials",
+      "text": "DL",
+      "seed": "dline-media"
+    },
+    "rating": 4.5,
+    "rating_count": 181,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "kzn",
+      "msk"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@dline-media.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p025",
+    "name": "EdgeCenter",
+    "slug": "edgecenter",
+    "url": "https://edgecenter.ru",
+    "logo_hint": {
+      "type": "initials",
+      "text": "ED",
+      "seed": "edgecenter"
+    },
+    "rating": 4.2,
+    "rating_count": 71,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "msk",
+      "kzn"
+    ],
+    "cpu_brands": [
+      "AMD"
+    ],
+    "support": {
+      "email": "support@edgecenter.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p026",
+    "name": "E-Planet",
+    "slug": "e-planet",
+    "url": "https://e-planet.ru",
+    "logo_hint": {
+      "type": "initials",
+      "text": "E-",
+      "seed": "e-planet"
+    },
+    "rating": 4.5,
+    "rating_count": 282,
+    "has_free_trial": true,
+    "trial_days": 30,
+    "regions": [
+      "ekb",
+      "msk",
+      "kzn"
+    ],
+    "cpu_brands": [
+      "Intel"
+    ],
+    "support": {
+      "email": "support@e-planet.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p027",
+    "name": "eServer",
+    "slug": "eserver",
+    "url": "https://eserver.ru",
+    "logo_hint": {
+      "type": "initials",
+      "text": "ES",
+      "seed": "eserver"
+    },
+    "rating": 4.3,
+    "rating_count": 557,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "spb",
+      "ekb",
+      "kzn"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@eserver.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": [
+      "eServer RU"
+    ]
+  },
+  {
+    "id": "p028",
+    "name": "EuroHoster",
+    "slug": "eurohoster",
+    "url": "https://eurohoster.org",
+    "logo_hint": {
+      "type": "initials",
+      "text": "EU",
+      "seed": "eurohoster"
+    },
+    "rating": 4.8,
+    "rating_count": 723,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "msk",
+      "kzn",
+      "ekb"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@eurohoster.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p029",
+    "name": "eVPS.net",
+    "slug": "evps-net",
+    "url": "https://evps.net",
+    "logo_hint": {
+      "type": "initials",
+      "text": "EV",
+      "seed": "evps-net"
+    },
+    "rating": 4.2,
+    "rating_count": 547,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "nsk",
+      "ekb",
+      "spb"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@evps-net.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p030",
+    "name": "FastFox",
+    "slug": "fastfox",
+    "url": "https://fastfox.pro",
+    "logo_hint": {
+      "type": "initials",
+      "text": "FA",
+      "seed": "fastfox"
+    },
+    "rating": 4.5,
+    "rating_count": 310,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "msk",
+      "ekb"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@fastfox.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p031",
+    "name": "FASTVPS",
+    "slug": "fastvps",
+    "url": "https://fastvps.ru",
+    "logo_hint": {
+      "type": "initials",
+      "text": "FA",
+      "seed": "fastvps"
+    },
+    "rating": 4.2,
+    "rating_count": 596,
+    "has_free_trial": true,
+    "trial_days": 30,
+    "regions": [
+      "spb",
+      "msk"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@fastvps.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p032",
+    "name": "FirstByte",
+    "slug": "firstbyte",
+    "url": "https://firstbyte.ru",
+    "logo_hint": {
+      "type": "initials",
+      "text": "FI",
+      "seed": "firstbyte"
+    },
+    "rating": 4.3,
+    "rating_count": 175,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "ekb",
+      "kzn",
+      "spb"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@firstbyte.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p033",
+    "name": "FirstVDS",
+    "slug": "firstvds",
+    "url": "https://firstvds.ru",
+    "logo_hint": {
+      "type": "initials",
+      "text": "FI",
+      "seed": "firstvds"
+    },
+    "rating": 4.3,
+    "rating_count": 599,
+    "has_free_trial": true,
+    "trial_days": 7,
+    "regions": [
+      "nsk",
+      "msk"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@firstvds.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p034",
+    "name": "Fornex",
+    "slug": "fornex",
+    "url": "https://fornex.com",
+    "logo_hint": {
+      "type": "initials",
+      "text": "FO",
+      "seed": "fornex"
+    },
+    "rating": 4.3,
+    "rating_count": 442,
+    "has_free_trial": true,
+    "trial_days": 14,
+    "regions": [
+      "ekb"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@fornex.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p035",
+    "name": "FOXCLOUD",
+    "slug": "foxcloud",
+    "url": "https://foxcloud.ru",
+    "logo_hint": {
+      "type": "initials",
+      "text": "FO",
+      "seed": "foxcloud"
+    },
+    "rating": 4.2,
+    "rating_count": 549,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "ekb"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@foxcloud.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p036",
+    "name": "Friend Hosting",
+    "slug": "friend-hosting",
+    "url": "https://friendhosting.net",
+    "logo_hint": {
+      "type": "initials",
+      "text": "FR",
+      "seed": "friend-hosting"
+    },
+    "rating": 4.2,
+    "rating_count": 158,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "nsk"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@friend-hosting.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p037",
+    "name": "GARMTECH",
+    "slug": "garmtech",
+    "url": "https://garmtech.lv",
+    "logo_hint": {
+      "type": "initials",
+      "text": "GA",
+      "seed": "garmtech"
+    },
+    "rating": 4.5,
+    "rating_count": 550,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "spb"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@garmtech.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p038",
+    "name": "GEO.Hosting",
+    "slug": "geo-hosting",
+    "url": "https://geo.hosting",
+    "logo_hint": {
+      "type": "initials",
+      "text": "GE",
+      "seed": "geo-hosting"
+    },
+    "rating": 4.4,
+    "rating_count": 675,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "spb",
+      "kzn",
+      "msk"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@geo-hosting.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p039",
+    "name": "GMhost",
+    "slug": "gmhost",
+    "url": "https://gmhost.ru",
+    "logo_hint": {
+      "type": "initials",
+      "text": "GM",
+      "seed": "gmhost"
+    },
+    "rating": 4.2,
+    "rating_count": 413,
+    "has_free_trial": true,
+    "trial_days": 14,
+    "regions": [
+      "spb",
+      "kzn"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@gmhost.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p040",
+    "name": "HandyHost",
+    "slug": "handyhost",
+    "url": "https://handyhost.ru",
+    "logo_hint": {
+      "type": "initials",
+      "text": "HA",
+      "seed": "handyhost"
+    },
+    "rating": 4.5,
+    "rating_count": 775,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "kzn",
+      "ekb"
+    ],
+    "cpu_brands": [
+      "Intel"
+    ],
+    "support": {
+      "email": "support@handyhost.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p041",
+    "name": "Hawk Host",
+    "slug": "hawk-host",
+    "url": "https://hawkhost.com",
+    "logo_hint": {
+      "type": "initials",
+      "text": "HA",
+      "seed": "hawk-host"
+    },
+    "rating": 4.3,
+    "rating_count": 708,
+    "has_free_trial": true,
+    "trial_days": 14,
+    "regions": [
+      "spb"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@hawk-host.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p042",
+    "name": "Hetzner",
+    "slug": "hetzner",
+    "url": "https://www.hetzner.com",
+    "logo_hint": {
+      "type": "initials",
+      "text": "HE",
+      "seed": "hetzner"
+    },
+    "rating": 4.3,
+    "rating_count": 615,
+    "has_free_trial": true,
+    "trial_days": 14,
+    "regions": [
+      "kzn",
+      "msk",
+      "nsk"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@hetzner.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p043",
+    "name": "HiP-Hosting",
+    "slug": "hip-hosting",
+    "url": "https://hip-hosting.com",
+    "logo_hint": {
+      "type": "initials",
+      "text": "HI",
+      "seed": "hip-hosting"
+    },
+    "rating": 4.3,
+    "rating_count": 299,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "spb",
+      "nsk"
+    ],
+    "cpu_brands": [
+      "AMD"
+    ],
+    "support": {
+      "email": "support@hip-hosting.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p044",
+    "name": "Host-UA",
+    "slug": "host-ua",
+    "url": "https://host-ua.com",
+    "logo_hint": {
+      "type": "initials",
+      "text": "HO",
+      "seed": "host-ua"
+    },
+    "rating": 4.5,
+    "rating_count": 674,
+    "has_free_trial": true,
+    "trial_days": 7,
+    "regions": [
+      "msk",
+      "ekb",
+      "kzn"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@host-ua.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p045",
+    "name": "Host4biz",
+    "slug": "host4biz",
+    "url": "https://host4biz.com",
+    "logo_hint": {
+      "type": "initials",
+      "text": "HO",
+      "seed": "host4biz"
+    },
+    "rating": 4.1,
+    "rating_count": 598,
+    "has_free_trial": true,
+    "trial_days": 7,
+    "regions": [
+      "kzn",
+      "msk",
+      "ekb"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@host4biz.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p046",
+    "name": "HostiMan",
+    "slug": "hostiman",
+    "url": "https://hostiman.ru",
+    "logo_hint": {
+      "type": "initials",
+      "text": "HO",
+      "seed": "hostiman"
+    },
+    "rating": 4.3,
+    "rating_count": 762,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "ekb",
+      "msk"
+    ],
+    "cpu_brands": [
+      "Intel"
+    ],
+    "support": {
+      "email": "support@hostiman.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p047",
+    "name": "Hosting-Russia",
+    "slug": "hosting-russia",
+    "url": "https://hosting-russia.ru",
+    "logo_hint": {
+      "type": "initials",
+      "text": "HO",
+      "seed": "hosting-russia"
+    },
+    "rating": 4.7,
+    "rating_count": 282,
+    "has_free_trial": true,
+    "trial_days": 30,
+    "regions": [
+      "ekb"
+    ],
+    "cpu_brands": [
+      "AMD"
+    ],
+    "support": {
+      "email": "support@hosting-russia.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p048",
+    "name": "Hosting-VDS",
+    "slug": "hosting-vds",
+    "url": "https://hosting-vds.com",
+    "logo_hint": {
+      "type": "initials",
+      "text": "HO",
+      "seed": "hosting-vds"
+    },
+    "rating": 4.3,
+    "rating_count": 676,
+    "has_free_trial": true,
+    "trial_days": 7,
+    "regions": [
+      "msk",
+      "ekb"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@hosting-vds.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p049",
+    "name": "Hosting.Energy",
+    "slug": "hosting-energy",
+    "url": "https://hosting.energy",
+    "logo_hint": {
+      "type": "initials",
+      "text": "HO",
+      "seed": "hosting-energy"
+    },
+    "rating": 4.7,
+    "rating_count": 161,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "kzn"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@hosting-energy.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p050",
+    "name": "HostKey",
+    "slug": "hostkey",
+    "url": "https://hostkey.com",
+    "logo_hint": {
+      "type": "initials",
+      "text": "HO",
+      "seed": "hostkey"
+    },
+    "rating": 4.4,
+    "rating_count": 144,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "spb"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@hostkey.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p051",
+    "name": "HOSTLIFE",
+    "slug": "hostlife",
+    "url": "https://hostlife.net",
+    "logo_hint": {
+      "type": "initials",
+      "text": "HO",
+      "seed": "hostlife"
+    },
+    "rating": 4.4,
+    "rating_count": 222,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "spb",
+      "nsk"
+    ],
+    "cpu_brands": [
+      "AMD"
+    ],
+    "support": {
+      "email": "support@hostlife.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p052",
+    "name": "Hyper Hosting",
+    "slug": "hyper-hosting",
+    "url": "https://hyperhosting.com",
+    "logo_hint": {
+      "type": "initials",
+      "text": "HY",
+      "seed": "hyper-hosting"
+    },
+    "rating": 4.2,
+    "rating_count": 506,
+    "has_free_trial": true,
+    "trial_days": 7,
+    "regions": [
+      "msk",
+      "spb",
+      "ekb"
+    ],
+    "cpu_brands": [
+      "Intel"
+    ],
+    "support": {
+      "email": "support@hyper-hosting.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p053",
+    "name": "HyperHost",
+    "slug": "hyperhost",
+    "url": "https://hyperhost.ua",
+    "logo_hint": {
+      "type": "initials",
+      "text": "HY",
+      "seed": "hyperhost"
+    },
+    "rating": 4.2,
+    "rating_count": 702,
+    "has_free_trial": true,
+    "trial_days": 7,
+    "regions": [
+      "ekb",
+      "msk",
+      "kzn"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@hyperhost.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p054",
+    "name": "IHC",
+    "slug": "ihc",
+    "url": "https://ihc.ru",
+    "logo_hint": {
+      "type": "initials",
+      "text": "IH",
+      "seed": "ihc"
+    },
+    "rating": 4.3,
+    "rating_count": 586,
+    "has_free_trial": true,
+    "trial_days": 7,
+    "regions": [
+      "nsk",
+      "msk",
+      "spb"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@ihc.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p055",
+    "name": "IPhoster",
+    "slug": "iphoster",
+    "url": "https://iphoster.ru",
+    "logo_hint": {
+      "type": "initials",
+      "text": "IP",
+      "seed": "iphoster"
+    },
+    "rating": 4.5,
+    "rating_count": 723,
+    "has_free_trial": true,
+    "trial_days": 30,
+    "regions": [
+      "msk",
+      "kzn",
+      "nsk"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@iphoster.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p056",
+    "name": "iPipe",
+    "slug": "ipipe",
+    "url": "https://ipipe.ru",
+    "logo_hint": {
+      "type": "initials",
+      "text": "IP",
+      "seed": "ipipe"
+    },
+    "rating": 4.8,
+    "rating_count": 455,
+    "has_free_trial": true,
+    "trial_days": 30,
+    "regions": [
+      "ekb",
+      "kzn",
+      "nsk"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@ipipe.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p057",
+    "name": "is*hosting",
+    "slug": "is-hosting",
+    "url": "https://ishosting.com",
+    "logo_hint": {
+      "type": "initials",
+      "text": "IS",
+      "seed": "is-hosting"
+    },
+    "rating": 4.6,
+    "rating_count": 672,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "msk",
+      "ekb",
+      "kzn"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@is-hosting.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p058",
+    "name": "ISPlevel",
+    "slug": "isplevel",
+    "url": "https://isplevel.com",
+    "logo_hint": {
+      "type": "initials",
+      "text": "IS",
+      "seed": "isplevel"
+    },
+    "rating": 4.9,
+    "rating_count": 553,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "nsk",
+      "msk",
+      "kzn"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@isplevel.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p059",
+    "name": "ISPserver",
+    "slug": "ispserver",
+    "url": "https://ispserver.com",
+    "logo_hint": {
+      "type": "initials",
+      "text": "IS",
+      "seed": "ispserver"
+    },
+    "rating": 4.5,
+    "rating_count": 439,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "kzn",
+      "spb"
+    ],
+    "cpu_brands": [
+      "AMD"
+    ],
+    "support": {
+      "email": "support@ispserver.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p060",
+    "name": "IT-garage",
+    "slug": "it-garage",
+    "url": "https://it-garage.ru",
+    "logo_hint": {
+      "type": "initials",
+      "text": "IT",
+      "seed": "it-garage"
+    },
+    "rating": 4.7,
+    "rating_count": 682,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "msk",
+      "spb",
+      "kzn"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@it-garage.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p061",
+    "name": "ITL DC",
+    "slug": "itl-dc",
+    "url": "https://itldc.ru",
+    "logo_hint": {
+      "type": "initials",
+      "text": "IT",
+      "seed": "itl-dc"
+    },
+    "rating": 4.2,
+    "rating_count": 67,
+    "has_free_trial": true,
+    "trial_days": 14,
+    "regions": [
+      "nsk",
+      "spb"
+    ],
+    "cpu_brands": [
+      "AMD"
+    ],
+    "support": {
+      "email": "support@itl-dc.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p062",
+    "name": "Kamatera",
+    "slug": "kamatera",
+    "url": "https://kamatera.com",
+    "logo_hint": {
+      "type": "initials",
+      "text": "KA",
+      "seed": "kamatera"
+    },
+    "rating": 4.4,
+    "rating_count": 99,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "kzn"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@kamatera.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p063",
+    "name": "King Servers",
+    "slug": "king-servers",
+    "url": "https://king-servers.com",
+    "logo_hint": {
+      "type": "initials",
+      "text": "KI",
+      "seed": "king-servers"
+    },
+    "rating": 4.7,
+    "rating_count": 778,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "spb",
+      "msk"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@king-servers.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p064",
+    "name": "Koara Cloud",
+    "slug": "koara-cloud",
+    "url": "https://koara.cloud",
+    "logo_hint": {
+      "type": "initials",
+      "text": "KO",
+      "seed": "koara-cloud"
+    },
+    "rating": 4.4,
+    "rating_count": 284,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "kzn"
+    ],
+    "cpu_brands": [
+      "Intel"
+    ],
+    "support": {
+      "email": "support@koara-cloud.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p065",
+    "name": "KVMka",
+    "slug": "kvmka",
+    "url": "https://kvmka.ru",
+    "logo_hint": {
+      "type": "initials",
+      "text": "KV",
+      "seed": "kvmka"
+    },
+    "rating": 4.4,
+    "rating_count": 687,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "kzn",
+      "msk",
+      "spb"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@kvmka.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p066",
+    "name": "LandVPS",
+    "slug": "landvps",
+    "url": "https://landvps.ru",
+    "logo_hint": {
+      "type": "initials",
+      "text": "LA",
+      "seed": "landvps"
+    },
+    "rating": 4.8,
+    "rating_count": 106,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "msk",
+      "ekb",
+      "kzn"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@landvps.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p067",
+    "name": "Legionbox",
+    "slug": "legionbox",
+    "url": "https://legionbox.com",
+    "logo_hint": {
+      "type": "initials",
+      "text": "LE",
+      "seed": "legionbox"
+    },
+    "rating": 4.8,
+    "rating_count": 68,
+    "has_free_trial": true,
+    "trial_days": 30,
+    "regions": [
+      "spb",
+      "ekb"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@legionbox.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p068",
+    "name": "LITE.HOST",
+    "slug": "lite-host",
+    "url": "https://lite.host",
+    "logo_hint": {
+      "type": "initials",
+      "text": "LI",
+      "seed": "lite-host"
+    },
+    "rating": 4.4,
+    "rating_count": 524,
+    "has_free_trial": true,
+    "trial_days": 30,
+    "regions": [
+      "msk",
+      "ekb"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@lite-host.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p069",
+    "name": "Macloud",
+    "slug": "macloud",
+    "url": "https://macloud.ru",
+    "logo_hint": {
+      "type": "initials",
+      "text": "MA",
+      "seed": "macloud"
+    },
+    "rating": 4.7,
+    "rating_count": 502,
+    "has_free_trial": true,
+    "trial_days": 30,
+    "regions": [
+      "msk"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@macloud.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p070",
+    "name": "Majordomo",
+    "slug": "majordomo",
+    "url": "https://majordomo.ru",
+    "logo_hint": {
+      "type": "initials",
+      "text": "MA",
+      "seed": "majordomo"
+    },
+    "rating": 4.3,
+    "rating_count": 525,
+    "has_free_trial": true,
+    "trial_days": 3,
+    "regions": [
+      "kzn",
+      "msk"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@majordomo.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p071",
+    "name": "MaxiPlace",
+    "slug": "maxiplace",
+    "url": "https://maxiplace.ru",
+    "logo_hint": {
+      "type": "initials",
+      "text": "MA",
+      "seed": "maxiplace"
+    },
+    "rating": 4.1,
+    "rating_count": 336,
+    "has_free_trial": true,
+    "trial_days": 7,
+    "regions": [
+      "spb",
+      "msk",
+      "kzn"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@maxiplace.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p072",
+    "name": "mClouds",
+    "slug": "mclouds",
+    "url": "https://mclouds.ru",
+    "logo_hint": {
+      "type": "initials",
+      "text": "MC",
+      "seed": "mclouds"
+    },
+    "rating": 4.2,
+    "rating_count": 446,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "nsk",
+      "ekb"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@mclouds.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p073",
+    "name": "MGNHost",
+    "slug": "mgnhost",
+    "url": "https://mgnhost.ru",
+    "logo_hint": {
+      "type": "initials",
+      "text": "MG",
+      "seed": "mgnhost"
+    },
+    "rating": 4.4,
+    "rating_count": 491,
+    "has_free_trial": true,
+    "trial_days": 30,
+    "regions": [
+      "spb",
+      "nsk"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@mgnhost.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p074",
+    "name": "MivoCloud",
+    "slug": "mivocloud",
+    "url": "https://mivocloud.com",
+    "logo_hint": {
+      "type": "initials",
+      "text": "MI",
+      "seed": "mivocloud"
+    },
+    "rating": 4.3,
+    "rating_count": 274,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "msk",
+      "kzn",
+      "ekb"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@mivocloud.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p075",
+    "name": "Mnogoweb",
+    "slug": "mnogoweb",
+    "url": "https://mnogoweb.ru",
+    "logo_hint": {
+      "type": "initials",
+      "text": "MN",
+      "seed": "mnogoweb"
+    },
+    "rating": 4.7,
+    "rating_count": 589,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "kzn"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@mnogoweb.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p076",
+    "name": "MonoVM",
+    "slug": "monovm",
+    "url": "https://monovm.com",
+    "logo_hint": {
+      "type": "initials",
+      "text": "MO",
+      "seed": "monovm"
+    },
+    "rating": 4.5,
+    "rating_count": 146,
+    "has_free_trial": true,
+    "trial_days": 30,
+    "regions": [
+      "spb"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@monovm.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p077",
+    "name": "MyHosti",
+    "slug": "myhosti",
+    "url": "https://myhosti.ru",
+    "logo_hint": {
+      "type": "initials",
+      "text": "MY",
+      "seed": "myhosti"
+    },
+    "rating": 4.7,
+    "rating_count": 716,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "msk"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@myhosti.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p078",
+    "name": "MyVPS",
+    "slug": "myvps",
+    "url": "https://myvps.ru",
+    "logo_hint": {
+      "type": "initials",
+      "text": "MY",
+      "seed": "myvps"
+    },
+    "rating": 4.6,
+    "rating_count": 512,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "ekb",
+      "spb"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@myvps.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p079",
+    "name": "Neiron VPS",
+    "slug": "neiron-vps",
+    "url": "https://neironvps.ru",
+    "logo_hint": {
+      "type": "initials",
+      "text": "NE",
+      "seed": "neiron-vps"
+    },
+    "rating": 4.7,
+    "rating_count": 694,
+    "has_free_trial": true,
+    "trial_days": 14,
+    "regions": [
+      "ekb"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@neiron-vps.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p080",
+    "name": "NeoServer",
+    "slug": "neoserver",
+    "url": "https://neoserver.ru",
+    "logo_hint": {
+      "type": "initials",
+      "text": "NE",
+      "seed": "neoserver"
+    },
+    "rating": 4.5,
+    "rating_count": 612,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "nsk",
+      "msk",
+      "kzn"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@neoserver.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p081",
+    "name": "NetGrid Host",
+    "slug": "netgrid-host",
+    "url": "https://netgrid.host",
+    "logo_hint": {
+      "type": "initials",
+      "text": "NE",
+      "seed": "netgrid-host"
+    },
+    "rating": 4.4,
+    "rating_count": 783,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "spb",
+      "kzn",
+      "msk"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@netgrid-host.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p082",
+    "name": "NKTelecom",
+    "slug": "nktelecom",
+    "url": "https://nktelecom.ru",
+    "logo_hint": {
+      "type": "initials",
+      "text": "NK",
+      "seed": "nktelecom"
+    },
+    "rating": 4.4,
+    "rating_count": 730,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "ekb",
+      "nsk",
+      "msk"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@nktelecom.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p083",
+    "name": "NolimitHost.cc",
+    "slug": "nolimithost-cc",
+    "url": "https://nolimithost.cc",
+    "logo_hint": {
+      "type": "initials",
+      "text": "NO",
+      "seed": "nolimithost-cc"
+    },
+    "rating": 4.5,
+    "rating_count": 748,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "ekb",
+      "msk"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@nolimithost-cc.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p084",
+    "name": "NTUP",
+    "slug": "ntup",
+    "url": "https://ntup.ru",
+    "logo_hint": {
+      "type": "initials",
+      "text": "NT",
+      "seed": "ntup"
+    },
+    "rating": 4.2,
+    "rating_count": 163,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "kzn",
+      "msk"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@ntup.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p085",
+    "name": "OVH",
+    "slug": "ovh",
+    "url": "https://www.ovhcloud.com",
+    "logo_hint": {
+      "type": "initials",
+      "text": "OV",
+      "seed": "ovh"
+    },
+    "rating": 4.5,
+    "rating_count": 412,
+    "has_free_trial": true,
+    "trial_days": 7,
+    "regions": [
+      "spb",
+      "msk",
+      "ekb"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@ovh.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p086",
+    "name": "PowerVPS",
+    "slug": "powervps",
+    "url": "https://powervps.com",
+    "logo_hint": {
+      "type": "initials",
+      "text": "PO",
+      "seed": "powervps"
+    },
+    "rating": 4.3,
+    "rating_count": 93,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "kzn",
+      "ekb"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@powervps.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p087",
+    "name": "ProfitServer",
+    "slug": "profitserver",
+    "url": "https://profitserver.ru",
+    "logo_hint": {
+      "type": "initials",
+      "text": "PR",
+      "seed": "profitserver"
+    },
+    "rating": 4.5,
+    "rating_count": 244,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "nsk",
+      "ekb",
+      "msk"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@profitserver.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p088",
+    "name": "ProfVDS",
+    "slug": "profvds",
+    "url": "https://profvds.com",
+    "logo_hint": {
+      "type": "initials",
+      "text": "PR",
+      "seed": "profvds"
+    },
+    "rating": 4.2,
+    "rating_count": 598,
+    "has_free_trial": true,
+    "trial_days": 7,
+    "regions": [
+      "nsk",
+      "kzn"
+    ],
+    "cpu_brands": [
+      "Intel"
+    ],
+    "support": {
+      "email": "support@profvds.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p089",
+    "name": "PSB.hosting",
+    "slug": "psb-hosting",
+    "url": "https://psb.hosting",
+    "logo_hint": {
+      "type": "initials",
+      "text": "PS",
+      "seed": "psb-hosting"
+    },
+    "rating": 4.8,
+    "rating_count": 36,
+    "has_free_trial": true,
+    "trial_days": 3,
+    "regions": [
+      "spb"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@psb-hosting.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p090",
+    "name": "Qyrax",
+    "slug": "qyrax",
+    "url": "https://qyrax.com",
+    "logo_hint": {
+      "type": "initials",
+      "text": "QY",
+      "seed": "qyrax"
+    },
+    "rating": 4.3,
+    "rating_count": 654,
+    "has_free_trial": true,
+    "trial_days": 7,
+    "regions": [
+      "msk",
+      "kzn",
+      "ekb"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@qyrax.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p091",
+    "name": "RackServer",
+    "slug": "rackserver",
+    "url": "https://rackserver.ru",
+    "logo_hint": {
+      "type": "initials",
+      "text": "RA",
+      "seed": "rackserver"
+    },
+    "rating": 4.4,
+    "rating_count": 555,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "msk",
+      "ekb",
+      "nsk"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@rackserver.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p092",
+    "name": "Reg.ru",
+    "slug": "reg-ru",
+    "url": "https://reg.ru",
+    "logo_hint": {
+      "type": "initials",
+      "text": "RE",
+      "seed": "reg-ru"
+    },
+    "rating": 4.6,
+    "rating_count": 321,
+    "has_free_trial": true,
+    "trial_days": 14,
+    "regions": [
+      "kzn"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@reg-ru.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p093",
+    "name": "RegVPS",
+    "slug": "regvps",
+    "url": "https://regvps.ru",
+    "logo_hint": {
+      "type": "initials",
+      "text": "RE",
+      "seed": "regvps"
+    },
+    "rating": 4.6,
+    "rating_count": 359,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "kzn",
+      "msk",
+      "spb"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@regvps.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p094",
+    "name": "RoboVPS",
+    "slug": "robovps",
+    "url": "https://robovps.ru",
+    "logo_hint": {
+      "type": "initials",
+      "text": "RO",
+      "seed": "robovps"
+    },
+    "rating": 4.6,
+    "rating_count": 389,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "nsk",
+      "msk"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@robovps.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p095",
+    "name": "Ростелеком",
+    "slug": "rostelekom",
+    "url": "https://www.rst-com.ru/b2b/virtual-dc/",
+    "logo_hint": {
+      "type": "initials",
+      "text": "РО",
+      "seed": "rostelekom"
+    },
+    "rating": 4.8,
+    "rating_count": 270,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "msk",
+      "ekb",
+      "nsk"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@rostelekom.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p096",
+    "name": "RuWeb",
+    "slug": "ruweb",
+    "url": "https://ruweb.ru",
+    "logo_hint": {
+      "type": "initials",
+      "text": "RU",
+      "seed": "ruweb"
+    },
+    "rating": 4.8,
+    "rating_count": 792,
+    "has_free_trial": true,
+    "trial_days": 3,
+    "regions": [
+      "spb",
+      "ekb",
+      "msk"
+    ],
+    "cpu_brands": [
+      "Intel"
+    ],
+    "support": {
+      "email": "support@ruweb.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p097",
+    "name": "RU VDS",
+    "slug": "ru-vds",
+    "url": "https://ruvds.com",
+    "logo_hint": {
+      "type": "initials",
+      "text": "RU",
+      "seed": "ru-vds"
+    },
+    "rating": 4.3,
+    "rating_count": 642,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "msk",
+      "nsk",
+      "spb"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@ru-vds.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p098",
+    "name": "Selectel",
+    "slug": "selectel",
+    "url": "https://selectel.ru",
+    "logo_hint": {
+      "type": "initials",
+      "text": "SE",
+      "seed": "selectel"
+    },
+    "rating": 4.1,
+    "rating_count": 139,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "ekb",
+      "nsk",
+      "msk"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@selectel.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p099",
+    "name": "Senko Digital",
+    "slug": "senko-digital",
+    "url": "https://senko.digital",
+    "logo_hint": {
+      "type": "initials",
+      "text": "SE",
+      "seed": "senko-digital"
+    },
+    "rating": 4.6,
+    "rating_count": 405,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "ekb",
+      "msk",
+      "nsk"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@senko-digital.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p100",
+    "name": "Serv.Host",
+    "slug": "serv-host",
+    "url": "https://serv.host",
+    "logo_hint": {
+      "type": "initials",
+      "text": "SE",
+      "seed": "serv-host"
+    },
+    "rating": 4.3,
+    "rating_count": 602,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "spb"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@serv-host.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p101",
+    "name": "Serva",
+    "slug": "serva",
+    "url": "https://serva.one",
+    "logo_hint": {
+      "type": "initials",
+      "text": "SE",
+      "seed": "serva"
+    },
+    "rating": 4.4,
+    "rating_count": 725,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "msk"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@serva.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p102",
+    "name": "ServStore",
+    "slug": "servstore",
+    "url": "https://servstore.ru",
+    "logo_hint": {
+      "type": "initials",
+      "text": "SE",
+      "seed": "servstore"
+    },
+    "rating": 4.6,
+    "rating_count": 732,
+    "has_free_trial": true,
+    "trial_days": 3,
+    "regions": [
+      "kzn"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@servstore.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p103",
+    "name": "ServTech",
+    "slug": "servtech",
+    "url": "https://servtech.ru",
+    "logo_hint": {
+      "type": "initials",
+      "text": "SE",
+      "seed": "servtech"
+    },
+    "rating": 4.7,
+    "rating_count": 276,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "spb",
+      "kzn",
+      "msk"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@servtech.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p104",
+    "name": "Shneider Host",
+    "slug": "shneider-host",
+    "url": "https://shneider.host",
+    "logo_hint": {
+      "type": "initials",
+      "text": "SH",
+      "seed": "shneider-host"
+    },
+    "rating": 4.9,
+    "rating_count": 675,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "kzn",
+      "ekb",
+      "spb"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@shneider-host.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p105",
+    "name": "SIM-NETWORKS",
+    "slug": "sim-networks",
+    "url": "https://sim-networks.com",
+    "logo_hint": {
+      "type": "initials",
+      "text": "SI",
+      "seed": "sim-networks"
+    },
+    "rating": 4.6,
+    "rating_count": 752,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "nsk",
+      "spb"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@sim-networks.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p106",
+    "name": "SIMPLE CLOUD",
+    "slug": "simple-cloud",
+    "url": "https://simplecloud.ru",
+    "logo_hint": {
+      "type": "initials",
+      "text": "SI",
+      "seed": "simple-cloud"
+    },
+    "rating": 4.9,
+    "rating_count": 198,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "spb"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@simple-cloud.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p107",
+    "name": "Skystark",
+    "slug": "skystark",
+    "url": "https://skystark.ru",
+    "logo_hint": {
+      "type": "initials",
+      "text": "SK",
+      "seed": "skystark"
+    },
+    "rating": 4.7,
+    "rating_count": 646,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "ekb",
+      "nsk",
+      "kzn"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@skystark.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p108",
+    "name": "SmartApe",
+    "slug": "smartape",
+    "url": "https://smartape.ru",
+    "logo_hint": {
+      "type": "initials",
+      "text": "SM",
+      "seed": "smartape"
+    },
+    "rating": 4.7,
+    "rating_count": 491,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "ekb"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@smartape.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p109",
+    "name": "SprintHost",
+    "slug": "sprinthost",
+    "url": "https://sprinthost.ru",
+    "logo_hint": {
+      "type": "initials",
+      "text": "SP",
+      "seed": "sprinthost"
+    },
+    "rating": 4.3,
+    "rating_count": 722,
+    "has_free_trial": true,
+    "trial_days": 3,
+    "regions": [
+      "ekb",
+      "nsk",
+      "kzn"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@sprinthost.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p110",
+    "name": "Sweb",
+    "slug": "sweb",
+    "url": "https://sweb.ru",
+    "logo_hint": {
+      "type": "initials",
+      "text": "SW",
+      "seed": "sweb"
+    },
+    "rating": 4.4,
+    "rating_count": 498,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "kzn",
+      "msk"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@sweb.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p111",
+    "name": "THE.Hosting",
+    "slug": "the-hosting",
+    "url": "https://the.hosting",
+    "logo_hint": {
+      "type": "initials",
+      "text": "TH",
+      "seed": "the-hosting"
+    },
+    "rating": 4.8,
+    "rating_count": 208,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "kzn"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@the-hosting.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p112",
+    "name": "Time-Host",
+    "slug": "time-host",
+    "url": "https://time-host.net",
+    "logo_hint": {
+      "type": "initials",
+      "text": "TI",
+      "seed": "time-host"
+    },
+    "rating": 4.8,
+    "rating_count": 495,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "nsk",
+      "ekb",
+      "msk"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@time-host.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p113",
+    "name": "Time4VPS",
+    "slug": "time4vps",
+    "url": "https://time4vps.eu",
+    "logo_hint": {
+      "type": "initials",
+      "text": "TI",
+      "seed": "time4vps"
+    },
+    "rating": 4.4,
+    "rating_count": 215,
+    "has_free_trial": true,
+    "trial_days": 30,
+    "regions": [
+      "msk",
+      "ekb"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@time4vps.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p114",
+    "name": "Timeweb",
+    "slug": "timeweb",
+    "url": "https://timeweb.com",
+    "logo_hint": {
+      "type": "initials",
+      "text": "TI",
+      "seed": "timeweb"
+    },
+    "rating": 4.8,
+    "rating_count": 177,
+    "has_free_trial": true,
+    "trial_days": 30,
+    "regions": [
+      "kzn",
+      "spb",
+      "msk"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@timeweb.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p115",
+    "name": "Timeweb.cloud",
+    "slug": "timeweb-cloud",
+    "url": "https://timeweb.cloud",
+    "logo_hint": {
+      "type": "initials",
+      "text": "TI",
+      "seed": "timeweb-cloud"
+    },
+    "rating": 4.8,
+    "rating_count": 648,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "spb",
+      "nsk",
+      "ekb"
+    ],
+    "cpu_brands": [
+      "AMD"
+    ],
+    "support": {
+      "email": "support@timeweb-cloud.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p116",
+    "name": "ТТК.Облако",
+    "slug": "ttk-oblako",
+    "url": "https://cloud.ttk.ru",
+    "logo_hint": {
+      "type": "initials",
+      "text": "ТТ",
+      "seed": "ttk-oblako"
+    },
+    "rating": 4.4,
+    "rating_count": 239,
+    "has_free_trial": true,
+    "trial_days": 30,
+    "regions": [
+      "spb"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@ttk-oblako.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p117",
+    "name": "UFO Hosting",
+    "slug": "ufo-hosting",
+    "url": "https://ufo.hosting",
+    "logo_hint": {
+      "type": "initials",
+      "text": "UF",
+      "seed": "ufo-hosting"
+    },
+    "rating": 4.5,
+    "rating_count": 279,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "spb"
+    ],
+    "cpu_brands": [
+      "Intel"
+    ],
+    "support": {
+      "email": "support@ufo-hosting.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p118",
+    "name": "Unlim24",
+    "slug": "unlim24",
+    "url": "https://unlim24.com",
+    "logo_hint": {
+      "type": "initials",
+      "text": "UN",
+      "seed": "unlim24"
+    },
+    "rating": 4.9,
+    "rating_count": 550,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "ekb",
+      "msk"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@unlim24.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p119",
+    "name": "VDS.SH",
+    "slug": "vds-sh",
+    "url": "https://vds.sh",
+    "logo_hint": {
+      "type": "initials",
+      "text": "VD",
+      "seed": "vds-sh"
+    },
+    "rating": 4.3,
+    "rating_count": 253,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "msk",
+      "kzn"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@vds-sh.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p120",
+    "name": "VDSCOM",
+    "slug": "vdscom",
+    "url": "https://vdscom.ru",
+    "logo_hint": {
+      "type": "initials",
+      "text": "VD",
+      "seed": "vdscom"
+    },
+    "rating": 4.4,
+    "rating_count": 414,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "nsk",
+      "ekb"
+    ],
+    "cpu_brands": [
+      "AMD"
+    ],
+    "support": {
+      "email": "support@vdscom.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p121",
+    "name": "VDSina.com",
+    "slug": "vdsina-com",
+    "url": "https://vdsina.com",
+    "logo_hint": {
+      "type": "initials",
+      "text": "VD",
+      "seed": "vdsina-com"
+    },
+    "rating": 4.2,
+    "rating_count": 104,
+    "has_free_trial": true,
+    "trial_days": 30,
+    "regions": [
+      "spb",
+      "ekb"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@vdsina-com.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p122",
+    "name": "VDSina.ru",
+    "slug": "vdsina-ru",
+    "url": "https://vdsina.ru",
+    "logo_hint": {
+      "type": "initials",
+      "text": "VD",
+      "seed": "vdsina-ru"
+    },
+    "rating": 4.7,
+    "rating_count": 279,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "kzn",
+      "ekb"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@vdsina-ru.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p123",
+    "name": "VDSka",
+    "slug": "vdska",
+    "url": "https://vdska.ru",
+    "logo_hint": {
+      "type": "initials",
+      "text": "VD",
+      "seed": "vdska"
+    },
+    "rating": 4.5,
+    "rating_count": 534,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "nsk"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@vdska.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p124",
+    "name": "Veesp",
+    "slug": "veesp",
+    "url": "https://veesp.com",
+    "logo_hint": {
+      "type": "initials",
+      "text": "VE",
+      "seed": "veesp"
+    },
+    "rating": 4.8,
+    "rating_count": 696,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "msk"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@veesp.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p125",
+    "name": "VirtualDC",
+    "slug": "virtualdc",
+    "url": "https://vdc.ru",
+    "logo_hint": {
+      "type": "initials",
+      "text": "VI",
+      "seed": "virtualdc"
+    },
+    "rating": 4.5,
+    "rating_count": 294,
+    "has_free_trial": true,
+    "trial_days": 14,
+    "regions": [
+      "msk"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@virtualdc.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p126",
+    "name": "VMLand",
+    "slug": "vmland",
+    "url": "https://vmland.ru",
+    "logo_hint": {
+      "type": "initials",
+      "text": "VM",
+      "seed": "vmland"
+    },
+    "rating": 4.2,
+    "rating_count": 398,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "nsk",
+      "ekb",
+      "msk"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@vmland.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p127",
+    "name": "VPS.Pizza",
+    "slug": "vps-pizza",
+    "url": "https://vps.pizza",
+    "logo_hint": {
+      "type": "initials",
+      "text": "VP",
+      "seed": "vps-pizza"
+    },
+    "rating": 4.9,
+    "rating_count": 521,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "nsk",
+      "msk"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@vps-pizza.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p128",
+    "name": "VPS1",
+    "slug": "vps1",
+    "url": "https://vps1.com",
+    "logo_hint": {
+      "type": "initials",
+      "text": "VP",
+      "seed": "vps1"
+    },
+    "rating": 4.1,
+    "rating_count": 75,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "nsk"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@vps1.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p129",
+    "name": "VPSVILLE",
+    "slug": "vpsville",
+    "url": "https://vpsville.ru",
+    "logo_hint": {
+      "type": "initials",
+      "text": "VP",
+      "seed": "vpsville"
+    },
+    "rating": 4.5,
+    "rating_count": 208,
+    "has_free_trial": true,
+    "trial_days": 30,
+    "regions": [
+      "msk"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@vpsville.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p130",
+    "name": "Vultr",
+    "slug": "vultr",
+    "url": "https://www.vultr.com",
+    "logo_hint": {
+      "type": "initials",
+      "text": "VU",
+      "seed": "vultr"
+    },
+    "rating": 4.3,
+    "rating_count": 747,
+    "has_free_trial": true,
+    "trial_days": 30,
+    "regions": [
+      "spb",
+      "kzn",
+      "msk"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@vultr.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p131",
+    "name": "WOLF ISP",
+    "slug": "wolf-isp",
+    "url": "https://wolfisp.com",
+    "logo_hint": {
+      "type": "initials",
+      "text": "WO",
+      "seed": "wolf-isp"
+    },
+    "rating": 4.7,
+    "rating_count": 780,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "kzn",
+      "msk",
+      "nsk"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@wolf-isp.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p132",
+    "name": "XServer",
+    "slug": "xserver",
+    "url": "https://xserver.ru",
+    "logo_hint": {
+      "type": "initials",
+      "text": "XS",
+      "seed": "xserver"
+    },
+    "rating": 4.2,
+    "rating_count": 712,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "nsk",
+      "ekb",
+      "msk"
+    ],
+    "cpu_brands": [
+      "AMD"
+    ],
+    "support": {
+      "email": "support@xserver.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p133",
+    "name": "YOURSERVER",
+    "slug": "yourserver",
+    "url": "https://yourserver.se",
+    "logo_hint": {
+      "type": "initials",
+      "text": "YO",
+      "seed": "yourserver"
+    },
+    "rating": 4.2,
+    "rating_count": 770,
+    "has_free_trial": true,
+    "trial_days": 14,
+    "regions": [
+      "nsk",
+      "msk",
+      "ekb"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@yourserver.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p134",
+    "name": "Yandex Compute Cloud",
+    "slug": "yandex-compute-cloud",
+    "url": "https://yandex.cloud/ru/services/compute",
+    "logo_hint": {
+      "type": "initials",
+      "text": "YA",
+      "seed": "yandex-compute-cloud"
+    },
+    "rating": 4.8,
+    "rating_count": 717,
+    "has_free_trial": true,
+    "trial_days": 7,
+    "regions": [
+      "kzn",
+      "nsk",
+      "spb"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@yandex-compute-cloud.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p135",
+    "name": "Z-Tv Corporation",
+    "slug": "z-tv-corporation",
+    "url": "https://z-tv.ru",
+    "logo_hint": {
+      "type": "initials",
+      "text": "Z-",
+      "seed": "z-tv-corporation"
+    },
+    "rating": 4.8,
+    "rating_count": 617,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "msk",
+      "spb"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@z-tv-corporation.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p136",
+    "name": "ZetaLink",
+    "slug": "zetalink",
+    "url": "https://zetalink.ru",
+    "logo_hint": {
+      "type": "initials",
+      "text": "ZE",
+      "seed": "zetalink"
+    },
+    "rating": 4.1,
+    "rating_count": 497,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "spb"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@zetalink.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p137",
+    "name": "Zomro",
+    "slug": "zomro",
+    "url": "https://zomro.com",
+    "logo_hint": {
+      "type": "initials",
+      "text": "ZO",
+      "seed": "zomro"
+    },
+    "rating": 4.6,
+    "rating_count": 449,
+    "has_free_trial": true,
+    "trial_days": 30,
+    "regions": [
+      "msk"
+    ],
+    "cpu_brands": [
+      "AMD"
+    ],
+    "support": {
+      "email": "support@zomro.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p138",
+    "name": "Айхор Хостинг",
+    "slug": "ayhor-hosting",
+    "url": "https://ihor.ru",
+    "logo_hint": {
+      "type": "initials",
+      "text": "АЙ",
+      "seed": "ayhor-hosting"
+    },
+    "rating": 4.6,
+    "rating_count": 311,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "nsk"
+    ],
+    "cpu_brands": [
+      "AMD",
+      "Intel"
+    ],
+    "support": {
+      "email": "support@ayhor-hosting.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p139",
+    "name": "Евробайт",
+    "slug": "evrobayt",
+    "url": "https://eurobyte.ru",
+    "logo_hint": {
+      "type": "initials",
+      "text": "ЕВ",
+      "seed": "evrobayt"
+    },
+    "rating": 4.1,
+    "rating_count": 47,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "nsk",
+      "ekb",
+      "msk"
+    ],
+    "cpu_brands": [
+      "AMD"
+    ],
+    "support": {
+      "email": "support@evrobayt.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  },
+  {
+    "id": "p140",
+    "name": "Макхост",
+    "slug": "makhost",
+    "url": "https://mac-host.ru",
+    "logo_hint": {
+      "type": "initials",
+      "text": "МА",
+      "seed": "makhost"
+    },
+    "rating": 4.8,
+    "rating_count": 583,
+    "has_free_trial": false,
+    "trial_days": 0,
+    "regions": [
+      "ekb"
+    ],
+    "cpu_brands": [
+      "Intel"
+    ],
+    "support": {
+      "email": "support@makhost.example",
+      "phone": "+7 (999) 000-00-00"
+    },
+    "promo": {
+      "label": "Акция −20%",
+      "discount_percent": 20,
+      "until": "2026-04-06"
+    },
+    "about_short": "Облачные серверы и VPS/VDS для проектов любого масштаба. Демо‑описание для наполнения витрины.",
+    "aliases": []
+  }
+]

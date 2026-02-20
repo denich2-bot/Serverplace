@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        <%= title %>
+    </title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body class="admin-body">
+    <div class="admin-layout">
+        <aside class="admin-sidebar">
+            <a href="/admin" class="admin-sidebar__logo">⚡ SP Admin</a>
+            <nav class="admin-nav">
+                <a href="/admin" class="admin-nav__link">📊 Дашборд</a>
+                <a href="/admin/leads" class="admin-nav__link">📋 Заявки</a>
+                <a href="/admin/providers" class="admin-nav__link">🏢 Провайдеры</a>
+                <a href="/admin/offers" class="admin-nav__link admin-nav__link--active">💿 Офферы</a>
+                <a href="/admin/reviews" class="admin-nav__link">⭐ Отзывы</a>
+                <a href="/" class="admin-nav__link">← На сайт</a>
+            </nav>
+        </aside>
+        <main class="admin-main">
+            <h1>Офферы</h1>
+            <div class="admin-table-wrap">
+                <table class="admin-table">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Провайдер</th>
+                            <th>Тариф</th>
+                            <th>vCPU</th>
+                            <th>RAM</th>
+                            <th>Цена</th>
+                            <th>Акция</th>
+                        </tr>
+                    </thead>
+                    <tbody id="offBody"></tbody>
+                </table>
+            </div>
+        </main>
+    </div>
+    <script>
+        fetch('/api/admin/offers')
+            .then(r => { if (r.status === 401) { window.location.href = '/admin/login'; throw new Error('auth'); } return r.json(); })
+            .then(data => {
+                document.getElementById('offBody').innerHTML = data.map(o =>
+                    '<tr><td>' + o.id + '</td><td>' + o.provider_name + '</td><td><a href="/offers/' + o.id + '">' + o.name + '</a></td><td>' + o.vcpu + '</td><td>' + o.ram_gb + 'ГБ</td><td>' + Math.round(o.market_price_month) + '₽</td><td>' + Math.round(o.promo_price_month) + '₽</td></tr>'
+                ).join('');
+            }).catch(() => { });
+    </script>
+</body>
+
+</html>

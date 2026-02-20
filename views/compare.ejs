@@ -1,0 +1,16 @@
+<%- include('header') %>
+    <div class="container">
+        <div class="page-header">
+            <h1>Сравнение серверов</h1>
+            <p>Выберите до 6 предложений для сравнения</p>
+        </div>
+        <div id="compareEmpty" class="results__empty">
+            <p>Добавьте серверы для сравнения из <a href="/servers">каталога</a></p>
+        </div>
+        <div id="compareTable" class="compare-table-wrap" style="display:none">
+            <table class="compare-table" id="compareContent"></table><button class="btn btn--ghost"
+                onclick="clearCompare()">Очистить сравнение</button>
+        </div>
+    </div>
+    <script src="/js/compare.js"></script>
+    <%- include('footer') %>

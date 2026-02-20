@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        <%= title %>
+    </title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body class="admin-body">
+    <div class="admin-layout">
+        <aside class="admin-sidebar">
+            <a href="/admin" class="admin-sidebar__logo">⚡ SP Admin</a>
+            <nav class="admin-nav">
+                <a href="/admin" class="admin-nav__link">📊 Дашборд</a>
+                <a href="/admin/leads" class="admin-nav__link">📋 Заявки</a>
+                <a href="/admin/providers" class="admin-nav__link">🏢 Провайдеры</a>
+                <a href="/admin/offers" class="admin-nav__link">💿 Офферы</a>
+                <a href="/admin/reviews" class="admin-nav__link admin-nav__link--active">⭐ Отзывы</a>
+                <a href="/" class="admin-nav__link">← На сайт</a>
+            </nav>
+        </aside>
+        <main class="admin-main">
+            <h1>Отзывы</h1>
+            <div class="admin-table-wrap">
+                <table class="admin-table">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Провайдер</th>
+                            <th>Автор</th>
+                            <th>Рейтинг</th>
+                            <th>Заголовок</th>
+                            <th>Дата</th>
+                            <th>✓</th>
+                        </tr>
+                    </thead>
+                    <tbody id="revBody"></tbody>
+                </table>
+            </div>
+        </main>
+    </div>
+    <script>
+        fetch('/api/admin/reviews')
+            .then(r => { if (r.status === 401) { window.location.href = '/admin/login'; throw new Error('auth'); } return r.json(); })
+            .then(data => {
+                document.getElementById('revBody').innerHTML = data.map(r =>
+                    '<tr><td>' + r.id + '</td><td>' + r.provider_name + '</td><td>' + r.user_display_name + '</td><td>⭐' + r.rating + '</td><td>' + r.title + '</td><td>' + r.created_at + '</td><td>' + (r.verified ? '✅' : '') + '</td></tr>'
+                ).join('');
+            }).catch(() => { });
+    </script>
+</body>
+
+</html>

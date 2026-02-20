@@ -1,0 +1,40 @@
+<%- include('header') %>
+    <div class="container">
+        <div class="page-header">
+            <h1>Отзывы</h1>
+            <p>Реальные отзывы пользователей о хостинг-провайдерах</p>
+        </div>
+        <div class="reviews-filters">
+            <select id="revProvider" class="select" onchange="loadReviews()">
+                <option value="">Все провайдеры</option>
+                <% providers.forEach(function(p){ %>
+                    <option value="<%= p.id %>">
+                        <%= p.name %>
+                    </option>
+                    <% }); %>
+            </select>
+            <select id="revSort" class="select" onchange="loadReviews()">
+                <option value="new">Новые</option>
+                <option value="helpful">Полезные</option>
+                <option value="rating">Высокий рейтинг</option>
+            </select>
+            <label class="checkbox-label"><input type="checkbox" id="revVerified" onchange="loadReviews()">
+                Верифицированные</label>
+        </div>
+        <div id="reviewsList" class="reviews-list"></div>
+        <div id="revPagination" class="pagination"></div>
+    </div>
+    <script>
+        var _revPage = 1;
+        function loadReviews(page) {
+            _revPage = page || 1; var params = new URLSearchParams(); var prov = document.getElementById('revProvider').value; var sort = document.getElementById('revSort').value; var ver = document.getElementById('revVerified').checked; if (prov) params.set('provider_id', prov); params.set('sort', sort); if (ver) params.set('verified', 'true'); params.set('page', _revPage); params.set('limit', '15');
+            fetch('/api/reviews?' + params.toString()).then(function (r) { return r.json(); }).then(function (data) {
+                var list = document.getElementById('reviewsList'); if (!data.reviews.length) { list.innerHTML = '<div class="results__empty"><p>Отзывы не найдены</p></div>'; return; }
+                list.innerHTML = data.reviews.map(function (r) { return '<div class="review-card"><div class="review-card__header"><strong>' + r.user_display_name + '</strong><span class="review-card__role">' + r.user_role + '</span><span class="review-card__rating">\u2B50 ' + (r.rating || 0).toFixed(1) + '</span>' + (r.verified ? '<span class="badge badge--success">\u2713</span>' : '') + '<a href="/providers/' + r.provider_slug + '" class="review-card__provider">' + r.provider_name + '</a></div><h4>' + r.title + '</h4>' + (r.pros && r.pros.length ? '<div class="review-card__pros">\u2705 ' + r.pros.join(', ') + '</div>' : '') + (r.cons && r.cons.length ? '<div class="review-card__cons">\u274C ' + r.cons.join(', ') + '</div>' : '') + '<p>' + r.text + '</p><div class="review-card__meta">\uD83D\uDC4D ' + r.likes + ' \u00B7 ' + r.use_case + ' \u00B7 ' + r.created_at + '</div></div>'; }).join('');
+                var pagH = ''; for (var i = 1; i <= data.pages; i++)pagH += '<button class="pag-btn ' + (i === data.page ? 'pag-btn--active' : '') + '" onclick="loadReviews(' + i + ')">' + i + '</button>'; document.getElementById('revPagination').innerHTML = pagH;
+            });
+        }
+        var up = new URLSearchParams(window.location.search); if (up.get('provider')) document.getElementById('revProvider').value = up.get('provider');
+        loadReviews();
+    </script>
+    <%- include('footer') %>

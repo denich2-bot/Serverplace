@@ -1,0 +1,20 @@
+<%- include('header') %>
+    <div class="container">
+        <div class="breadcrumb"><a href="/">Главная</a> → <a href="/blog">Блог</a> → <%= article.title %>
+        </div>
+        <article class="article-detail">
+            <div class="article-detail__tags">
+                <% if(article.tags) article.tags.forEach(function(t){ %><span class="tag">
+                        <%= t %>
+                    </span>
+                    <% }); %>
+            </div>
+            <h1>
+                <%= article.title %>
+            </h1>
+            <div class="article-detail__meta">📅 <%= article.published_at %> · ⏱ <%= article.reading_time_min %> мин
+            </div>
+            <div class="article-detail__content"><%- article.content_md %></div>
+        </article>
+    </div>
+    <%- include('footer') %>

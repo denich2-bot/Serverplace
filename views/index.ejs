@@ -1,0 +1,108 @@
+<%- include('header') %>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero__content">
+                <h1 class="hero__title">Найдите <span class="gradient-text">идеальный сервер</span> за минуту</h1>
+                <p class="hero__subtitle">Сравните <%= providerCount %> провайдеров и <%= offerCount %>+ тарифов VPS/VDS
+                            в России. Подберите конфигурацию — мы покажем лучшие предложения.</p>
+                <div class="hero__actions">
+                    <a href="/servers" class="btn btn--primary btn--lg">Подобрать сервер ⚡</a>
+                    <a href="/providers" class="btn btn--outline btn--lg">Все провайдеры</a>
+                </div>
+                <div class="hero__stats">
+                    <div class="stat"><span class="stat__number">
+                            <%= providerCount %>
+                        </span><span class="stat__label">Провайдеров</span></div>
+                    <div class="stat"><span class="stat__number">
+                            <%= offerCount %>+
+                        </span><span class="stat__label">Тарифов</span></div>
+                    <div class="stat"><span class="stat__number">
+                            <%= reviewCount %>
+                        </span><span class="stat__label">Отзывов</span></div>
+                    <div class="stat"><span class="stat__number">−20%</span><span class="stat__label">Акция</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="hero__glow"></div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title">Почему ServerPlace?</h2>
+            <div class="features__grid">
+                <div class="feature-card">
+                    <div class="feature-card__icon">🔍</div>
+                    <h3>Умный поиск</h3>
+                    <p>Задайте параметры — получите все подходящие предложения от <%= providerCount %> провайдеров</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-card__icon">💰</div>
+                    <h3>Лучшие цены</h3>
+                    <p>Акционные цены со скидкой −20% от ведущих провайдеров РФ</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-card__icon">⚖️</div>
+                    <h3>Сравнение</h3>
+                    <p>Сравните до 6 предложений в удобной таблице по всем параметрам</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-card__icon">⭐</div>
+                    <h3>Реальные отзывы</h3>
+                    <p>
+                        <%= reviewCount %> отзывов от реальных пользователей с рейтингами
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-card__icon">🧪</div>
+                    <h3>Бесплатный тест</h3>
+                    <p>Фильтруйте провайдеров с бесплатным тестовым периодом</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-card__icon">📋</div>
+                    <h3>Заявка за 2 шага</h3>
+                    <p>Email → телефон → готово. Провайдер свяжется с вами</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="top-providers">
+        <div class="container">
+            <h2 class="section-title">Топ провайдеров</h2>
+            <div class="providers-grid">
+                <% topProviders.forEach(function(p) { %>
+                    <a href="/providers/<%= p.slug %>" class="provider-card">
+                        <div class="provider-card__logo"
+                            style="background: hsl(<%= Math.abs(p.slug.charCodeAt(0) * 37) % 360 %>, 70%, 60%)">
+                            <%= p.logo_hint_text || p.name.substring(0,2).toUpperCase() %>
+                        </div>
+                        <h3 class="provider-card__name">
+                            <%= p.name %>
+                        </h3>
+                        <div class="provider-card__rating">⭐ <%= p.rating.toFixed(1) %> <span>(<%= p.rating_count %>
+                                        )</span></div>
+                        <% if (p.min_price) { %>
+                            <div class="provider-card__price">от <%= Math.round(p.min_price) %> ₽/мес</div>
+                            <% } %>
+                                <% if (p.has_free_trial) { %>
+                                    <span class="badge badge--trial">Бесплатный тест</span>
+                                    <% } %>
+                    </a>
+                    <% }); %>
+            </div>
+            <div class="center-action"><a href="/providers" class="btn btn--outline">Все провайдеры →</a></div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container">
+            <div class="cta__card">
+                <h2>Готовы найти свой сервер?</h2>
+                <p>Настройте конфигурацию, получите лучшие предложения, оставьте заявку.</p>
+                <a href="/servers" class="btn btn--primary btn--lg">Начать подбор →</a>
+            </div>
+        </div>
+    </section>
+
+    <%- include('footer') %>

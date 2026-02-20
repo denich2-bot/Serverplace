@@ -1,0 +1,112 @@
+<%- include('header') %>
+    <div class="container">
+        <div class="breadcrumb"><a href="/">Главная</a> → <a href="/servers">Серверы</a> → <%= offer.provider_name %> →
+                <%= offer.name %>
+        </div>
+        <div class="offer-detail">
+            <div class="offer-detail__header">
+                <div class="offer-detail__provider">
+                    <div class="provider-logo"
+                        style="background: hsl(<%= Math.abs((offer.provider_slug || '').charCodeAt(0) * 37) % 360 %>, 70%, 60%)">
+                        <%= offer.logo_hint_text || 'SP' %>
+                    </div>
+                    <div>
+                        <a href="/providers/<%= offer.provider_slug %>" class="offer-detail__provider-name">
+                            <%= offer.provider_name %>
+                        </a>
+                        <div class="offer-detail__rating">⭐ <%= (offer.provider_rating || 0).toFixed(1) %> <span>(<%=
+                                        offer.provider_rating_count || 0 %> отзывов)</span></div>
+                    </div>
+                </div>
+                <div class="offer-detail__pricing">
+                    <span class="price-old">
+                        <%= Math.round(offer.market_price_month) %> ₽/мес
+                    </span>
+                    <span class="price-promo">
+                        <%= Math.round(offer.promo_price_month) %> ₽/мес
+                    </span>
+                    <span class="badge badge--promo">Акция −20%</span>
+                </div>
+            </div>
+            <h1>
+                <%= offer.name %>
+            </h1>
+            <div class="offer-detail__specs">
+                <div class="spec-grid">
+                    <div class="spec-item"><span class="spec-item__label">vCPU</span><span class="spec-item__value">
+                            <%= offer.vcpu %>
+                        </span></div>
+                    <div class="spec-item"><span class="spec-item__label">RAM</span><span class="spec-item__value">
+                            <%= offer.ram_gb %> ГБ
+                        </span></div>
+                    <div class="spec-item"><span class="spec-item__label">Диск</span><span class="spec-item__value">
+                            <%= (offer.disk_system_type || 'ssd' ).toUpperCase() %>
+                                <%= offer.disk_system_size_gb %> ГБ
+                        </span></div>
+                    <div class="spec-item"><span class="spec-item__label">CPU</span><span class="spec-item__value">
+                            <%= offer.cpu_type %> / <%= offer.cpu_brand %>
+                                    <%= offer.cpu_model %>
+                        </span></div>
+                    <div class="spec-item"><span class="spec-item__label">Канал</span><span class="spec-item__value">
+                            <%= offer.bandwidth_mbps>= 1000 ? (offer.bandwidth_mbps/1000) + ' Gbps' :
+                                offer.bandwidth_mbps + ' Mbps' %>
+                        </span></div>
+                    <div class="spec-item"><span class="spec-item__label">Трафик</span><span class="spec-item__value">
+                            <%= offer.traffic_limit_tb %> TB/мес
+                        </span></div>
+                    <div class="spec-item"><span class="spec-item__label">SLA</span><span class="spec-item__value">
+                            <%= offer.sla_percent %>%
+                        </span></div>
+                    <div class="spec-item"><span class="spec-item__label">Виртуализация</span><span
+                            class="spec-item__value">
+                            <%= offer.virtualization %>
+                        </span></div>
+                </div>
+                <div class="spec-flags">
+                    <% if (offer.ipv4_included) { %><span class="badge">IPv4</span>
+                        <% } %>
+                            <% if (offer.ipv6_included) { %><span class="badge">IPv6</span>
+                                <% } %>
+                                    <% if (offer.ddos_protection) { %><span class="badge badge--success">DDoS
+                                            защита</span>
+                                        <% } %>
+                                            <% if (offer.free_trial_available) { %><span
+                                                    class="badge badge--trial">Бесплатный тест: <%=
+                                                        offer.free_trial_days %> дней</span>
+                                                <% } %>
+                </div>
+                <div class="spec-regions"><strong>Регионы:</strong>
+                    <%= (offer.regions || []).join(', ') || ' не указан' %>
+                </div>
+            </div>
+            <div class="offer-detail__actions">
+                <button class="btn btn--primary btn--lg"
+                    onclick="openLeadModal('<%= offer.provider_id %>', '<%= offer.id %>', '<%= offer.provider_name %>', '<%= offer.name %>', '<%= Math.round(offer.promo_price_month) %>')">Заказать</button>
+                <a href="<%= offer.provider_url || '#' %>" target="_blank" class="btn btn--outline btn--lg">На сайт
+                    провайдера ↗</a>
+            </div>
+            <% if (reviews.length> 0) { %>
+                <div class="offer-detail__reviews">
+                    <h2>Отзывы о <%= offer.provider_name %>
+                    </h2>
+                    <% reviews.forEach(function(r) { %>
+                        <div class="review-card">
+                            <div class="review-card__header"><strong>
+                                    <%= r.user_display_name %>
+                                </strong><span class="review-card__role">
+                                    <%= r.user_role %>
+                                </span><span class="review-card__rating">⭐ <%= r.rating.toFixed(1) %></span></div>
+                            <h4>
+                                <%= r.title %>
+                            </h4>
+                            <% if (r.pros && r.pros.length) { %>
+                                <div class="review-card__pros">✅ <%= r.pros.join(', ') %></div><% } %>
+        <% if (r.cons && r.cons.length) { %><div class="review-card__cons">❌ <%= r.cons.join(' , ') %></div><% } %>
+        <p><%= r.text %></p>
+      </div>
+      <% }); %>
+    </div>
+    <% } %>
+  </div>
+</div>
+<%- include('footer') %>

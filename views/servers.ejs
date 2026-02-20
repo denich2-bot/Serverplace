@@ -1,0 +1,120 @@
+<%- include('header') %>
+
+    <div class="container">
+        <div class="page-header">
+            <h1>Подберите сервер</h1>
+            <p>Задайте параметры — получите все подходящие предложения</p>
+        </div>
+    </div>
+
+    <div class="container servers-layout">
+        <aside class="configurator" id="configurator">
+            <h3 class="configurator__title">⚙ Конфигуратор</h3>
+            <div class="config-group">
+                <h4>Вычисления</h4>
+                <div class="form-group"><label>vCPU: <strong id="vcpuVal">1</strong></label><input type="range"
+                        id="cfg_vcpu" min="1" max="64" value="1" class="slider"></div>
+                <div class="form-group"><label>RAM (ГБ): <strong id="ramVal">1</strong></label><input type="range"
+                        id="cfg_ram" min="1" max="256" value="1" class="slider"></div>
+                <div class="form-group"><label>Тип CPU</label><select id="cfg_cpu_type" class="select">
+                        <option value="any">Любой</option>
+                        <option value="Shared">Shared</option>
+                        <option value="Dedicated">Dedicated</option>
+                        <option value="HighFreq">HighFreq</option>
+                    </select></div>
+                <div class="form-group"><label>Бренд CPU</label><select id="cfg_cpu_brand" class="select">
+                        <option value="any">Любой</option>
+                        <option value="Intel">Intel</option>
+                        <option value="AMD">AMD</option>
+                    </select></div>
+            </div>
+            <div class="config-group">
+                <h4>Диски</h4>
+                <div class="form-group"><label>Тип диска</label><select id="cfg_disk_type" class="select">
+                        <option value="any">Любой</option>
+                        <option value="ssd">SSD</option>
+                        <option value="nvme">NVMe</option>
+                        <option value="hdd">HDD</option>
+                    </select></div>
+                <div class="form-group"><label>Размер (ГБ): <strong id="diskVal">20</strong></label><input type="range"
+                        id="cfg_disk_size" min="10" max="1000" value="20" step="10" class="slider"></div>
+            </div>
+            <div class="config-group">
+                <h4>Сеть</h4>
+                <div class="form-group"><label>Канал (Mbps)</label><select id="cfg_bandwidth" class="select">
+                        <option value="">Любой</option>
+                        <option value="100">100 Mbps</option>
+                        <option value="200">200 Mbps</option>
+                        <option value="300">300 Mbps</option>
+                        <option value="1000">1 Gbps</option>
+                        <option value="3000">3 Gbps</option>
+                    </select></div>
+                <div class="form-group"><label>Трафик (TB/мес)</label><select id="cfg_traffic" class="select">
+                        <option value="">Любой</option>
+                        <option value="1">1 TB</option>
+                        <option value="2">2 TB</option>
+                        <option value="5">5 TB</option>
+                        <option value="10">10 TB</option>
+                        <option value="20">20 TB</option>
+                    </select></div>
+                <div class="form-group"><label class="checkbox-label"><input type="checkbox" id="cfg_ddos">
+                        DDoS-защита</label></div>
+            </div>
+            <div class="config-group">
+                <h4>География</h4>
+                <div class="form-group"><label>Регион</label><select id="cfg_region" class="select">
+                        <option value="">Все регионы</option>
+                        <% regions.forEach(function(r) { %>
+                            <option value="<%= r.id %>">
+                                <%= r.name %>
+                            </option>
+                            <% }); %>
+                    </select></div>
+                <div class="form-group"><label>Виртуализация</label><select id="cfg_virt" class="select">
+                        <option value="any">Любая</option>
+                        <option value="KVM">KVM</option>
+                        <option value="OpenStack">OpenStack</option>
+                        <option value="VMware">VMware</option>
+                    </select></div>
+            </div>
+            <div class="config-group">
+                <h4>Дополнительно</h4>
+                <div class="form-group"><label class="checkbox-label"><input type="checkbox" id="cfg_trial"> Бесплатный
+                        тест</label></div>
+                <div class="form-group"><label class="checkbox-label"><input type="checkbox" id="cfg_ipv4" checked>
+                        IPv4</label></div>
+            </div>
+            <button class="btn btn--primary btn--full" onclick="searchOffers()">Найти серверы</button>
+            <button class="btn btn--ghost btn--full" onclick="resetConfig()" style="margin-top:8px">Сбросить</button>
+        </aside>
+
+        <div class="results" id="results">
+            <div class="results__header">
+                <div class="results__summary" id="resultsSummary">
+                    <p>Настройте параметры и нажмите «Найти серверы»</p>
+                </div>
+                <div class="results__sort">
+                    <label>Сортировка:</label>
+                    <select id="sortSelect" class="select select--sm" onchange="searchOffers()">
+                        <option value="best">Лучшее совпадение</option>
+                        <option value="price_asc">Дешевле</option>
+                        <option value="price_desc">Дороже</option>
+                        <option value="rating">Выше рейтинг</option>
+                        <option value="traffic">Больше трафика</option>
+                        <option value="bandwidth">Выше канал</option>
+                        <option value="trial">Бесплатный тест</option>
+                    </select>
+                </div>
+            </div>
+            <div id="offersList" class="offers-list">
+                <div class="results__empty">
+                    <p>🔍 Результаты поиска появятся здесь</p>
+                </div>
+            </div>
+            <div id="pagination" class="pagination"></div>
+        </div>
+    </div>
+
+    <script src="/js/configurator.js"></script>
+
+    <%- include('footer') %>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        <%= title %>
+    </title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body class="admin-body">
+    <div class="admin-layout">
+        <aside class="admin-sidebar">
+            <a href="/admin" class="admin-sidebar__logo">⚡ SP Admin</a>
+            <nav class="admin-nav">
+                <a href="/admin" class="admin-nav__link admin-nav__link--active">📊 Дашборд</a>
+                <a href="/admin/leads" class="admin-nav__link">📋 Заявки</a>
+                <a href="/admin/providers" class="admin-nav__link">🏢 Провайдеры</a>
+                <a href="/admin/offers" class="admin-nav__link">💿 Офферы</a>
+                <a href="/admin/reviews" class="admin-nav__link">⭐ Отзывы</a>
+                <a href="/" class="admin-nav__link">← На сайт</a>
+            </nav>
+            <button class="btn btn--ghost btn--sm"
+                onclick="fetch('/api/admin/logout',{method:'POST'}).then(()=>window.location.href='/admin/login')">Выйти</button>
+        </aside>
+        <main class="admin-main">
+            <h1>Дашборд</h1>
+            <div class="admin-stats" id="adminStats">Загрузка...</div>
+        </main>
+    </div>
+    <script>
+        fetch('/api/admin/stats')
+            .then(r => { if (r.status === 401) { window.location.href = '/admin/login'; throw new Error('auth'); } return r.json(); })
+            .then(data => {
+                document.getElementById('adminStats').innerHTML =
+                    '<div class="admin-stat-card"><div class="admin-stat-card__number">' + data.providers + '</div><div class="admin-stat-card__label">Провайдеров</div></div>' +
+                    '<div class="admin-stat-card"><div class="admin-stat-card__number">' + data.offers + '</div><div class="admin-stat-card__label">Офферов</div></div>' +
+                    '<div class="admin-stat-card"><div class="admin-stat-card__number">' + data.reviews + '</div><div class="admin-stat-card__label">Отзывов</div></div>' +
+                    '<div class="admin-stat-card"><div class="admin-stat-card__number">' + data.leads_total + '</div><div class="admin-stat-card__label">Всего заявок</div></div>' +
+                    '<div class="admin-stat-card admin-stat-card--highlight"><div class="admin-stat-card__number">' + data.leads_new + '</div><div class="admin-stat-card__label">Новых заявок</div></div>' +
+                    '<div class="admin-stat-card"><div class="admin-stat-card__number">' + data.leads_today + '</div><div class="admin-stat-card__label">Сегодня</div></div>';
+            }).catch(() => { });
+    </script>
+</body>
+
+</html>

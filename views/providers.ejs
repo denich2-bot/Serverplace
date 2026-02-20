@@ -1,0 +1,58 @@
+<%- include('header') %>
+    <div class="container">
+        <div class="page-header">
+            <h1>Провайдеры</h1>
+            <p>Сравните 5 регионов и 140+ хостинг-провайдеров РФ</p>
+        </div>
+        <div class="providers-filters">
+            <input type="text" id="provSearch" placeholder="Поиск по названию..." class="input"
+                oninput="filterProviders()">
+            <select id="provRegion" class="select" onchange="filterProviders()">
+                <option value="">Все регионы</option>
+                <% regions.forEach(function(r) { %>
+                    <option value="<%= r.id %>">
+                        <%= r.name %>
+                    </option>
+                    <% }); %>
+            </select>
+            <select id="provRating" class="select" onchange="filterProviders()">
+                <option value="">Любой рейтинг</option>
+                <option value="4.5">4.5+</option>
+                <option value="4.0">4.0+</option>
+            </select>
+            <label class="checkbox-label"><input type="checkbox" id="provTrial" onchange="filterProviders()"> Бесплатный
+                тест</label>
+        </div>
+        <div id="providersGrid" class="providers-grid"></div>
+        <div id="provPagination" class="pagination"></div>
+    </div>
+    <script>
+        var _provPage = 1;
+        function filterProviders(page) {
+            _provPage = page || 1;
+            var params = new URLSearchParams();
+            var q = document.getElementById('provSearch').value.trim();
+            var region = document.getElementById('provRegion').value;
+            var rating = document.getElementById('provRating').value;
+            var trial = document.getElementById('provTrial').checked;
+            if (q) params.set('query', q);
+            if (region) params.set('region', region);
+            if (rating) params.set('min_rating', rating);
+            if (trial) params.set('trial', 'true');
+            params.set('page', _provPage);
+            params.set('limit', '24');
+            fetch('/api/providers?' + params.toString()).then(function (r) { return r.json(); }).then(function (data) {
+                var grid = document.getElementById('providersGrid');
+                if (!data.providers.length) { grid.innerHTML = '<div class="results__empty"><p>Провайдеры не найдены</p></div>'; document.getElementById('provPagination').innerHTML = ''; return; }
+                grid.innerHTML = data.providers.map(function (p) {
+                    var hue = Math.abs(p.slug.charCodeAt(0) * 37) % 360;
+                    return '<a href="/providers/' + p.slug + '" class="provider-card"><div class="provider-card__logo" style="background:hsl(' + hue + ',70%,60%)">' + (p.logo_hint_text || p.name.substring(0, 2).toUpperCase()) + '</div><h3 class="provider-card__name">' + p.name + '</h3><div class="provider-card__rating">\u2B50 ' + (p.rating || 0).toFixed(1) + ' <span>(' + p.rating_count + ')</span></div>' + (p.min_price ? '<div class="provider-card__price">\u043E\u0442 ' + Math.round(p.min_price) + ' \u20BD/\u043C\u0435\u0441</div>' : '') + (p.has_free_trial ? '<span class="badge badge--trial">\u0411\u0435\u0441\u043F\u043B\u0430\u0442\u043D\u044B\u0439 \u0442\u0435\u0441\u0442</span>' : '') + '<span class="provider-card__regions">' + (p.regions || []).join(', ') + '</span></a>';
+                }).join('');
+                var pagHtml = '';
+                for (var i = 1; i <= data.pages; i++) pagHtml += '<button class="pag-btn ' + (i === data.page ? 'pag-btn--active' : '') + '" onclick="filterProviders(' + i + ')">' + i + '</button>';
+                document.getElementById('provPagination').innerHTML = pagHtml;
+            });
+        }
+        filterProviders();
+    </script>
+    <%- include('footer') %>

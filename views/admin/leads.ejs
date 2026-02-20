@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        <%= title %>
+    </title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body class="admin-body">
+    <div class="admin-layout">
+        <aside class="admin-sidebar">
+            <a href="/admin" class="admin-sidebar__logo">⚡ SP Admin</a>
+            <nav class="admin-nav">
+                <a href="/admin" class="admin-nav__link">📊 Дашборд</a>
+                <a href="/admin/leads" class="admin-nav__link admin-nav__link--active">📋 Заявки</a>
+                <a href="/admin/providers" class="admin-nav__link">🏢 Провайдеры</a>
+                <a href="/admin/offers" class="admin-nav__link">💿 Офферы</a>
+                <a href="/admin/reviews" class="admin-nav__link">⭐ Отзывы</a>
+                <a href="/" class="admin-nav__link">← На сайт</a>
+            </nav>
+        </aside>
+        <main class="admin-main">
+            <div class="admin-header">
+                <h1>Заявки (лиды)</h1>
+                <a href="/api/admin/leads/export" class="btn btn--outline btn--sm">📥 Экспорт CSV</a>
+            </div>
+            <div class="admin-filters">
+                <select id="statusFilter" class="select select--sm" onchange="loadLeads()">
+                    <option value="">Все статусы</option>
+                    <option value="new">Новые</option>
+                    <option value="sent">Отправленные</option>
+                    <option value="in_work">В работе</option>
+                    <option value="closed">Закрыты</option>
+                </select>
+            </div>
+            <div class="admin-table-wrap">
+                <table class="admin-table" id="leadsTable">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Провайдер</th>
+                            <th>Тариф</th>
+                            <th>Email</th>
+                            <th>Телефон</th>
+                            <th>Статус</th>
+                            <th>Дата</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody id="leadsBody">
+                    </tbody>
+                </table>
+            </div>
+            <div id="leadsPagination" class="pagination"></div>
+        </main>
+    </div>
+    <script>
+        let _leadsPage = 1;
+        function loadLeads(page) {
+            _leadsPage = page || 1;
+            const params = new URLSearchParams();
+            const s = document.getElementById('statusFilter').value;
+            if (s) params.set('status', s);
+            params.set('page', _leadsPage);
+            fetch('/api/admin/leads?' + params.toString())
+                .then(r => { if (r.status === 401) { window.location.href = '/admin/login'; throw new Error('auth'); } return r.json(); })
+                .then(data => {
+                    document.getElementById('leadsBody').innerHTML = data.leads.map(l =>
+                        '<tr>' +
+                        '<td>' + l.id + '</td>' +
+                        '<td>' + (l.provider_name || '-') + '</td>' +
+                        '<td>' + (l.offer_name || '-') + '</td>' +
+                        '<td>' + l.email + '</td>' +
+                        '<td>' + l.phone + '</td>' +
+                        '<td><select class="select select--xs" onchange="updateStatus(' + l.id + ',this.value)">' +
+                        ['new', 'sent', 'in_work', 'closed'].map(s => '<option value="' + s + '"' + (l.status === s ? ' selected' : '') + '>' + s + '</option>').join('') +
+                        '</select></td>' +
+                        '<td>' + (l.created_at || '').substring(0, 16) + '</td>' +
+                        '<td><button class="btn btn--ghost btn--xs" onclick="alert(JSON.stringify(' + JSON.stringify(l).replace(/"/g, '&quot;') + ',null,2))">👁</button></td>' +
+                        '</tr>'
+                    ).join('');
+                    let pagHtml = '';
+                    for (let i = 1; i <= data.pages; i++) pagHtml += '<button class="pag-btn ' + (i === data.page ? 'pag-btn--active' : '') + '" onclick="loadLeads(' + i + ')">' + i + '</button>';
+                    document.getElementById('leadsPagination').innerHTML = pagHtml;
+                }).catch(() => { });
+        }
+        function updateStatus(id, status) {
+            fetch('/api/admin/leads/' + id, {
+                method: 'PATCH',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ status: status })
+            }).then(r => r.json());
+        }
+        loadLeads();
+    </script>
+</body>
+
+</html>
