@@ -4,7 +4,7 @@ const express = require('express');
 const router = express.Router();
 const { getDb } = require('../db/database');
 const { computeScore, safeParseArray } = require('../services/scoring');
-const { sendLeadNotification } = require('../services/email');
+const { sendLeadNotification } = require('../services/telegram');
 const { rateLimit } = require('../middleware/rateLimit');
 
 // ─── GET /api/regions ───
@@ -347,7 +347,7 @@ router.post('/leads', rateLimit(3, 10 * 60 * 1000), (req, res) => {
         provider || { name: 'Не указан' },
         offer || { name: 'Не указан' }
     ).catch(err => {
-        console.error(`[leads] Ошибка отправки email: ${err.message}`);
+        console.error(`[leads] Ошибка отправки в Telegram: ${err.message}`);
     });
 
     console.log(`[leads] Новый лид #${result.lastInsertRowid}: ${email} → ${provider?.name || 'unknown'}`);
