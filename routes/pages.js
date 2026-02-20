@@ -9,11 +9,10 @@ const { authMiddleware } = require('../middleware/auth');
 // ─── PUBLIC PAGES ───
 
 router.get('/', (req, res) => {
-    const host = req.hostname || req.get('host') || '';
-    if (!host.startsWith('lp.')) {
-        return res.redirect('/servers');
-    }
+    res.redirect('/servers');
+});
 
+router.get('/lp', (req, res) => {
     const db = getDb();
     const providerCount = db.prepare('SELECT COUNT(*) as c FROM providers').get().c;
     const offerCount = db.prepare('SELECT COUNT(*) as c FROM offers').get().c;
