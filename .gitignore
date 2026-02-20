@@ -1,0 +1,7 @@
+node_modules/
+db/serverplace.db
+db/serverplace.db-wal
+db/serverplace.db-shm
+.env
+*.log
+.DS_Store
