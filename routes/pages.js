@@ -6,6 +6,20 @@ const { getDb } = require('../db/database');
 const { safeParseArray } = require('../services/scoring');
 const { authMiddleware } = require('../middleware/auth');
 
+// ─── In-memory cache helper ───
+const _pageCache = {};
+
+function cached(key, ttlMs, computeFn) {
+    const entry = _pageCache[key];
+    const now = Date.now();
+    if (entry && (now - entry.ts) < ttlMs) {
+        return entry.value;
+    }
+    const value = computeFn();
+    _pageCache[key] = { value, ts: now };
+    return value;
+}
+
 // ─── PUBLIC PAGES ───
 
 router.get('/', (req, res) => {
@@ -13,25 +27,34 @@ router.get('/', (req, res) => {
 });
 
 router.get('/lp', (req, res) => {
-    const db = getDb();
-    const providerCount = db.prepare('SELECT COUNT(*) as c FROM providers').get().c;
-    const offerCount = db.prepare('SELECT COUNT(*) as c FROM offers').get().c;
-    const reviewCount = db.prepare('SELECT COUNT(*) as c FROM reviews').get().c;
-    const topProviders = db.prepare('SELECT * FROM providers ORDER BY rating DESC LIMIT 8').all();
-    for (const p of topProviders) p.regions = safeParseArray(p.regions);
-    const minPriceStmt = db.prepare('SELECT MIN(promo_price_month) as mp FROM offers WHERE provider_id = ?');
-    for (const p of topProviders) p.min_price = minPriceStmt.get(p.id)?.mp || null;
+    // Кэш данных главной страницы на 60 секунд
+    const data = cached('lp_data', 60000, () => {
+        const db = getDb();
+        const providerCount = db.prepare('SELECT COUNT(*) as c FROM providers').get().c;
+        const offerCount = db.prepare('SELECT COUNT(*) as c FROM offers').get().c;
+        const reviewCount = db.prepare('SELECT COUNT(*) as c FROM reviews').get().c;
+        const topProviders = db.prepare('SELECT * FROM providers ORDER BY rating DESC LIMIT 8').all();
+        const minPriceStmt = db.prepare('SELECT MIN(promo_price_month) as mp FROM offers WHERE provider_id = ?');
+        for (const p of topProviders) {
+            p.regions = safeParseArray(p.regions);
+            p.min_price = minPriceStmt.get(p.id)?.mp || null;
+        }
+        return { providerCount, offerCount, reviewCount, topProviders };
+    });
 
+    res.set('Cache-Control', 'public, max-age=60, stale-while-revalidate=120');
     res.render('index', {
         title: 'ServerPlace — Маркетплейс облачных серверов в РФ',
-        providerCount, offerCount, reviewCount, topProviders,
+        ...data,
         currentPage: 'home'
     });
 });
 
 router.get('/servers', (req, res) => {
-    const db = getDb();
-    const regions = db.prepare('SELECT * FROM regions ORDER BY name').all();
+    const regions = cached('regions', 60000, () => {
+        const db = getDb();
+        return db.prepare('SELECT * FROM regions ORDER BY name').all();
+    });
     res.render('servers', {
         title: 'Подобрать сервер — ServerPlace',
         regions,
@@ -57,8 +80,10 @@ router.get('/offers/:id', (req, res) => {
 });
 
 router.get('/providers', (req, res) => {
-    const db = getDb();
-    const regions = db.prepare('SELECT * FROM regions ORDER BY name').all();
+    const regions = cached('regions', 60000, () => {
+        const db = getDb();
+        return db.prepare('SELECT * FROM regions ORDER BY name').all();
+    });
     res.render('providers', { title: 'Провайдеры — ServerPlace', regions, currentPage: 'providers' });
 });
 

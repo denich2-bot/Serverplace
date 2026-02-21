@@ -1,6 +1,7 @@
 'use strict';
 
 let _currentPage = 1;
+let _searchController = null;
 
 // Slider value display
 function initSliders() {
@@ -59,12 +60,20 @@ function searchOffers(page) {
   const params = getConfigParams();
   params.set('page', _currentPage);
 
+  // Отменяем предыдущий запрос если он ещё в полёте
+  if (_searchController) {
+    _searchController.abort();
+  }
+  _searchController = new AbortController();
+
   const list = document.getElementById('offersList');
   list.innerHTML = '<div class="results__loading">⏳ Поиск...</div>';
 
-  fetch('/api/offers/search?' + params.toString())
+  fetch('/api/offers/search?' + params.toString(), { signal: _searchController.signal })
     .then(r => r.json())
     .then(data => {
+      _searchController = null;
+
       document.getElementById('resultsSummary').innerHTML =
         `<p>Найдено: <strong>${data.total}</strong> предложений от <strong>${data.provider_count}</strong> провайдеров</p>`;
 
@@ -74,10 +83,24 @@ function searchOffers(page) {
         return;
       }
 
-      list.innerHTML = data.offers.map(o => renderOfferCard(o)).join('');
-      renderPagination(data.page, data.pages);
+      // Batch DOM update через requestAnimationFrame
+      requestAnimationFrame(() => {
+        const fragment = document.createDocumentFragment();
+        data.offers.forEach(o => {
+          const wrapper = document.createElement('div');
+          wrapper.innerHTML = renderOfferCard(o);
+          while (wrapper.firstChild) {
+            fragment.appendChild(wrapper.firstChild);
+          }
+        });
+        list.textContent = '';
+        list.appendChild(fragment);
+        renderPagination(data.page, data.pages);
+      });
     })
     .catch(err => {
+      if (err.name === 'AbortError') return; // Запрос отменён — не ошибка
+      _searchController = null;
       list.innerHTML = '<div class="results__empty"><p>Ошибка загрузки: ' + err.message + '</p></div>';
     });
 }
@@ -128,12 +151,18 @@ function renderOfferCard(o) {
 }
 
 function renderPagination(current, total) {
-  if (total <= 1) { document.getElementById('pagination').innerHTML = ''; return; }
-  let html = '';
+  const pagEl = document.getElementById('pagination');
+  if (total <= 1) { pagEl.innerHTML = ''; return; }
+  const fragment = document.createDocumentFragment();
   for (let i = 1; i <= total; i++) {
-    html += `<button class="pag-btn ${i === current ? 'pag-btn--active' : ''}" onclick="searchOffers(${i})">${i}</button>`;
+    const btn = document.createElement('button');
+    btn.className = 'pag-btn' + (i === current ? ' pag-btn--active' : '');
+    btn.textContent = i;
+    btn.addEventListener('click', () => searchOffers(i));
+    fragment.appendChild(btn);
   }
-  document.getElementById('pagination').innerHTML = html;
+  pagEl.textContent = '';
+  pagEl.appendChild(fragment);
 }
 
 function resetConfig() {

@@ -2,21 +2,81 @@
 
 const express = require('express');
 const router = express.Router();
+const crypto = require('crypto');
 const { getDb } = require('../db/database');
 const { computeScore, safeParseArray } = require('../services/scoring');
 const { sendLeadNotification } = require('../services/telegram');
 const { rateLimit } = require('../middleware/rateLimit');
 
+// ─── In-memory cache helper ───
+const _cache = {};
+
+function cached(key, ttlMs, computeFn) {
+    const entry = _cache[key];
+    const now = Date.now();
+    if (entry && (now - entry.ts) < ttlMs) {
+        return entry.value;
+    }
+    const value = computeFn();
+    _cache[key] = { value, ts: now };
+    return value;
+}
+
+// ─── Prepared statements (lazy singleton per db instance) ───
+let _stmts = null;
+let _stmtsDb = null;
+
+function getStmts() {
+    const db = getDb();
+    if (_stmts && _stmtsDb === db) return _stmts;
+    _stmts = {
+        minPrice: db.prepare('SELECT MIN(promo_price_month) as min_price FROM offers WHERE provider_id = ?'),
+        regionsList: db.prepare('SELECT * FROM regions ORDER BY name'),
+        providerCount: db.prepare('SELECT COUNT(*) as c FROM providers'),
+        offerCount: db.prepare('SELECT COUNT(*) as c FROM offers'),
+        reviewCount: db.prepare('SELECT COUNT(*) as c FROM reviews'),
+        topProviders: db.prepare('SELECT * FROM providers ORDER BY rating DESC LIMIT 8'),
+        offerById: db.prepare(`
+            SELECT o.*, p.name as provider_name, p.slug as provider_slug,
+                   p.rating as provider_rating, p.rating_count as provider_rating_count,
+                   p.logo_hint_text, p.logo_hint_seed, p.about_short as provider_about,
+                   p.has_free_trial as provider_trial, p.trial_days as provider_trial_days,
+                   p.url as provider_url
+            FROM offers o JOIN providers p ON o.provider_id = p.id
+            WHERE o.id = ?
+        `),
+        reviewsByProvider: db.prepare('SELECT * FROM reviews WHERE provider_id = ? ORDER BY created_at DESC LIMIT 5'),
+        providerBySlug: db.prepare('SELECT * FROM providers WHERE slug = ?'),
+        offersByProvider: db.prepare('SELECT * FROM offers WHERE provider_id = ? ORDER BY promo_price_month ASC LIMIT 20'),
+        reviewsByProviderFull: db.prepare('SELECT * FROM reviews WHERE provider_id = ? ORDER BY created_at DESC LIMIT 10'),
+        reviewCountByProvider: db.prepare('SELECT COUNT(*) as c FROM reviews WHERE provider_id = ?'),
+        providerById: db.prepare('SELECT * FROM providers WHERE id = ?'),
+        offerByIdSimple: db.prepare('SELECT * FROM offers WHERE id = ?'),
+    };
+    _stmtsDb = db;
+    return _stmts;
+}
+
+// ─── ETag helper ───
+function sendWithEtag(res, data) {
+    const json = JSON.stringify(data);
+    const etag = '"' + crypto.createHash('md5').update(json).digest('hex').substring(0, 16) + '"';
+    res.set('ETag', etag);
+    res.set('Cache-Control', 'public, max-age=30, stale-while-revalidate=60');
+    res.type('json').send(json);
+}
+
 // ─── GET /api/regions ───
 router.get('/regions', (req, res) => {
-    const db = getDb();
-    const regions = db.prepare('SELECT * FROM regions ORDER BY name').all();
-    res.json(regions);
+    const stmts = getStmts();
+    const regions = stmts.regionsList.all();
+    sendWithEtag(res, regions);
 });
 
 // ─── GET /api/providers ───
 router.get('/providers', (req, res) => {
     const db = getDb();
+    const stmts = getStmts();
     const { query, region, trial, min_rating, page, limit } = req.query;
     const pageNum = Math.max(1, parseInt(page) || 1);
     const limitNum = Math.min(100, Math.max(1, parseInt(limit) || 50));
@@ -49,51 +109,41 @@ router.get('/providers', (req, res) => {
 
     const providers = db.prepare(sql).all(...params);
 
-    // Attach min price for each provider
-    const minPriceStmt = db.prepare(
-        'SELECT MIN(promo_price_month) as min_price FROM offers WHERE provider_id = ?'
-    );
     for (const p of providers) {
-        const row = minPriceStmt.get(p.id);
+        const row = stmts.minPrice.get(p.id);
         p.min_price = row?.min_price || null;
         p.regions = safeParseArray(p.regions);
         p.cpu_brands = safeParseArray(p.cpu_brands);
         p.aliases = safeParseArray(p.aliases);
     }
 
-    res.json({ providers, total, page: pageNum, pages: Math.ceil(total / limitNum) });
+    sendWithEtag(res, { providers, total, page: pageNum, pages: Math.ceil(total / limitNum) });
 });
 
 // ─── GET /api/providers/:slug ───
 router.get('/providers/:slug', (req, res) => {
-    const db = getDb();
-    const provider = db.prepare('SELECT * FROM providers WHERE slug = ?').get(req.params.slug);
+    const stmts = getStmts();
+    const provider = stmts.providerBySlug.get(req.params.slug);
     if (!provider) return res.status(404).json({ error: 'Провайдер не найден' });
 
     provider.regions = safeParseArray(provider.regions);
     provider.cpu_brands = safeParseArray(provider.cpu_brands);
     provider.aliases = safeParseArray(provider.aliases);
 
-    const offers = db.prepare(
-        'SELECT * FROM offers WHERE provider_id = ? ORDER BY promo_price_month ASC LIMIT 20'
-    ).all(provider.id);
-
+    const offers = stmts.offersByProvider.all(provider.id);
     for (const o of offers) {
         o.regions = safeParseArray(o.regions);
         o.pools = safeParseArray(o.pools);
         o.disks_json = safeParseArray(o.disks_json);
     }
 
-    const reviews = db.prepare(
-        'SELECT * FROM reviews WHERE provider_id = ? ORDER BY created_at DESC LIMIT 10'
-    ).all(provider.id);
-
+    const reviews = stmts.reviewsByProviderFull.all(provider.id);
     for (const r of reviews) {
         r.pros = safeParseArray(r.pros);
         r.cons = safeParseArray(r.cons);
     }
 
-    res.json({ provider, offers, reviews });
+    sendWithEtag(res, { provider, offers, reviews });
 });
 
 // ─── GET /api/offers/search ─── (main configurator endpoint)
@@ -153,7 +203,6 @@ router.get('/offers/search', (req, res) => {
     if (sort && sortMap[sort]) {
         sql += ` ORDER BY ${sortMap[sort]}`;
     } else {
-        // Default: best match — fetch all, then score and sort in JS
         sql += ' ORDER BY o.promo_price_month ASC';
     }
 
@@ -184,7 +233,7 @@ router.get('/offers/search', (req, res) => {
     // Count unique providers
     const providerIds = new Set(offers.map(o => o.provider_id));
 
-    res.json({
+    sendWithEtag(res, {
         offers,
         total,
         provider_count: providerIds.size,
@@ -195,33 +244,21 @@ router.get('/offers/search', (req, res) => {
 
 // ─── GET /api/offers/:id ───
 router.get('/offers/:id', (req, res) => {
-    const db = getDb();
-    const offer = db.prepare(`
-    SELECT o.*, p.name as provider_name, p.slug as provider_slug,
-           p.rating as provider_rating, p.rating_count as provider_rating_count,
-           p.logo_hint_text, p.logo_hint_seed, p.about_short as provider_about,
-           p.has_free_trial as provider_trial, p.trial_days as provider_trial_days,
-           p.url as provider_url
-    FROM offers o JOIN providers p ON o.provider_id = p.id
-    WHERE o.id = ?
-  `).get(req.params.id);
-
+    const stmts = getStmts();
+    const offer = stmts.offerById.get(req.params.id);
     if (!offer) return res.status(404).json({ error: 'Оффер не найден' });
 
     offer.regions = safeParseArray(offer.regions);
     offer.pools = safeParseArray(offer.pools);
     offer.disks_json = safeParseArray(offer.disks_json);
 
-    // Provider reviews (first 5)
-    const reviews = db.prepare(
-        'SELECT * FROM reviews WHERE provider_id = ? ORDER BY created_at DESC LIMIT 5'
-    ).all(offer.provider_id);
+    const reviews = stmts.reviewsByProvider.all(offer.provider_id);
     for (const r of reviews) {
         r.pros = safeParseArray(r.pros);
         r.cons = safeParseArray(r.cons);
     }
 
-    res.json({ offer, reviews });
+    sendWithEtag(res, { offer, reviews });
 });
 
 // ─── GET /api/reviews ───
@@ -257,7 +294,7 @@ router.get('/reviews', (req, res) => {
         r.cons = safeParseArray(r.cons);
     }
 
-    res.json({ reviews, total, page: pageNum, pages: Math.ceil(total / limitNum) });
+    sendWithEtag(res, { reviews, total, page: pageNum, pages: Math.ceil(total / limitNum) });
 });
 
 // ─── GET /api/blog ───
@@ -277,7 +314,7 @@ router.get('/blog', (req, res) => {
         a.tags = safeParseArray(a.tags);
     }
 
-    res.json({ articles, total, page: pageNum, pages: Math.ceil(total / limitNum) });
+    sendWithEtag(res, { articles, total, page: pageNum, pages: Math.ceil(total / limitNum) });
 });
 
 // ─── GET /api/blog/:slug ───
@@ -289,19 +326,20 @@ router.get('/blog/:slug', (req, res) => {
 
     if (!article) return res.status(404).json({ error: 'Статья не найдена' });
     article.tags = safeParseArray(article.tags);
-    res.json(article);
+    sendWithEtag(res, article);
 });
 
 // ─── GET /api/faq ───
 router.get('/faq', (req, res) => {
     const db = getDb();
     const faq = db.prepare("SELECT * FROM content_pages WHERE type = 'faq' ORDER BY id").all();
-    res.json(faq);
+    sendWithEtag(res, faq);
 });
 
 // ─── POST /api/leads ─── (rate limited: 3 per 10 min per IP)
 router.post('/leads', rateLimit(3, 10 * 60 * 1000), (req, res) => {
     const db = getDb();
+    const stmts = getStmts();
     const { provider_id, offer_id, config_snapshot, email, phone, utm, page_url, referrer, honeypot } = req.body;
 
     // Honeypot check
@@ -339,8 +377,8 @@ router.post('/leads', rateLimit(3, 10 * 60 * 1000), (req, res) => {
     );
 
     // Send email notification (fire and forget, log errors)
-    const provider = provider_id ? db.prepare('SELECT * FROM providers WHERE id = ?').get(provider_id) : { name: 'Не указан' };
-    const offer = offer_id ? db.prepare('SELECT * FROM offers WHERE id = ?').get(offer_id) : { name: 'Не указан', promo_price_month: 0, vcpu: 0, ram_gb: 0, disk_system_type: '-', disk_system_size_gb: 0, cpu_type: '-', cpu_brand: '-', cpu_model: '-', bandwidth_mbps: 0, traffic_limit_tb: 0, regions: '[]' };
+    const provider = provider_id ? stmts.providerById.get(provider_id) : { name: 'Не указан' };
+    const offer = offer_id ? stmts.offerByIdSimple.get(offer_id) : { name: 'Не указан', promo_price_month: 0, vcpu: 0, ram_gb: 0, disk_system_type: '-', disk_system_size_gb: 0, cpu_type: '-', cpu_brand: '-', cpu_model: '-', bandwidth_mbps: 0, traffic_limit_tb: 0, regions: '[]' };
 
     sendLeadNotification(
         { email, phone, page_url, utm: JSON.stringify(utm || {}), created_at: new Date().toISOString() },

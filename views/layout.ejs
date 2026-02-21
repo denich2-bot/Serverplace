@@ -1,15 +1,24 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title><%= title %></title>
-  <meta name="description" content="ServerPlace — маркетплейс сравнения облачных серверов VPS/VDS в России. Найдите лучший сервер от 140+ провайдеров.">
+  <meta name="theme-color" content="#6366f1">
+  <meta name="view-transition" content="same-origin">
+  <title>
+    <%= title %>
+  </title>
+  <meta name="description"
+    content="ServerPlace — маркетплейс сравнения облачных серверов VPS/VDS в России. Найдите лучший сервер от 140+ провайдеров.">
+  <link rel="dns-prefetch" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" href="/css/style.css?v=1.1.0" as="style">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/style.css?v=1.1.0">
 </head>
+
 <body>
   <header class="header">
     <div class="container header__inner">
@@ -18,8 +27,10 @@
         <span class="logo__text">Server<span class="logo__accent">Place</span></span>
       </a>
       <nav class="nav">
-        <a href="/servers" class="nav__link <%= currentPage === 'servers' ? 'nav__link--active' : '' %>">Подобрать сервер</a>
-        <a href="/providers" class="nav__link <%= currentPage === 'providers' ? 'nav__link--active' : '' %>">Провайдеры</a>
+        <a href="/servers" class="nav__link <%= currentPage === 'servers' ? 'nav__link--active' : '' %>">Подобрать
+          сервер</a>
+        <a href="/providers"
+          class="nav__link <%= currentPage === 'providers' ? 'nav__link--active' : '' %>">Провайдеры</a>
         <a href="/compare" class="nav__link <%= currentPage === 'compare' ? 'nav__link--active' : '' %>">Сравнение</a>
         <a href="/reviews" class="nav__link <%= currentPage === 'reviews' ? 'nav__link--active' : '' %>">Отзывы</a>
         <a href="/blog" class="nav__link <%= currentPage === 'blog' ? 'nav__link--active' : '' %>">Блог</a>
@@ -102,7 +113,7 @@
 
   <script>
     // Mobile nav toggle
-    document.getElementById('navToggle')?.addEventListener('click', function() {
+    document.getElementById('navToggle')?.addEventListener('click', function () {
       document.querySelector('.nav').classList.toggle('nav--open');
       this.classList.toggle('nav-toggle--active');
     });
@@ -179,7 +190,7 @@
     }
 
     // Phone mask
-    document.getElementById('leadPhone')?.addEventListener('input', function(e) {
+    document.getElementById('leadPhone')?.addEventListener('input', function (e) {
       let v = this.value.replace(/\D/g, '');
       if (v.startsWith('8')) v = '7' + v.substring(1);
       if (!v.startsWith('7')) v = '7' + v;
@@ -192,4 +203,5 @@
     });
   </script>
 </body>
+
 </html>

@@ -1,5 +1,7 @@
 'use strict';
 
+let _compareController = null;
+
 function loadCompare() {
     const ids = JSON.parse(localStorage.getItem('sp_compare') || '[]');
     if (ids.length === 0) {
@@ -11,8 +13,16 @@ function loadCompare() {
     document.getElementById('compareEmpty').style.display = 'none';
     document.getElementById('compareTable').style.display = 'block';
 
-    Promise.all(ids.map(id => fetch('/api/offers/' + id).then(r => r.json())))
+    // Отменяем предыдущие запросы
+    if (_compareController) {
+        _compareController.abort();
+    }
+    _compareController = new AbortController();
+    const signal = _compareController.signal;
+
+    Promise.all(ids.map(id => fetch('/api/offers/' + id, { signal }).then(r => r.json())))
         .then(results => {
+            _compareController = null;
             const offers = results.map(r => r.offer).filter(Boolean);
             if (!offers.length) {
                 document.getElementById('compareEmpty').style.display = 'block';
@@ -54,7 +64,13 @@ function loadCompare() {
             });
             html += '</tr></tbody>';
 
-            document.getElementById('compareContent').innerHTML = html;
+            requestAnimationFrame(() => {
+                document.getElementById('compareContent').innerHTML = html;
+            });
+        })
+        .catch(err => {
+            if (err.name === 'AbortError') return;
+            _compareController = null;
         });
 }
 

@@ -42,7 +42,12 @@ app.use(morgan('short'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
-app.use(express.static(path.join(__dirname, 'public'), { maxAge: '7d' }));
+app.use(express.static(path.join(__dirname, 'public'), {
+    maxAge: '30d',
+    immutable: true,
+    etag: true,
+    lastModified: true
+}));
 
 // View engine
 app.set('view engine', 'ejs');

@@ -13,6 +13,8 @@ function getDb() {
   _db.pragma('journal_mode = WAL');
   _db.pragma('foreign_keys = ON');
   _db.pragma('busy_timeout = 5000');
+  _db.pragma('cache_size = -8000');
+  _db.pragma('temp_store = MEMORY');
   return _db;
 }
 
