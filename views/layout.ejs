@@ -193,6 +193,7 @@
         body: JSON.stringify(body)
       }).then(r => r.json()).then(data => {
         if (data.success) {
+          if (typeof ym === 'function') { ym(106945189, 'reachGoal', 'lead'); }
           document.getElementById('leadStep2').style.display = 'none';
           document.getElementById('leadSuccess').style.display = 'block';
         } else {
