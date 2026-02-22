@@ -189,7 +189,16 @@ router.get('/offers/search', (req, res) => {
         params.push(b, b * 3); // For bandwidth, matching wider (e.g. 100 finds 100-300)
     }
     if (traffic_limit_tb) { whereSql += ' AND o.traffic_limit_tb >= ?'; params.push(parseFloat(traffic_limit_tb)); }
-    if (region) { whereSql += ' AND o.regions LIKE ?'; params.push(`%"${region}"%`); }
+    if (region) {
+        const rArr = region.split(',');
+        if (rArr.length === 1) {
+            whereSql += ' AND o.regions LIKE ?';
+            params.push(`%"${rArr[0]}"%`);
+        } else {
+            whereSql += ' AND (' + rArr.map(() => 'o.regions LIKE ?').join(' OR ') + ')';
+            rArr.forEach(r => params.push(`%"${r}"%`));
+        }
+    }
     if (virtualization && virtualization !== 'any') { whereSql += ' AND o.virtualization = ?'; params.push(virtualization); }
     if (trial === 'true' || trial === '1') { whereSql += ' AND o.free_trial_available = 1'; }
     if (ddos === 'true' || ddos === '1') { whereSql += ' AND o.ddos_protection = 1'; }

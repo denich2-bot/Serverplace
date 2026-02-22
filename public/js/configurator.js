@@ -108,7 +108,26 @@ function searchOffers(page) {
 function renderOfferCard(o) {
   const hue = Math.abs((o.provider_slug || '').charCodeAt(0) * 37) % 360;
   const bwLabel = o.bandwidth_mbps >= 1000 ? (o.bandwidth_mbps / 1000) + ' Gbps' : o.bandwidth_mbps + ' Mbps';
-  const regions = (Array.isArray(o.regions) ? o.regions : []).join(', ');
+
+  const countryNames = new Set();
+  const regionNames = [];
+  (Array.isArray(o.regions) ? o.regions : []).forEach(rId => {
+    const reg = (window._allRegions || []).find(x => x.id === rId);
+    if (reg) {
+      countryNames.add(reg.country);
+      regionNames.push(reg.city);
+    } else {
+      regionNames.push(rId);
+    }
+  });
+
+  const getFlag = (c) => {
+    const flags = { 'Россия': '🇷🇺', 'Германия': '🇩🇪', 'Нидерланды': '🇳🇱', 'Финляндия': '🇫🇮', 'США': '🇺🇸', 'Великобритания': '🇬🇧', 'Канада': '🇨🇦', 'Франция': '🇫🇷', 'Швеция': '🇸🇪', 'Польша': '🇵🇱', 'Австралия': '🇦🇺', 'Турция': '🇹🇷', 'Казахстан': '🇰🇿', 'Эстония': '🇪🇪', 'Швейцария': '🇨🇭', 'Латвия': '🇱🇻', 'Литва': '🇱🇹', 'Беларусь': '🇧🇾', 'Украина': '🇺🇦', 'Болгария': '🇧🇬', 'Испания': '🇪🇸', 'Италия': '🇮🇹', 'Сингапур': '🇸🇬', 'Гонконг': '🇭🇰', 'Япония': '🇯🇵', 'ОАЭ': '🇦🇪', 'Израиль': '🇮🇱', 'Австрия': '🇦🇹', 'Чехия': '🇨🇿', 'Словакия': '🇸🇰', 'Венгрия': '🇭🇺', 'Румыния': '🇷🇴', 'Сербия': '🇷🇸', 'Индия': '🇮🇳', 'Корея': '🇰🇷', 'Ирландия': '🇮🇪', 'Дания': '🇩🇰', 'Норвегия': '🇳🇴', 'ЮАР': '🇿🇦', 'Бразилия': '🇧🇷', 'Аргентина': '🇦🇷' };
+    return flags[c] || '🌍';
+  };
+
+  const countriesWithFlags = Array.from(countryNames).map(c => `${getFlag(c)} ${c}`).join(', ');
+  const regionsLabel = Array.from(new Set(regionNames)).join(', ');
 
   return `
     <div class="offer-card">
@@ -121,6 +140,7 @@ function renderOfferCard(o) {
       </div>
       <div class="offer-card__info">
         <h3 class="offer-card__name"><a href="/offers/${o.id}">${o.name}</a></h3>
+        ${countriesWithFlags ? `<div class="offer-card__country" style="margin-top: 4px; font-size: 0.9em; color: var(--sp-text-secondary);">${countriesWithFlags}</div>` : ''}
         <div class="offer-card__specs">
           <span class="spec-badge">${o.vcpu} vCPU</span>
           <span class="spec-badge">${o.ram_gb} ГБ RAM</span>
@@ -133,7 +153,7 @@ function renderOfferCard(o) {
           ${o.ipv4_included ? '<span class="badge">IPv4</span>' : ''}
           ${o.ddos_protection ? '<span class="badge badge--success">DDoS</span>' : ''}
           ${o.free_trial_available ? '<span class="badge badge--trial">Тест ' + o.free_trial_days + 'д</span>' : ''}
-          <span class="badge badge--subtle">${regions}</span>
+          <span class="badge badge--subtle">${regionsLabel}</span>
         </div>
       </div>
       <div class="offer-card__price">

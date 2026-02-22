@@ -138,15 +138,20 @@
             var citySel = document.getElementById('cfg_region');
             citySel.innerHTML = '<option value="">Все города</option>';
             var filtered = country ? _allRegions.filter(function (r) { return r.country === country; }) : _allRegions;
+            var cityGroups = {};
             filtered.forEach(function (r) {
+                if (!cityGroups[r.city]) cityGroups[r.city] = [];
+                cityGroups[r.city].push(r.id);
+            });
+            Object.keys(cityGroups).sort().forEach(function (city) {
                 var opt = document.createElement('option');
-                opt.value = r.id;
-                opt.textContent = r.city;
+                opt.value = cityGroups[city].join(',');
+                opt.textContent = city;
                 citySel.appendChild(opt);
             });
         }
         initCountryFilter();
     </script>
-    <script src="/js/configurator.js?v=1.1.6"></script>
+    <script src="/js/configurator.js?v=1.1.8"></script>
 
     <%- include('footer') %>
