@@ -115,19 +115,22 @@
     </div>
 
     <script>
-        var _allRegions = <% - JSON.stringify(regions) %>;
+        var _allRegions = [];
         function initCountryFilter() {
-            var countries = [];
-            var seen = {};
-            _allRegions.forEach(function (r) {
-                if (!seen[r.country]) { seen[r.country] = true; countries.push(r.country); }
-            });
-            var sel = document.getElementById('cfg_country');
-            countries.forEach(function (c) {
-                var opt = document.createElement('option');
-                opt.value = c;
-                opt.textContent = c;
-                sel.appendChild(opt);
+            fetch('/api/regions').then(function (r) { return r.json(); }).then(function (regions) {
+                _allRegions = regions;
+                var countries = [];
+                var seen = {};
+                regions.forEach(function (r) {
+                    if (!seen[r.country]) { seen[r.country] = true; countries.push(r.country); }
+                });
+                var sel = document.getElementById('cfg_country');
+                countries.forEach(function (c) {
+                    var opt = document.createElement('option');
+                    opt.value = c;
+                    opt.textContent = c;
+                    sel.appendChild(opt);
+                });
             });
         }
         function updateCityFilter() {
@@ -144,6 +147,6 @@
         }
         initCountryFilter();
     </script>
-    <script src="/js/configurator.js?v=1.1.1"></script>
+    <script src="/js/configurator.js?v=1.1.6"></script>
 
     <%- include('footer') %>

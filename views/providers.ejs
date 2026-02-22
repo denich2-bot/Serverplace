@@ -25,19 +25,22 @@
         <div id="provPagination" class="pagination"></div>
     </div>
     <script>
-        var _provRegions = <% - JSON.stringify(regions) %>;
+        var _provRegions = [];
         (function () {
-            var countries = [];
-            var seen = {};
-            _provRegions.forEach(function (r) {
-                if (!seen[r.country]) { seen[r.country] = true; countries.push(r.country); }
-            });
-            var sel = document.getElementById('provCountry');
-            countries.forEach(function (c) {
-                var opt = document.createElement('option');
-                opt.value = c;
-                opt.textContent = c;
-                sel.appendChild(opt);
+            fetch('/api/regions').then(function (r) { return r.json(); }).then(function (regions) {
+                _provRegions = regions;
+                var countries = [];
+                var seen = {};
+                regions.forEach(function (r) {
+                    if (!seen[r.country]) { seen[r.country] = true; countries.push(r.country); }
+                });
+                var sel = document.getElementById('provCountry');
+                countries.forEach(function (c) {
+                    var opt = document.createElement('option');
+                    opt.value = c;
+                    opt.textContent = c;
+                    sel.appendChild(opt);
+                });
             });
         })();
         function updateProvCityFilter() {
