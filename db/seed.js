@@ -95,22 +95,27 @@ function seed() {
             const avail = o.availability || {};
             const links = o.links || {};
 
-            insertOffer.run(
-                o.id, o.provider_id, o.name, o.billing || 'month', o.currency || 'RUB',
-                o.market_price_month, o.promo_price_month, o.promo_label || '',
-                res.vcpu || 1, res.ram_gb || 1,
-                cpu.type || '', cpu.brand || '', cpu.line || '', cpu.model || '',
-                systemDisk.type || 'ssd', systemDisk.size_gb || 25,
-                JSON.stringify(res.disks || []),
-                net.bandwidth_mbps || 100, net.traffic_limit_tb || 1,
-                res.ipv4_included ? 1 : 0, res.ipv6_included ? 1 : 0,
-                res.ddos_protection ? 1 : 0,
-                res.sla_percent || 99.9, res.virtualization || 'KVM',
-                JSON.stringify(avail.regions || []), JSON.stringify(avail.pools || []),
-                trial.available ? 1 : 0, trial.days || 0, trial.conditions || '',
-                links.order_url || '', links.docs_url || '',
-                o.updated_at || new Date().toISOString().split('T')[0]
-            );
+            try {
+                insertOffer.run(
+                    o.id, o.provider_id, o.name, o.billing || 'month', o.currency || 'RUB',
+                    o.market_price_month, o.promo_price_month, o.promo_label || '',
+                    res.vcpu || 1, res.ram_gb || 1,
+                    cpu.type || '', cpu.brand || '', cpu.line || '', cpu.model || '',
+                    systemDisk.type || 'ssd', systemDisk.size_gb || 25,
+                    JSON.stringify(res.disks || []),
+                    net.bandwidth_mbps || 100, net.traffic_limit_tb || 1,
+                    res.ipv4_included ? 1 : 0, res.ipv6_included ? 1 : 0,
+                    res.ddos_protection ? 1 : 0,
+                    res.sla_percent || 99.9, res.virtualization || 'KVM',
+                    JSON.stringify(avail.regions || []), JSON.stringify(avail.pools || []),
+                    trial.available ? 1 : 0, trial.days || 0, trial.conditions || '',
+                    links.order_url || '', links.docs_url || '',
+                    o.updated_at || new Date().toISOString().split('T')[0]
+                );
+            } catch (err) {
+                console.error(`[seed-error] failed to insert offer ${o.id}, provider_id=${o.provider_id}: ${err.message}`);
+                throw err;
+            }
         }
     });
     offerTx(offers);

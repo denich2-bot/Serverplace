@@ -4808,5 +4808,1011 @@
     },
     "about_short": "Хостинг-платформа для бизнеса и разработчиков. Гибкие тарифы, выделенные ресурсы и техподдержка 24/7.",
     "aliases": []
+  },
+  {
+    "id": "p141",
+    "name": "HyperTech EU",
+    "slug": "hypertech eu",
+    "url": "https://hypertech eu.com",
+    "logo_hint": {
+      "type": "initials",
+      "text": "HY",
+      "seed": 6
+    },
+    "rating": 4.21,
+    "rating_count": 66,
+    "has_free_trial": false,
+    "trial_days": 3,
+    "regions": [
+      "dxb",
+      "hkg"
+    ],
+    "cpu_brands": [
+      "Intel",
+      "AMD"
+    ],
+    "support": {
+      "email": "support@hypertech eu.com",
+      "phone": "+1 800 251 2021"
+    },
+    "promo": null,
+    "about_short": "Глобальный облачный провайдер с дата-центрами уровня Tier III. Надежное оборудование и отличная связность.",
+    "aliases": []
+  },
+  {
+    "id": "p142",
+    "name": "VDSServer",
+    "slug": "vdsserver",
+    "url": "https://vdsserver.com",
+    "logo_hint": {
+      "type": "initials",
+      "text": "VD",
+      "seed": 10
+    },
+    "rating": 4.2,
+    "rating_count": 490,
+    "has_free_trial": true,
+    "trial_days": 3,
+    "regions": [
+      "sin",
+      "hkg",
+      "hel_city",
+      "evn",
+      "sto"
+    ],
+    "cpu_brands": [
+      "Intel",
+      "AMD"
+    ],
+    "support": {
+      "email": "support@vdsserver.com",
+      "phone": "+1 800 617 8445"
+    },
+    "promo": null,
+    "about_short": "Глобальный облачный провайдер с дата-центрами уровня Tier III. Надежное оборудование и отличная связность.",
+    "aliases": []
+  },
+  {
+    "id": "p143",
+    "name": "ByteServer",
+    "slug": "byteserver",
+    "url": "https://byteserver.com",
+    "logo_hint": {
+      "type": "initials",
+      "text": "BY",
+      "seed": 13
+    },
+    "rating": 4.13,
+    "rating_count": 263,
+    "has_free_trial": false,
+    "trial_days": 3,
+    "regions": [
+      "tor",
+      "mtl",
+      "sin"
+    ],
+    "cpu_brands": [
+      "Intel",
+      "AMD"
+    ],
+    "support": {
+      "email": "support@byteserver.com",
+      "phone": "+1 800 306 1813"
+    },
+    "promo": {
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "end_date": "2026-12-31"
+    },
+    "about_short": "Глобальный облачный провайдер с дата-центрами уровня Tier III. Надежное оборудование и отличная связность.",
+    "aliases": []
+  },
+  {
+    "id": "p144",
+    "name": "GigaCloud Plus",
+    "slug": "gigacloud plus",
+    "url": "https://gigacloud plus.com",
+    "logo_hint": {
+      "type": "initials",
+      "text": "GI",
+      "seed": 12
+    },
+    "rating": 4.88,
+    "rating_count": 337,
+    "has_free_trial": true,
+    "trial_days": 3,
+    "regions": [
+      "mel",
+      "gru"
+    ],
+    "cpu_brands": [
+      "Intel",
+      "AMD"
+    ],
+    "support": {
+      "email": "support@gigacloud plus.com",
+      "phone": "+1 800 644 6770"
+    },
+    "promo": {
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "end_date": "2026-12-31"
+    },
+    "about_short": "Глобальный облачный провайдер с дата-центрами уровня Tier III. Надежное оборудование и отличная связность.",
+    "aliases": []
+  },
+  {
+    "id": "p145",
+    "name": "UltraCore",
+    "slug": "ultracore",
+    "url": "https://ultracore.com",
+    "logo_hint": {
+      "type": "initials",
+      "text": "UL",
+      "seed": 0
+    },
+    "rating": 4.7,
+    "rating_count": 348,
+    "has_free_trial": true,
+    "trial_days": 3,
+    "regions": [
+      "ala_city",
+      "sin",
+      "osa",
+      "sto"
+    ],
+    "cpu_brands": [
+      "Intel",
+      "AMD"
+    ],
+    "support": {
+      "email": "support@ultracore.com",
+      "phone": "+1 800 514 3760"
+    },
+    "promo": {
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "end_date": "2026-12-31"
+    },
+    "about_short": "Глобальный облачный провайдер с дата-центрами уровня Tier III. Надежное оборудование и отличная связность.",
+    "aliases": []
+  },
+  {
+    "id": "p146",
+    "name": "GigaSystems",
+    "slug": "gigasystems",
+    "url": "https://gigasystems.com",
+    "logo_hint": {
+      "type": "initials",
+      "text": "GI",
+      "seed": 4
+    },
+    "rating": 4.25,
+    "rating_count": 393,
+    "has_free_trial": false,
+    "trial_days": 3,
+    "regions": [
+      "ams_city",
+      "mel",
+      "ala_city",
+      "mtl",
+      "fra_city"
+    ],
+    "cpu_brands": [
+      "Intel",
+      "AMD"
+    ],
+    "support": {
+      "email": "support@gigasystems.com",
+      "phone": "+1 800 389 2019"
+    },
+    "promo": null,
+    "about_short": "Глобальный облачный провайдер с дата-центрами уровня Tier III. Надежное оборудование и отличная связность.",
+    "aliases": []
+  },
+  {
+    "id": "p147",
+    "name": "ServerVDS",
+    "slug": "servervds",
+    "url": "https://servervds.com",
+    "logo_hint": {
+      "type": "initials",
+      "text": "SE",
+      "seed": 6
+    },
+    "rating": 4.42,
+    "rating_count": 88,
+    "has_free_trial": false,
+    "trial_days": 3,
+    "regions": [
+      "sto",
+      "tok",
+      "syd",
+      "ams_city"
+    ],
+    "cpu_brands": [
+      "Intel",
+      "AMD"
+    ],
+    "support": {
+      "email": "support@servervds.com",
+      "phone": "+1 800 916 5716"
+    },
+    "promo": null,
+    "about_short": "Глобальный облачный провайдер с дата-центрами уровня Tier III. Надежное оборудование и отличная связность.",
+    "aliases": []
+  },
+  {
+    "id": "p148",
+    "name": "MegaNode",
+    "slug": "meganode",
+    "url": "https://meganode.com",
+    "logo_hint": {
+      "type": "initials",
+      "text": "ME",
+      "seed": 17
+    },
+    "rating": 4.81,
+    "rating_count": 11,
+    "has_free_trial": false,
+    "trial_days": 3,
+    "regions": [
+      "waw",
+      "dxb",
+      "bom",
+      "mtl"
+    ],
+    "cpu_brands": [
+      "Intel",
+      "AMD"
+    ],
+    "support": {
+      "email": "support@meganode.com",
+      "phone": "+1 800 509 1955"
+    },
+    "promo": {
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "end_date": "2026-12-31"
+    },
+    "about_short": "Глобальный облачный провайдер с дата-центрами уровня Tier III. Надежное оборудование и отличная связность.",
+    "aliases": []
+  },
+  {
+    "id": "p149",
+    "name": "ByteSpace",
+    "slug": "bytespace",
+    "url": "https://bytespace.com",
+    "logo_hint": {
+      "type": "initials",
+      "text": "BY",
+      "seed": 9
+    },
+    "rating": 4.04,
+    "rating_count": 304,
+    "has_free_trial": false,
+    "trial_days": 3,
+    "regions": [
+      "mtl",
+      "gru",
+      "fra_city",
+      "ala_city"
+    ],
+    "cpu_brands": [
+      "Intel",
+      "AMD"
+    ],
+    "support": {
+      "email": "support@bytespace.com",
+      "phone": "+1 800 303 7272"
+    },
+    "promo": {
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "end_date": "2026-12-31"
+    },
+    "about_short": "Глобальный облачный провайдер с дата-центрами уровня Tier III. Надежное оборудование и отличная связность.",
+    "aliases": []
+  },
+  {
+    "id": "p150",
+    "name": "GlobalCloud",
+    "slug": "globalcloud",
+    "url": "https://globalcloud.com",
+    "logo_hint": {
+      "type": "initials",
+      "text": "GL",
+      "seed": 14
+    },
+    "rating": 4.49,
+    "rating_count": 236,
+    "has_free_trial": true,
+    "trial_days": 3,
+    "regions": [
+      "ala_city",
+      "tok",
+      "tbs"
+    ],
+    "cpu_brands": [
+      "Intel",
+      "AMD"
+    ],
+    "support": {
+      "email": "support@globalcloud.com",
+      "phone": "+1 800 639 7829"
+    },
+    "promo": {
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "end_date": "2026-12-31"
+    },
+    "about_short": "Глобальный облачный провайдер с дата-центрами уровня Tier III. Надежное оборудование и отличная связность.",
+    "aliases": []
+  },
+  {
+    "id": "p151",
+    "name": "VDSWeb",
+    "slug": "vdsweb",
+    "url": "https://vdsweb.com",
+    "logo_hint": {
+      "type": "initials",
+      "text": "VD",
+      "seed": 8
+    },
+    "rating": 4.83,
+    "rating_count": 317,
+    "has_free_trial": false,
+    "trial_days": 3,
+    "regions": [
+      "mil",
+      "tor"
+    ],
+    "cpu_brands": [
+      "Intel",
+      "AMD"
+    ],
+    "support": {
+      "email": "support@vdsweb.com",
+      "phone": "+1 800 278 6232"
+    },
+    "promo": {
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "end_date": "2026-12-31"
+    },
+    "about_short": "Глобальный облачный провайдер с дата-центрами уровня Tier III. Надежное оборудование и отличная связность.",
+    "aliases": []
+  },
+  {
+    "id": "p152",
+    "name": "GlobalWeb",
+    "slug": "globalweb",
+    "url": "https://globalweb.com",
+    "logo_hint": {
+      "type": "initials",
+      "text": "GL",
+      "seed": 13
+    },
+    "rating": 4.78,
+    "rating_count": 180,
+    "has_free_trial": true,
+    "trial_days": 3,
+    "regions": [
+      "ber",
+      "dxb",
+      "ams_city",
+      "waw"
+    ],
+    "cpu_brands": [
+      "Intel",
+      "AMD"
+    ],
+    "support": {
+      "email": "support@globalweb.com",
+      "phone": "+1 800 945 7529"
+    },
+    "promo": {
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "end_date": "2026-12-31"
+    },
+    "about_short": "Глобальный облачный провайдер с дата-центрами уровня Tier III. Надежное оборудование и отличная связность.",
+    "aliases": []
+  },
+  {
+    "id": "p153",
+    "name": "VDSCore Plus",
+    "slug": "vdscore plus",
+    "url": "https://vdscore plus.com",
+    "logo_hint": {
+      "type": "initials",
+      "text": "VD",
+      "seed": 2
+    },
+    "rating": 4.33,
+    "rating_count": 479,
+    "has_free_trial": false,
+    "trial_days": 3,
+    "regions": [
+      "mel",
+      "tor"
+    ],
+    "cpu_brands": [
+      "Intel",
+      "AMD"
+    ],
+    "support": {
+      "email": "support@vdscore plus.com",
+      "phone": "+1 800 378 6600"
+    },
+    "promo": null,
+    "about_short": "Глобальный облачный провайдер с дата-центрами уровня Tier III. Надежное оборудование и отличная связность.",
+    "aliases": []
+  },
+  {
+    "id": "p154",
+    "name": "AsiaSystems",
+    "slug": "asiasystems",
+    "url": "https://asiasystems.com",
+    "logo_hint": {
+      "type": "initials",
+      "text": "AS",
+      "seed": 17
+    },
+    "rating": 4.38,
+    "rating_count": 463,
+    "has_free_trial": true,
+    "trial_days": 3,
+    "regions": [
+      "mel",
+      "ber",
+      "mtl",
+      "chicago"
+    ],
+    "cpu_brands": [
+      "Intel",
+      "AMD"
+    ],
+    "support": {
+      "email": "support@asiasystems.com",
+      "phone": "+1 800 658 7586"
+    },
+    "promo": null,
+    "about_short": "Глобальный облачный провайдер с дата-центрами уровня Tier III. Надежное оборудование и отличная связность.",
+    "aliases": []
+  },
+  {
+    "id": "p155",
+    "name": "VDSVDS",
+    "slug": "vdsvds",
+    "url": "https://vdsvds.com",
+    "logo_hint": {
+      "type": "initials",
+      "text": "VD",
+      "seed": 8
+    },
+    "rating": 4.42,
+    "rating_count": 116,
+    "has_free_trial": true,
+    "trial_days": 3,
+    "regions": [
+      "chicago",
+      "dxb",
+      "ams_city",
+      "ny"
+    ],
+    "cpu_brands": [
+      "Intel",
+      "AMD"
+    ],
+    "support": {
+      "email": "support@vdsvds.com",
+      "phone": "+1 800 543 3628"
+    },
+    "promo": null,
+    "about_short": "Глобальный облачный провайдер с дата-центрами уровня Tier III. Надежное оборудование и отличная связность.",
+    "aliases": []
+  },
+  {
+    "id": "p156",
+    "name": "HyperNet",
+    "slug": "hypernet",
+    "url": "https://hypernet.com",
+    "logo_hint": {
+      "type": "initials",
+      "text": "HY",
+      "seed": 5
+    },
+    "rating": 4.68,
+    "rating_count": 269,
+    "has_free_trial": false,
+    "trial_days": 3,
+    "regions": [
+      "par",
+      "hel_city"
+    ],
+    "cpu_brands": [
+      "Intel",
+      "AMD"
+    ],
+    "support": {
+      "email": "support@hypernet.com",
+      "phone": "+1 800 518 9660"
+    },
+    "promo": {
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "end_date": "2026-12-31"
+    },
+    "about_short": "Глобальный облачный провайдер с дата-центрами уровня Tier III. Надежное оборудование и отличная связность.",
+    "aliases": []
+  },
+  {
+    "id": "p157",
+    "name": "AsiaSystems Global",
+    "slug": "asiasystems global",
+    "url": "https://asiasystems global.com",
+    "logo_hint": {
+      "type": "initials",
+      "text": "AS",
+      "seed": 5
+    },
+    "rating": 4.81,
+    "rating_count": 75,
+    "has_free_trial": false,
+    "trial_days": 3,
+    "regions": [
+      "waw",
+      "par",
+      "lon",
+      "la",
+      "jnb"
+    ],
+    "cpu_brands": [
+      "Intel",
+      "AMD"
+    ],
+    "support": {
+      "email": "support@asiasystems global.com",
+      "phone": "+1 800 884 7382"
+    },
+    "promo": null,
+    "about_short": "Глобальный облачный провайдер с дата-центрами уровня Tier III. Надежное оборудование и отличная связность.",
+    "aliases": []
+  },
+  {
+    "id": "p158",
+    "name": "ServerCloud",
+    "slug": "servercloud",
+    "url": "https://servercloud.com",
+    "logo_hint": {
+      "type": "initials",
+      "text": "SE",
+      "seed": 19
+    },
+    "rating": 4.46,
+    "rating_count": 355,
+    "has_free_trial": false,
+    "trial_days": 3,
+    "regions": [
+      "hel_city",
+      "ny"
+    ],
+    "cpu_brands": [
+      "Intel",
+      "AMD"
+    ],
+    "support": {
+      "email": "support@servercloud.com",
+      "phone": "+1 800 401 6611"
+    },
+    "promo": null,
+    "about_short": "Глобальный облачный провайдер с дата-центрами уровня Tier III. Надежное оборудование и отличная связность.",
+    "aliases": []
+  },
+  {
+    "id": "p159",
+    "name": "MegaCloud EU",
+    "slug": "megacloud eu",
+    "url": "https://megacloud eu.com",
+    "logo_hint": {
+      "type": "initials",
+      "text": "ME",
+      "seed": 17
+    },
+    "rating": 4.33,
+    "rating_count": 28,
+    "has_free_trial": false,
+    "trial_days": 3,
+    "regions": [
+      "jnb",
+      "gru",
+      "sto",
+      "ny",
+      "dal"
+    ],
+    "cpu_brands": [
+      "Intel",
+      "AMD"
+    ],
+    "support": {
+      "email": "support@megacloud eu.com",
+      "phone": "+1 800 330 6737"
+    },
+    "promo": {
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "end_date": "2026-12-31"
+    },
+    "about_short": "Глобальный облачный провайдер с дата-центрами уровня Tier III. Надежное оборудование и отличная связность.",
+    "aliases": []
+  },
+  {
+    "id": "p160",
+    "name": "ServerNet Plus",
+    "slug": "servernet plus",
+    "url": "https://servernet plus.com",
+    "logo_hint": {
+      "type": "initials",
+      "text": "SE",
+      "seed": 7
+    },
+    "rating": 4.54,
+    "rating_count": 346,
+    "has_free_trial": false,
+    "trial_days": 3,
+    "regions": [
+      "ala_city",
+      "la"
+    ],
+    "cpu_brands": [
+      "Intel",
+      "AMD"
+    ],
+    "support": {
+      "email": "support@servernet plus.com",
+      "phone": "+1 800 334 4339"
+    },
+    "promo": {
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "end_date": "2026-12-31"
+    },
+    "about_short": "Глобальный облачный провайдер с дата-центрами уровня Tier III. Надежное оборудование и отличная связность.",
+    "aliases": []
+  },
+  {
+    "id": "p161",
+    "name": "HostCore",
+    "slug": "hostcore",
+    "url": "https://hostcore.com",
+    "logo_hint": {
+      "type": "initials",
+      "text": "HO",
+      "seed": 10
+    },
+    "rating": 4.44,
+    "rating_count": 345,
+    "has_free_trial": false,
+    "trial_days": 3,
+    "regions": [
+      "hel_city",
+      "ber",
+      "fra_city"
+    ],
+    "cpu_brands": [
+      "Intel",
+      "AMD"
+    ],
+    "support": {
+      "email": "support@hostcore.com",
+      "phone": "+1 800 493 5814"
+    },
+    "promo": {
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "end_date": "2026-12-31"
+    },
+    "about_short": "Глобальный облачный провайдер с дата-центрами уровня Tier III. Надежное оборудование и отличная связность.",
+    "aliases": []
+  },
+  {
+    "id": "p162",
+    "name": "CloudSystems",
+    "slug": "cloudsystems",
+    "url": "https://cloudsystems.com",
+    "logo_hint": {
+      "type": "initials",
+      "text": "CL",
+      "seed": 5
+    },
+    "rating": 4.32,
+    "rating_count": 452,
+    "has_free_trial": true,
+    "trial_days": 3,
+    "regions": [
+      "mel",
+      "ast",
+      "tbs"
+    ],
+    "cpu_brands": [
+      "Intel",
+      "AMD"
+    ],
+    "support": {
+      "email": "support@cloudsystems.com",
+      "phone": "+1 800 382 8273"
+    },
+    "promo": {
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "end_date": "2026-12-31"
+    },
+    "about_short": "Глобальный облачный провайдер с дата-центрами уровня Tier III. Надежное оборудование и отличная связность.",
+    "aliases": []
+  },
+  {
+    "id": "p163",
+    "name": "MegaServer",
+    "slug": "megaserver",
+    "url": "https://megaserver.com",
+    "logo_hint": {
+      "type": "initials",
+      "text": "ME",
+      "seed": 4
+    },
+    "rating": 4.04,
+    "rating_count": 211,
+    "has_free_trial": false,
+    "trial_days": 3,
+    "regions": [
+      "par",
+      "tor",
+      "fra_city"
+    ],
+    "cpu_brands": [
+      "Intel",
+      "AMD"
+    ],
+    "support": {
+      "email": "support@megaserver.com",
+      "phone": "+1 800 163 3277"
+    },
+    "promo": null,
+    "about_short": "Глобальный облачный провайдер с дата-центрами уровня Tier III. Надежное оборудование и отличная связность.",
+    "aliases": []
+  },
+  {
+    "id": "p164",
+    "name": "GigaTech",
+    "slug": "gigatech",
+    "url": "https://gigatech.com",
+    "logo_hint": {
+      "type": "initials",
+      "text": "GI",
+      "seed": 6
+    },
+    "rating": 4.14,
+    "rating_count": 435,
+    "has_free_trial": true,
+    "trial_days": 3,
+    "regions": [
+      "sin",
+      "lon",
+      "syd",
+      "bom",
+      "mil"
+    ],
+    "cpu_brands": [
+      "Intel",
+      "AMD"
+    ],
+    "support": {
+      "email": "support@gigatech.com",
+      "phone": "+1 800 288 3296"
+    },
+    "promo": null,
+    "about_short": "Глобальный облачный провайдер с дата-центрами уровня Tier III. Надежное оборудование и отличная связность.",
+    "aliases": []
+  },
+  {
+    "id": "p165",
+    "name": "CloudSpace Global",
+    "slug": "cloudspace global",
+    "url": "https://cloudspace global.com",
+    "logo_hint": {
+      "type": "initials",
+      "text": "CL",
+      "seed": 18
+    },
+    "rating": 4.52,
+    "rating_count": 295,
+    "has_free_trial": false,
+    "trial_days": 3,
+    "regions": [
+      "bom",
+      "ny",
+      "mel"
+    ],
+    "cpu_brands": [
+      "Intel",
+      "AMD"
+    ],
+    "support": {
+      "email": "support@cloudspace global.com",
+      "phone": "+1 800 797 8527"
+    },
+    "promo": null,
+    "about_short": "Глобальный облачный провайдер с дата-центрами уровня Tier III. Надежное оборудование и отличная связность.",
+    "aliases": []
+  },
+  {
+    "id": "p166",
+    "name": "SuperNode",
+    "slug": "supernode",
+    "url": "https://supernode.com",
+    "logo_hint": {
+      "type": "initials",
+      "text": "SU",
+      "seed": 17
+    },
+    "rating": 4.08,
+    "rating_count": 53,
+    "has_free_trial": false,
+    "trial_days": 3,
+    "regions": [
+      "ber",
+      "mel"
+    ],
+    "cpu_brands": [
+      "Intel",
+      "AMD"
+    ],
+    "support": {
+      "email": "support@supernode.com",
+      "phone": "+1 800 360 9077"
+    },
+    "promo": null,
+    "about_short": "Глобальный облачный провайдер с дата-центрами уровня Tier III. Надежное оборудование и отличная связность.",
+    "aliases": []
+  },
+  {
+    "id": "p167",
+    "name": "ByteSystems",
+    "slug": "bytesystems",
+    "url": "https://bytesystems.com",
+    "logo_hint": {
+      "type": "initials",
+      "text": "BY",
+      "seed": 9
+    },
+    "rating": 4.15,
+    "rating_count": 317,
+    "has_free_trial": true,
+    "trial_days": 3,
+    "regions": [
+      "miami",
+      "mad",
+      "hkg",
+      "ams_city",
+      "sto"
+    ],
+    "cpu_brands": [
+      "Intel",
+      "AMD"
+    ],
+    "support": {
+      "email": "support@bytesystems.com",
+      "phone": "+1 800 760 8677"
+    },
+    "promo": {
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "end_date": "2026-12-31"
+    },
+    "about_short": "Глобальный облачный провайдер с дата-центрами уровня Tier III. Надежное оборудование и отличная связность.",
+    "aliases": []
+  },
+  {
+    "id": "p168",
+    "name": "CloudCore",
+    "slug": "cloudcore",
+    "url": "https://cloudcore.com",
+    "logo_hint": {
+      "type": "initials",
+      "text": "CL",
+      "seed": 18
+    },
+    "rating": 4.88,
+    "rating_count": 470,
+    "has_free_trial": true,
+    "trial_days": 3,
+    "regions": [
+      "osa",
+      "la",
+      "miami",
+      "lon",
+      "sto"
+    ],
+    "cpu_brands": [
+      "Intel",
+      "AMD"
+    ],
+    "support": {
+      "email": "support@cloudcore.com",
+      "phone": "+1 800 875 4242"
+    },
+    "promo": {
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "end_date": "2026-12-31"
+    },
+    "about_short": "Глобальный облачный провайдер с дата-центрами уровня Tier III. Надежное оборудование и отличная связность.",
+    "aliases": []
+  },
+  {
+    "id": "p169",
+    "name": "AsiaServer Plus",
+    "slug": "asiaserver plus",
+    "url": "https://asiaserver plus.com",
+    "logo_hint": {
+      "type": "initials",
+      "text": "AS",
+      "seed": 4
+    },
+    "rating": 4.39,
+    "rating_count": 140,
+    "has_free_trial": false,
+    "trial_days": 3,
+    "regions": [
+      "tbs",
+      "tor"
+    ],
+    "cpu_brands": [
+      "Intel",
+      "AMD"
+    ],
+    "support": {
+      "email": "support@asiaserver plus.com",
+      "phone": "+1 800 412 4982"
+    },
+    "promo": null,
+    "about_short": "Глобальный облачный провайдер с дата-центрами уровня Tier III. Надежное оборудование и отличная связность.",
+    "aliases": []
+  },
+  {
+    "id": "p170",
+    "name": "SuperTech",
+    "slug": "supertech",
+    "url": "https://supertech.com",
+    "logo_hint": {
+      "type": "initials",
+      "text": "SU",
+      "seed": 14
+    },
+    "rating": 4.27,
+    "rating_count": 27,
+    "has_free_trial": true,
+    "trial_days": 3,
+    "regions": [
+      "tbs",
+      "ber",
+      "mel"
+    ],
+    "cpu_brands": [
+      "Intel",
+      "AMD"
+    ],
+    "support": {
+      "email": "support@supertech.com",
+      "phone": "+1 800 314 9364"
+    },
+    "promo": {
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "end_date": "2026-12-31"
+    },
+    "about_short": "Глобальный облачный провайдер с дата-центрами уровня Tier III. Надежное оборудование и отличная связность.",
+    "aliases": []
   }
 ]
