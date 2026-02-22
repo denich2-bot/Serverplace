@@ -1393,7 +1393,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тест: стандартная конфигурация, ограничение по полосе пропускания"
     },
     "links": {
       "order_url": "https://4vps.su",
@@ -1448,7 +1448,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Пробный период с лимитом на исходящий трафик, полный доступ к панели"
     },
     "links": {
       "order_url": "https://4vps.su",
@@ -1505,7 +1505,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый период с базовой конфигурацией, без ограничений по функциональности"
     },
     "links": {
       "order_url": "https://4vps.su",
@@ -1561,7 +1561,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тестовый период без привязки карты, с ограничением по трафику"
     },
     "links": {
       "order_url": "https://4vps.su",
@@ -1617,7 +1617,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тест: полная конфигурация, ограничение 1 сервер на аккаунт"
     },
     "links": {
       "order_url": "https://4vps.su",
@@ -1672,7 +1672,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый период с ограничением по объёму хранилища и трафику"
     },
     "links": {
       "order_url": "https://4vps.su",
@@ -1727,7 +1727,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Пробный период без карты, доступ ко всем функциям панели управления"
     },
     "links": {
       "order_url": "https://4vps.su",
@@ -1783,7 +1783,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Тестовый доступ с полным функционалом, лимит по CPU и RAM"
     },
     "links": {
       "order_url": "https://4vps.su",
@@ -4089,7 +4089,7 @@
     "free_trial": {
       "available": true,
       "days": 14,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тестовый период без привязки карты, с ограничением по трафику"
     },
     "links": {
       "order_url": "https://arionvps.com",
@@ -4144,7 +4144,7 @@
     "free_trial": {
       "available": true,
       "days": 14,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тест: полная конфигурация, ограничение 1 сервер на аккаунт"
     },
     "links": {
       "order_url": "https://arionvps.com",
@@ -4199,7 +4199,7 @@
     "free_trial": {
       "available": true,
       "days": 14,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый период с ограничением по объёму хранилища и трафику"
     },
     "links": {
       "order_url": "https://arionvps.com",
@@ -4254,7 +4254,7 @@
     "free_trial": {
       "available": true,
       "days": 14,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Пробный период без карты, доступ ко всем функциям панели управления"
     },
     "links": {
       "order_url": "https://arionvps.com",
@@ -4310,7 +4310,7 @@
     "free_trial": {
       "available": true,
       "days": 14,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый доступ с полным функционалом, лимит по CPU и RAM"
     },
     "links": {
       "order_url": "https://arionvps.com",
@@ -4365,7 +4365,7 @@
     "free_trial": {
       "available": true,
       "days": 14,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тест: стандартная конфигурация, ограничение по полосе пропускания"
     },
     "links": {
       "order_url": "https://arionvps.com",
@@ -4420,7 +4420,7 @@
     "free_trial": {
       "available": true,
       "days": 14,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Пробный период с лимитом на исходящий трафик, полный доступ к панели"
     },
     "links": {
       "order_url": "https://arionvps.com",
@@ -4475,7 +4475,7 @@
     "free_trial": {
       "available": true,
       "days": 14,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Тестовый период с базовой конфигурацией, без ограничений по функциональности"
     },
     "links": {
       "order_url": "https://arionvps.com",
@@ -5419,7 +5419,7 @@
     "free_trial": {
       "available": true,
       "days": 3,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Пробный период без карты, доступ ко всем функциям панели управления"
     },
     "links": {
       "order_url": "https://bacloud.com",
@@ -5476,7 +5476,7 @@
     "free_trial": {
       "available": true,
       "days": 3,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый доступ с полным функционалом, лимит по CPU и RAM"
     },
     "links": {
       "order_url": "https://bacloud.com",
@@ -5534,7 +5534,7 @@
     "free_trial": {
       "available": true,
       "days": 3,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тест: стандартная конфигурация, ограничение по полосе пропускания"
     },
     "links": {
       "order_url": "https://bacloud.com",
@@ -5592,7 +5592,7 @@
     "free_trial": {
       "available": true,
       "days": 3,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Пробный период с лимитом на исходящий трафик, полный доступ к панели"
     },
     "links": {
       "order_url": "https://bacloud.com",
@@ -5648,7 +5648,7 @@
     "free_trial": {
       "available": true,
       "days": 3,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый период с базовой конфигурацией, без ограничений по функциональности"
     },
     "links": {
       "order_url": "https://bacloud.com",
@@ -5706,7 +5706,7 @@
     "free_trial": {
       "available": true,
       "days": 3,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тестовый период без привязки карты, с ограничением по трафику"
     },
     "links": {
       "order_url": "https://bacloud.com",
@@ -5762,7 +5762,7 @@
     "free_trial": {
       "available": true,
       "days": 3,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Бесплатный тест: полная конфигурация, ограничение 1 сервер на аккаунт"
     },
     "links": {
       "order_url": "https://bacloud.com",
@@ -5818,7 +5818,7 @@
     "free_trial": {
       "available": true,
       "days": 3,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Тестовый период с ограничением по объёму хранилища и трафику"
     },
     "links": {
       "order_url": "https://bacloud.com",
@@ -9003,7 +9003,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тестовый период без привязки карты, с ограничением по трафику"
     },
     "links": {
       "order_url": "https://datacheap.ru",
@@ -9060,7 +9060,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тест: полная конфигурация, ограничение 1 сервер на аккаунт"
     },
     "links": {
       "order_url": "https://datacheap.ru",
@@ -9115,7 +9115,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый период с ограничением по объёму хранилища и трафику"
     },
     "links": {
       "order_url": "https://datacheap.ru",
@@ -9170,7 +9170,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Пробный период без карты, доступ ко всем функциям панели управления"
     },
     "links": {
       "order_url": "https://datacheap.ru",
@@ -9225,7 +9225,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый доступ с полным функционалом, лимит по CPU и RAM"
     },
     "links": {
       "order_url": "https://datacheap.ru",
@@ -9281,7 +9281,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тест: стандартная конфигурация, ограничение по полосе пропускания"
     },
     "links": {
       "order_url": "https://datacheap.ru",
@@ -9338,7 +9338,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Пробный период с лимитом на исходящий трафик, полный доступ к панели"
     },
     "links": {
       "order_url": "https://datacheap.ru",
@@ -9394,7 +9394,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Тестовый период с базовой конфигурацией, без ограничений по функциональности"
     },
     "links": {
       "order_url": "https://datacheap.ru",
@@ -11226,7 +11226,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тест: стандартная конфигурация, ограничение по полосе пропускания"
     },
     "links": {
       "order_url": "https://e-planet.ru",
@@ -11284,7 +11284,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Пробный период с лимитом на исходящий трафик, полный доступ к панели"
     },
     "links": {
       "order_url": "https://e-planet.ru",
@@ -11342,7 +11342,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый период с базовой конфигурацией, без ограничений по функциональности"
     },
     "links": {
       "order_url": "https://e-planet.ru",
@@ -11398,7 +11398,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тестовый период без привязки карты, с ограничением по трафику"
     },
     "links": {
       "order_url": "https://e-planet.ru",
@@ -11455,7 +11455,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тест: полная конфигурация, ограничение 1 сервер на аккаунт"
     },
     "links": {
       "order_url": "https://e-planet.ru",
@@ -11513,7 +11513,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый период с ограничением по объёму хранилища и трафику"
     },
     "links": {
       "order_url": "https://e-planet.ru",
@@ -11569,7 +11569,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Пробный период без карты, доступ ко всем функциям панели управления"
     },
     "links": {
       "order_url": "https://e-planet.ru",
@@ -11627,7 +11627,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Тестовый доступ с полным функционалом, лимит по CPU и RAM"
     },
     "links": {
       "order_url": "https://e-planet.ru",
@@ -13499,7 +13499,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый период с базовой конфигурацией, без ограничений по функциональности"
     },
     "links": {
       "order_url": "https://fastvps.ru",
@@ -13555,7 +13555,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тестовый период без привязки карты, с ограничением по трафику"
     },
     "links": {
       "order_url": "https://fastvps.ru",
@@ -13611,7 +13611,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тест: полная конфигурация, ограничение 1 сервер на аккаунт"
     },
     "links": {
       "order_url": "https://fastvps.ru",
@@ -13667,7 +13667,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый период с ограничением по объёму хранилища и трафику"
     },
     "links": {
       "order_url": "https://fastvps.ru",
@@ -13724,7 +13724,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Пробный период без карты, доступ ко всем функциям панели управления"
     },
     "links": {
       "order_url": "https://fastvps.ru",
@@ -13781,7 +13781,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый доступ с полным функционалом, лимит по CPU и RAM"
     },
     "links": {
       "order_url": "https://fastvps.ru",
@@ -13838,7 +13838,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Бесплатный тест: стандартная конфигурация, ограничение по полосе пропускания"
     },
     "links": {
       "order_url": "https://fastvps.ru",
@@ -13895,7 +13895,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Пробный период с лимитом на исходящий трафик, полный доступ к панели"
     },
     "links": {
       "order_url": "https://fastvps.ru",
@@ -14406,7 +14406,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тест: полная конфигурация, ограничение 1 сервер на аккаунт"
     },
     "links": {
       "order_url": "https://firstvds.ru",
@@ -14463,7 +14463,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый период с ограничением по объёму хранилища и трафику"
     },
     "links": {
       "order_url": "https://firstvds.ru",
@@ -14519,7 +14519,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Пробный период без карты, доступ ко всем функциям панели управления"
     },
     "links": {
       "order_url": "https://firstvds.ru",
@@ -14575,7 +14575,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый доступ с полным функционалом, лимит по CPU и RAM"
     },
     "links": {
       "order_url": "https://firstvds.ru",
@@ -14631,7 +14631,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тест: стандартная конфигурация, ограничение по полосе пропускания"
     },
     "links": {
       "order_url": "https://firstvds.ru",
@@ -14687,7 +14687,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Пробный период с лимитом на исходящий трафик, полный доступ к панели"
     },
     "links": {
       "order_url": "https://firstvds.ru",
@@ -14744,7 +14744,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Тестовый период с базовой конфигурацией, без ограничений по функциональности"
     },
     "links": {
       "order_url": "https://firstvds.ru",
@@ -14801,7 +14801,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Бесплатный тестовый период без привязки карты, с ограничением по трафику"
     },
     "links": {
       "order_url": "https://firstvds.ru",
@@ -14856,7 +14856,7 @@
     "free_trial": {
       "available": true,
       "days": 14,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый период с ограничением по объёму хранилища и трафику"
     },
     "links": {
       "order_url": "https://fornex.com",
@@ -14912,7 +14912,7 @@
     "free_trial": {
       "available": true,
       "days": 14,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Пробный период без карты, доступ ко всем функциям панели управления"
     },
     "links": {
       "order_url": "https://fornex.com",
@@ -14966,7 +14966,7 @@
     "free_trial": {
       "available": true,
       "days": 14,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый доступ с полным функционалом, лимит по CPU и RAM"
     },
     "links": {
       "order_url": "https://fornex.com",
@@ -15021,7 +15021,7 @@
     "free_trial": {
       "available": true,
       "days": 14,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тест: стандартная конфигурация, ограничение по полосе пропускания"
     },
     "links": {
       "order_url": "https://fornex.com",
@@ -15077,7 +15077,7 @@
     "free_trial": {
       "available": true,
       "days": 14,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Пробный период с лимитом на исходящий трафик, полный доступ к панели"
     },
     "links": {
       "order_url": "https://fornex.com",
@@ -15131,7 +15131,7 @@
     "free_trial": {
       "available": true,
       "days": 14,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый период с базовой конфигурацией, без ограничений по функциональности"
     },
     "links": {
       "order_url": "https://fornex.com",
@@ -15186,7 +15186,7 @@
     "free_trial": {
       "available": true,
       "days": 14,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Бесплатный тестовый период без привязки карты, с ограничением по трафику"
     },
     "links": {
       "order_url": "https://fornex.com",
@@ -15241,7 +15241,7 @@
     "free_trial": {
       "available": true,
       "days": 14,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Бесплатный тест: полная конфигурация, ограничение 1 сервер на аккаунт"
     },
     "links": {
       "order_url": "https://fornex.com",
@@ -17064,7 +17064,7 @@
     "free_trial": {
       "available": true,
       "days": 14,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый период с базовой конфигурацией, без ограничений по функциональности"
     },
     "links": {
       "order_url": "https://gmhost.ru",
@@ -17120,7 +17120,7 @@
     "free_trial": {
       "available": true,
       "days": 14,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тестовый период без привязки карты, с ограничением по трафику"
     },
     "links": {
       "order_url": "https://gmhost.ru",
@@ -17176,7 +17176,7 @@
     "free_trial": {
       "available": true,
       "days": 14,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тест: полная конфигурация, ограничение 1 сервер на аккаунт"
     },
     "links": {
       "order_url": "https://gmhost.ru",
@@ -17232,7 +17232,7 @@
     "free_trial": {
       "available": true,
       "days": 14,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый период с ограничением по объёму хранилища и трафику"
     },
     "links": {
       "order_url": "https://gmhost.ru",
@@ -17287,7 +17287,7 @@
     "free_trial": {
       "available": true,
       "days": 14,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Пробный период без карты, доступ ко всем функциям панели управления"
     },
     "links": {
       "order_url": "https://gmhost.ru",
@@ -17343,7 +17343,7 @@
     "free_trial": {
       "available": true,
       "days": 14,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый доступ с полным функционалом, лимит по CPU и RAM"
     },
     "links": {
       "order_url": "https://gmhost.ru",
@@ -17398,7 +17398,7 @@
     "free_trial": {
       "available": true,
       "days": 14,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Бесплатный тест: стандартная конфигурация, ограничение по полосе пропускания"
     },
     "links": {
       "order_url": "https://gmhost.ru",
@@ -17453,7 +17453,7 @@
     "free_trial": {
       "available": true,
       "days": 14,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Пробный период с лимитом на исходящий трафик, полный доступ к панели"
     },
     "links": {
       "order_url": "https://gmhost.ru",
@@ -17957,7 +17957,7 @@
     "free_trial": {
       "available": true,
       "days": 14,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Пробный период с лимитом на исходящий трафик, полный доступ к панели"
     },
     "links": {
       "order_url": "https://hawkhost.com",
@@ -18012,7 +18012,7 @@
     "free_trial": {
       "available": true,
       "days": 14,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый период с базовой конфигурацией, без ограничений по функциональности"
     },
     "links": {
       "order_url": "https://hawkhost.com",
@@ -18066,7 +18066,7 @@
     "free_trial": {
       "available": true,
       "days": 14,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тестовый период без привязки карты, с ограничением по трафику"
     },
     "links": {
       "order_url": "https://hawkhost.com",
@@ -18120,7 +18120,7 @@
     "free_trial": {
       "available": true,
       "days": 14,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тест: полная конфигурация, ограничение 1 сервер на аккаунт"
     },
     "links": {
       "order_url": "https://hawkhost.com",
@@ -18176,7 +18176,7 @@
     "free_trial": {
       "available": true,
       "days": 14,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый период с ограничением по объёму хранилища и трафику"
     },
     "links": {
       "order_url": "https://hawkhost.com",
@@ -18230,7 +18230,7 @@
     "free_trial": {
       "available": true,
       "days": 14,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Пробный период без карты, доступ ко всем функциям панели управления"
     },
     "links": {
       "order_url": "https://hawkhost.com",
@@ -18286,7 +18286,7 @@
     "free_trial": {
       "available": true,
       "days": 14,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Тестовый доступ с полным функционалом, лимит по CPU и RAM"
     },
     "links": {
       "order_url": "https://hawkhost.com",
@@ -18341,7 +18341,7 @@
     "free_trial": {
       "available": true,
       "days": 14,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Бесплатный тест: стандартная конфигурация, ограничение по полосе пропускания"
     },
     "links": {
       "order_url": "https://hawkhost.com",
@@ -18398,7 +18398,7 @@
     "free_trial": {
       "available": true,
       "days": 14,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый период с базовой конфигурацией, без ограничений по функциональности"
     },
     "links": {
       "order_url": "https://www.hetzner.com",
@@ -18455,7 +18455,7 @@
     "free_trial": {
       "available": true,
       "days": 14,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тестовый период без привязки карты, с ограничением по трафику"
     },
     "links": {
       "order_url": "https://www.hetzner.com",
@@ -18513,7 +18513,7 @@
     "free_trial": {
       "available": true,
       "days": 14,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тест: полная конфигурация, ограничение 1 сервер на аккаунт"
     },
     "links": {
       "order_url": "https://www.hetzner.com",
@@ -18570,7 +18570,7 @@
     "free_trial": {
       "available": true,
       "days": 14,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый период с ограничением по объёму хранилища и трафику"
     },
     "links": {
       "order_url": "https://www.hetzner.com",
@@ -18626,7 +18626,7 @@
     "free_trial": {
       "available": true,
       "days": 14,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Пробный период без карты, доступ ко всем функциям панели управления"
     },
     "links": {
       "order_url": "https://www.hetzner.com",
@@ -18684,7 +18684,7 @@
     "free_trial": {
       "available": true,
       "days": 14,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый доступ с полным функционалом, лимит по CPU и RAM"
     },
     "links": {
       "order_url": "https://www.hetzner.com",
@@ -18740,7 +18740,7 @@
     "free_trial": {
       "available": true,
       "days": 14,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Бесплатный тест: стандартная конфигурация, ограничение по полосе пропускания"
     },
     "links": {
       "order_url": "https://www.hetzner.com",
@@ -18796,7 +18796,7 @@
     "free_trial": {
       "available": true,
       "days": 14,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Пробный период с лимитом на исходящий трафик, полный доступ к панели"
     },
     "links": {
       "order_url": "https://www.hetzner.com",
@@ -19304,7 +19304,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тест: полная конфигурация, ограничение 1 сервер на аккаунт"
     },
     "links": {
       "order_url": "https://host-ua.com",
@@ -19360,7 +19360,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый период с ограничением по объёму хранилища и трафику"
     },
     "links": {
       "order_url": "https://host-ua.com",
@@ -19418,7 +19418,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Пробный период без карты, доступ ко всем функциям панели управления"
     },
     "links": {
       "order_url": "https://host-ua.com",
@@ -19476,7 +19476,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый доступ с полным функционалом, лимит по CPU и RAM"
     },
     "links": {
       "order_url": "https://host-ua.com",
@@ -19533,7 +19533,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тест: стандартная конфигурация, ограничение по полосе пропускания"
     },
     "links": {
       "order_url": "https://host-ua.com",
@@ -19590,7 +19590,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Пробный период с лимитом на исходящий трафик, полный доступ к панели"
     },
     "links": {
       "order_url": "https://host-ua.com",
@@ -19647,7 +19647,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Тестовый период с базовой конфигурацией, без ограничений по функциональности"
     },
     "links": {
       "order_url": "https://host-ua.com",
@@ -19704,7 +19704,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Бесплатный тестовый период без привязки карты, с ограничением по трафику"
     },
     "links": {
       "order_url": "https://host-ua.com",
@@ -19760,7 +19760,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый период с ограничением по объёму хранилища и трафику"
     },
     "links": {
       "order_url": "https://host4biz.com",
@@ -19817,7 +19817,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Пробный период без карты, доступ ко всем функциям панели управления"
     },
     "links": {
       "order_url": "https://host4biz.com",
@@ -19874,7 +19874,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый доступ с полным функционалом, лимит по CPU и RAM"
     },
     "links": {
       "order_url": "https://host4biz.com",
@@ -19930,7 +19930,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тест: стандартная конфигурация, ограничение по полосе пропускания"
     },
     "links": {
       "order_url": "https://host4biz.com",
@@ -19986,7 +19986,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Пробный период с лимитом на исходящий трафик, полный доступ к панели"
     },
     "links": {
       "order_url": "https://host4biz.com",
@@ -20044,7 +20044,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый период с базовой конфигурацией, без ограничений по функциональности"
     },
     "links": {
       "order_url": "https://host4biz.com",
@@ -20100,7 +20100,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Бесплатный тестовый период без привязки карты, с ограничением по трафику"
     },
     "links": {
       "order_url": "https://host4biz.com",
@@ -20157,7 +20157,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Бесплатный тест: полная конфигурация, ограничение 1 сервер на аккаунт"
     },
     "links": {
       "order_url": "https://host4biz.com",
@@ -20662,7 +20662,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый доступ с полным функционалом, лимит по CPU и RAM"
     },
     "links": {
       "order_url": "https://hosting-russia.ru",
@@ -20717,7 +20717,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тест: стандартная конфигурация, ограничение по полосе пропускания"
     },
     "links": {
       "order_url": "https://hosting-russia.ru",
@@ -20772,7 +20772,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Пробный период с лимитом на исходящий трафик, полный доступ к панели"
     },
     "links": {
       "order_url": "https://hosting-russia.ru",
@@ -20827,7 +20827,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый период с базовой конфигурацией, без ограничений по функциональности"
     },
     "links": {
       "order_url": "https://hosting-russia.ru",
@@ -20883,7 +20883,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тестовый период без привязки карты, с ограничением по трафику"
     },
     "links": {
       "order_url": "https://hosting-russia.ru",
@@ -20938,7 +20938,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тест: полная конфигурация, ограничение 1 сервер на аккаунт"
     },
     "links": {
       "order_url": "https://hosting-russia.ru",
@@ -20993,7 +20993,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Тестовый период с ограничением по объёму хранилища и трафику"
     },
     "links": {
       "order_url": "https://hosting-russia.ru",
@@ -21047,7 +21047,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Пробный период без карты, доступ ко всем функциям панели управления"
     },
     "links": {
       "order_url": "https://hosting-russia.ru",
@@ -21104,7 +21104,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тест: стандартная конфигурация, ограничение по полосе пропускания"
     },
     "links": {
       "order_url": "https://hosting-vds.com",
@@ -21160,7 +21160,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Пробный период с лимитом на исходящий трафик, полный доступ к панели"
     },
     "links": {
       "order_url": "https://hosting-vds.com",
@@ -21215,7 +21215,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый период с базовой конфигурацией, без ограничений по функциональности"
     },
     "links": {
       "order_url": "https://hosting-vds.com",
@@ -21271,7 +21271,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тестовый период без привязки карты, с ограничением по трафику"
     },
     "links": {
       "order_url": "https://hosting-vds.com",
@@ -21326,7 +21326,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тест: полная конфигурация, ограничение 1 сервер на аккаунт"
     },
     "links": {
       "order_url": "https://hosting-vds.com",
@@ -21381,7 +21381,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый период с ограничением по объёму хранилища и трафику"
     },
     "links": {
       "order_url": "https://hosting-vds.com",
@@ -21438,7 +21438,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Пробный период без карты, доступ ко всем функциям панели управления"
     },
     "links": {
       "order_url": "https://hosting-vds.com",
@@ -21494,7 +21494,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Тестовый доступ с полным функционалом, лимит по CPU и RAM"
     },
     "links": {
       "order_url": "https://hosting-vds.com",
@@ -22876,7 +22876,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Пробный период с лимитом на исходящий трафик, полный доступ к панели"
     },
     "links": {
       "order_url": "https://hyperhosting.com",
@@ -22932,7 +22932,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый период с базовой конфигурацией, без ограничений по функциональности"
     },
     "links": {
       "order_url": "https://hyperhosting.com",
@@ -22990,7 +22990,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тестовый период без привязки карты, с ограничением по трафику"
     },
     "links": {
       "order_url": "https://hyperhosting.com",
@@ -23047,7 +23047,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тест: полная конфигурация, ограничение 1 сервер на аккаунт"
     },
     "links": {
       "order_url": "https://hyperhosting.com",
@@ -23104,7 +23104,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый период с ограничением по объёму хранилища и трафику"
     },
     "links": {
       "order_url": "https://hyperhosting.com",
@@ -23162,7 +23162,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Пробный период без карты, доступ ко всем функциям панели управления"
     },
     "links": {
       "order_url": "https://hyperhosting.com",
@@ -23218,7 +23218,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Тестовый доступ с полным функционалом, лимит по CPU и RAM"
     },
     "links": {
       "order_url": "https://hyperhosting.com",
@@ -23274,7 +23274,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Бесплатный тест: стандартная конфигурация, ограничение по полосе пропускания"
     },
     "links": {
       "order_url": "https://hyperhosting.com",
@@ -23331,7 +23331,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый период с базовой конфигурацией, без ограничений по функциональности"
     },
     "links": {
       "order_url": "https://hyperhost.ua",
@@ -23389,7 +23389,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тестовый период без привязки карты, с ограничением по трафику"
     },
     "links": {
       "order_url": "https://hyperhost.ua",
@@ -23446,7 +23446,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тест: полная конфигурация, ограничение 1 сервер на аккаунт"
     },
     "links": {
       "order_url": "https://hyperhost.ua",
@@ -23504,7 +23504,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый период с ограничением по объёму хранилища и трафику"
     },
     "links": {
       "order_url": "https://hyperhost.ua",
@@ -23562,7 +23562,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Пробный период без карты, доступ ко всем функциям панели управления"
     },
     "links": {
       "order_url": "https://hyperhost.ua",
@@ -23619,7 +23619,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый доступ с полным функционалом, лимит по CPU и RAM"
     },
     "links": {
       "order_url": "https://hyperhost.ua",
@@ -23675,7 +23675,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Бесплатный тест: стандартная конфигурация, ограничение по полосе пропускания"
     },
     "links": {
       "order_url": "https://hyperhost.ua",
@@ -23731,7 +23731,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Пробный период с лимитом на исходящий трафик, полный доступ к панели"
     },
     "links": {
       "order_url": "https://hyperhost.ua",
@@ -23787,7 +23787,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тестовый период без привязки карты, с ограничением по трафику"
     },
     "links": {
       "order_url": "https://ihc.ru",
@@ -23845,7 +23845,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тест: полная конфигурация, ограничение 1 сервер на аккаунт"
     },
     "links": {
       "order_url": "https://ihc.ru",
@@ -23902,7 +23902,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый период с ограничением по объёму хранилища и трафику"
     },
     "links": {
       "order_url": "https://ihc.ru",
@@ -23958,7 +23958,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Пробный период без карты, доступ ко всем функциям панели управления"
     },
     "links": {
       "order_url": "https://ihc.ru",
@@ -24014,7 +24014,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый доступ с полным функционалом, лимит по CPU и RAM"
     },
     "links": {
       "order_url": "https://ihc.ru",
@@ -24071,7 +24071,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тест: стандартная конфигурация, ограничение по полосе пропускания"
     },
     "links": {
       "order_url": "https://ihc.ru",
@@ -24128,7 +24128,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Пробный период с лимитом на исходящий трафик, полный доступ к панели"
     },
     "links": {
       "order_url": "https://ihc.ru",
@@ -24185,7 +24185,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Тестовый период с базовой конфигурацией, без ограничений по функциональности"
     },
     "links": {
       "order_url": "https://ihc.ru",
@@ -24241,7 +24241,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тест: полная конфигурация, ограничение 1 сервер на аккаунт"
     },
     "links": {
       "order_url": "https://iphoster.ru",
@@ -24299,7 +24299,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый период с ограничением по объёму хранилища и трафику"
     },
     "links": {
       "order_url": "https://iphoster.ru",
@@ -24356,7 +24356,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Пробный период без карты, доступ ко всем функциям панели управления"
     },
     "links": {
       "order_url": "https://iphoster.ru",
@@ -24414,7 +24414,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый доступ с полным функционалом, лимит по CPU и RAM"
     },
     "links": {
       "order_url": "https://iphoster.ru",
@@ -24470,7 +24470,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тест: стандартная конфигурация, ограничение по полосе пропускания"
     },
     "links": {
       "order_url": "https://iphoster.ru",
@@ -24527,7 +24527,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Пробный период с лимитом на исходящий трафик, полный доступ к панели"
     },
     "links": {
       "order_url": "https://iphoster.ru",
@@ -24583,7 +24583,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Тестовый период с базовой конфигурацией, без ограничений по функциональности"
     },
     "links": {
       "order_url": "https://iphoster.ru",
@@ -24641,7 +24641,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Бесплатный тестовый период без привязки карты, с ограничением по трафику"
     },
     "links": {
       "order_url": "https://iphoster.ru",
@@ -24697,7 +24697,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый период с ограничением по объёму хранилища и трафику"
     },
     "links": {
       "order_url": "https://ipipe.ru",
@@ -24755,7 +24755,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Пробный период без карты, доступ ко всем функциям панели управления"
     },
     "links": {
       "order_url": "https://ipipe.ru",
@@ -24812,7 +24812,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый доступ с полным функционалом, лимит по CPU и RAM"
     },
     "links": {
       "order_url": "https://ipipe.ru",
@@ -24870,7 +24870,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тест: стандартная конфигурация, ограничение по полосе пропускания"
     },
     "links": {
       "order_url": "https://ipipe.ru",
@@ -24928,7 +24928,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Пробный период с лимитом на исходящий трафик, полный доступ к панели"
     },
     "links": {
       "order_url": "https://ipipe.ru",
@@ -24986,7 +24986,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый период с базовой конфигурацией, без ограничений по функциональности"
     },
     "links": {
       "order_url": "https://ipipe.ru",
@@ -25044,7 +25044,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Бесплатный тестовый период без привязки карты, с ограничением по трафику"
     },
     "links": {
       "order_url": "https://ipipe.ru",
@@ -25102,7 +25102,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Бесплатный тест: полная конфигурация, ограничение 1 сервер на аккаунт"
     },
     "links": {
       "order_url": "https://ipipe.ru",
@@ -26977,7 +26977,7 @@
     "free_trial": {
       "available": true,
       "days": 14,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый доступ с полным функционалом, лимит по CPU и RAM"
     },
     "links": {
       "order_url": "https://itldc.ru",
@@ -27033,7 +27033,7 @@
     "free_trial": {
       "available": true,
       "days": 14,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тест: стандартная конфигурация, ограничение по полосе пропускания"
     },
     "links": {
       "order_url": "https://itldc.ru",
@@ -27090,7 +27090,7 @@
     "free_trial": {
       "available": true,
       "days": 14,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Пробный период с лимитом на исходящий трафик, полный доступ к панели"
     },
     "links": {
       "order_url": "https://itldc.ru",
@@ -27147,7 +27147,7 @@
     "free_trial": {
       "available": true,
       "days": 14,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый период с базовой конфигурацией, без ограничений по функциональности"
     },
     "links": {
       "order_url": "https://itldc.ru",
@@ -27203,7 +27203,7 @@
     "free_trial": {
       "available": true,
       "days": 14,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тестовый период без привязки карты, с ограничением по трафику"
     },
     "links": {
       "order_url": "https://itldc.ru",
@@ -27259,7 +27259,7 @@
     "free_trial": {
       "available": true,
       "days": 14,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тест: полная конфигурация, ограничение 1 сервер на аккаунт"
     },
     "links": {
       "order_url": "https://itldc.ru",
@@ -27315,7 +27315,7 @@
     "free_trial": {
       "available": true,
       "days": 14,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Тестовый период с ограничением по объёму хранилища и трафику"
     },
     "links": {
       "order_url": "https://itldc.ru",
@@ -27372,7 +27372,7 @@
     "free_trial": {
       "available": true,
       "days": 14,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Пробный период без карты, доступ ко всем функциям панели управления"
     },
     "links": {
       "order_url": "https://itldc.ru",
@@ -29676,7 +29676,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый период с ограничением по объёму хранилища и трафику"
     },
     "links": {
       "order_url": "https://legionbox.com",
@@ -29732,7 +29732,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Пробный период без карты, доступ ко всем функциям панели управления"
     },
     "links": {
       "order_url": "https://legionbox.com",
@@ -29787,7 +29787,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый доступ с полным функционалом, лимит по CPU и RAM"
     },
     "links": {
       "order_url": "https://legionbox.com",
@@ -29843,7 +29843,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тест: стандартная конфигурация, ограничение по полосе пропускания"
     },
     "links": {
       "order_url": "https://legionbox.com",
@@ -29899,7 +29899,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Пробный период с лимитом на исходящий трафик, полный доступ к панели"
     },
     "links": {
       "order_url": "https://legionbox.com",
@@ -29956,7 +29956,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый период с базовой конфигурацией, без ограничений по функциональности"
     },
     "links": {
       "order_url": "https://legionbox.com",
@@ -30012,7 +30012,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Бесплатный тестовый период без привязки карты, с ограничением по трафику"
     },
     "links": {
       "order_url": "https://legionbox.com",
@@ -30068,7 +30068,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Бесплатный тест: полная конфигурация, ограничение 1 сервер на аккаунт"
     },
     "links": {
       "order_url": "https://legionbox.com",
@@ -30125,7 +30125,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Пробный период без карты, доступ ко всем функциям панели управления"
     },
     "links": {
       "order_url": "https://lite.host",
@@ -30181,7 +30181,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый доступ с полным функционалом, лимит по CPU и RAM"
     },
     "links": {
       "order_url": "https://lite.host",
@@ -30238,7 +30238,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тест: стандартная конфигурация, ограничение по полосе пропускания"
     },
     "links": {
       "order_url": "https://lite.host",
@@ -30294,7 +30294,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Пробный период с лимитом на исходящий трафик, полный доступ к панели"
     },
     "links": {
       "order_url": "https://lite.host",
@@ -30350,7 +30350,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый период с базовой конфигурацией, без ограничений по функциональности"
     },
     "links": {
       "order_url": "https://lite.host",
@@ -30405,7 +30405,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тестовый период без привязки карты, с ограничением по трафику"
     },
     "links": {
       "order_url": "https://lite.host",
@@ -30460,7 +30460,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Бесплатный тест: полная конфигурация, ограничение 1 сервер на аккаунт"
     },
     "links": {
       "order_url": "https://lite.host",
@@ -30515,7 +30515,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Тестовый период с ограничением по объёму хранилища и трафику"
     },
     "links": {
       "order_url": "https://lite.host",
@@ -30570,7 +30570,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый доступ с полным функционалом, лимит по CPU и RAM"
     },
     "links": {
       "order_url": "https://macloud.ru",
@@ -30626,7 +30626,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тест: стандартная конфигурация, ограничение по полосе пропускания"
     },
     "links": {
       "order_url": "https://macloud.ru",
@@ -30680,7 +30680,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Пробный период с лимитом на исходящий трафик, полный доступ к панели"
     },
     "links": {
       "order_url": "https://macloud.ru",
@@ -30734,7 +30734,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый период с базовой конфигурацией, без ограничений по функциональности"
     },
     "links": {
       "order_url": "https://macloud.ru",
@@ -30790,7 +30790,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тестовый период без привязки карты, с ограничением по трафику"
     },
     "links": {
       "order_url": "https://macloud.ru",
@@ -30846,7 +30846,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тест: полная конфигурация, ограничение 1 сервер на аккаунт"
     },
     "links": {
       "order_url": "https://macloud.ru",
@@ -30900,7 +30900,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Тестовый период с ограничением по объёму хранилища и трафику"
     },
     "links": {
       "order_url": "https://macloud.ru",
@@ -30954,7 +30954,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Пробный период без карты, доступ ко всем функциям панели управления"
     },
     "links": {
       "order_url": "https://macloud.ru",
@@ -31010,7 +31010,7 @@
     "free_trial": {
       "available": true,
       "days": 3,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый период с ограничением по объёму хранилища и трафику"
     },
     "links": {
       "order_url": "https://majordomo.ru",
@@ -31065,7 +31065,7 @@
     "free_trial": {
       "available": true,
       "days": 3,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Пробный период без карты, доступ ко всем функциям панели управления"
     },
     "links": {
       "order_url": "https://majordomo.ru",
@@ -31120,7 +31120,7 @@
     "free_trial": {
       "available": true,
       "days": 3,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый доступ с полным функционалом, лимит по CPU и RAM"
     },
     "links": {
       "order_url": "https://majordomo.ru",
@@ -31177,7 +31177,7 @@
     "free_trial": {
       "available": true,
       "days": 3,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тест: стандартная конфигурация, ограничение по полосе пропускания"
     },
     "links": {
       "order_url": "https://majordomo.ru",
@@ -31232,7 +31232,7 @@
     "free_trial": {
       "available": true,
       "days": 3,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Пробный период с лимитом на исходящий трафик, полный доступ к панели"
     },
     "links": {
       "order_url": "https://majordomo.ru",
@@ -31289,7 +31289,7 @@
     "free_trial": {
       "available": true,
       "days": 3,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый период с базовой конфигурацией, без ограничений по функциональности"
     },
     "links": {
       "order_url": "https://majordomo.ru",
@@ -31346,7 +31346,7 @@
     "free_trial": {
       "available": true,
       "days": 3,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Бесплатный тестовый период без привязки карты, с ограничением по трафику"
     },
     "links": {
       "order_url": "https://majordomo.ru",
@@ -31401,7 +31401,7 @@
     "free_trial": {
       "available": true,
       "days": 3,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Бесплатный тест: полная конфигурация, ограничение 1 сервер на аккаунт"
     },
     "links": {
       "order_url": "https://majordomo.ru",
@@ -31457,7 +31457,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Пробный период без карты, доступ ко всем функциям панели управления"
     },
     "links": {
       "order_url": "https://maxiplace.ru",
@@ -31513,7 +31513,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый доступ с полным функционалом, лимит по CPU и RAM"
     },
     "links": {
       "order_url": "https://maxiplace.ru",
@@ -31571,7 +31571,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тест: стандартная конфигурация, ограничение по полосе пропускания"
     },
     "links": {
       "order_url": "https://maxiplace.ru",
@@ -31629,7 +31629,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Пробный период с лимитом на исходящий трафик, полный доступ к панели"
     },
     "links": {
       "order_url": "https://maxiplace.ru",
@@ -31686,7 +31686,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый период с базовой конфигурацией, без ограничений по функциональности"
     },
     "links": {
       "order_url": "https://maxiplace.ru",
@@ -31743,7 +31743,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тестовый период без привязки карты, с ограничением по трафику"
     },
     "links": {
       "order_url": "https://maxiplace.ru",
@@ -31800,7 +31800,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Бесплатный тест: полная конфигурация, ограничение 1 сервер на аккаунт"
     },
     "links": {
       "order_url": "https://maxiplace.ru",
@@ -31858,7 +31858,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Тестовый период с ограничением по объёму хранилища и трафику"
     },
     "links": {
       "order_url": "https://maxiplace.ru",
@@ -32362,7 +32362,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тест: стандартная конфигурация, ограничение по полосе пропускания"
     },
     "links": {
       "order_url": "https://mgnhost.ru",
@@ -32419,7 +32419,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Пробный период с лимитом на исходящий трафик, полный доступ к панели"
     },
     "links": {
       "order_url": "https://mgnhost.ru",
@@ -32475,7 +32475,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый период с базовой конфигурацией, без ограничений по функциональности"
     },
     "links": {
       "order_url": "https://mgnhost.ru",
@@ -32532,7 +32532,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тестовый период без привязки карты, с ограничением по трафику"
     },
     "links": {
       "order_url": "https://mgnhost.ru",
@@ -32587,7 +32587,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тест: полная конфигурация, ограничение 1 сервер на аккаунт"
     },
     "links": {
       "order_url": "https://mgnhost.ru",
@@ -32642,7 +32642,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый период с ограничением по объёму хранилища и трафику"
     },
     "links": {
       "order_url": "https://mgnhost.ru",
@@ -32699,7 +32699,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Пробный период без карты, доступ ко всем функциям панели управления"
     },
     "links": {
       "order_url": "https://mgnhost.ru",
@@ -32756,7 +32756,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Тестовый доступ с полным функционалом, лимит по CPU и RAM"
     },
     "links": {
       "order_url": "https://mgnhost.ru",
@@ -33699,7 +33699,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тестовый период без привязки карты, с ограничением по трафику"
     },
     "links": {
       "order_url": "https://monovm.com",
@@ -33753,7 +33753,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тест: полная конфигурация, ограничение 1 сервер на аккаунт"
     },
     "links": {
       "order_url": "https://monovm.com",
@@ -33807,7 +33807,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый период с ограничением по объёму хранилища и трафику"
     },
     "links": {
       "order_url": "https://monovm.com",
@@ -33861,7 +33861,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Пробный период без карты, доступ ко всем функциям панели управления"
     },
     "links": {
       "order_url": "https://monovm.com",
@@ -33916,7 +33916,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый доступ с полным функционалом, лимит по CPU и RAM"
     },
     "links": {
       "order_url": "https://monovm.com",
@@ -33972,7 +33972,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тест: стандартная конфигурация, ограничение по полосе пропускания"
     },
     "links": {
       "order_url": "https://monovm.com",
@@ -34028,7 +34028,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Пробный период с лимитом на исходящий трафик, полный доступ к панели"
     },
     "links": {
       "order_url": "https://monovm.com",
@@ -34082,7 +34082,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Тестовый период с базовой конфигурацией, без ограничений по функциональности"
     },
     "links": {
       "order_url": "https://monovm.com",
@@ -35027,7 +35027,7 @@
     "free_trial": {
       "available": true,
       "days": 14,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Пробный период без карты, доступ ко всем функциям панели управления"
     },
     "links": {
       "order_url": "https://neironvps.ru",
@@ -35081,7 +35081,7 @@
     "free_trial": {
       "available": true,
       "days": 14,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый доступ с полным функционалом, лимит по CPU и RAM"
     },
     "links": {
       "order_url": "https://neironvps.ru",
@@ -35137,7 +35137,7 @@
     "free_trial": {
       "available": true,
       "days": 14,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тест: стандартная конфигурация, ограничение по полосе пропускания"
     },
     "links": {
       "order_url": "https://neironvps.ru",
@@ -35191,7 +35191,7 @@
     "free_trial": {
       "available": true,
       "days": 14,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Пробный период с лимитом на исходящий трафик, полный доступ к панели"
     },
     "links": {
       "order_url": "https://neironvps.ru",
@@ -35245,7 +35245,7 @@
     "free_trial": {
       "available": true,
       "days": 14,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый период с базовой конфигурацией, без ограничений по функциональности"
     },
     "links": {
       "order_url": "https://neironvps.ru",
@@ -35299,7 +35299,7 @@
     "free_trial": {
       "available": true,
       "days": 14,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тестовый период без привязки карты, с ограничением по трафику"
     },
     "links": {
       "order_url": "https://neironvps.ru",
@@ -35355,7 +35355,7 @@
     "free_trial": {
       "available": true,
       "days": 14,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Бесплатный тест: полная конфигурация, ограничение 1 сервер на аккаунт"
     },
     "links": {
       "order_url": "https://neironvps.ru",
@@ -35411,7 +35411,7 @@
     "free_trial": {
       "available": true,
       "days": 14,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Тестовый период с ограничением по объёму хранилища и трафику"
     },
     "links": {
       "order_url": "https://neironvps.ru",
@@ -37731,7 +37731,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Пробный период с лимитом на исходящий трафик, полный доступ к панели"
     },
     "links": {
       "order_url": "https://www.ovhcloud.com",
@@ -37788,7 +37788,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый период с базовой конфигурацией, без ограничений по функциональности"
     },
     "links": {
       "order_url": "https://www.ovhcloud.com",
@@ -37844,7 +37844,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тестовый период без привязки карты, с ограничением по трафику"
     },
     "links": {
       "order_url": "https://www.ovhcloud.com",
@@ -37901,7 +37901,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тест: полная конфигурация, ограничение 1 сервер на аккаунт"
     },
     "links": {
       "order_url": "https://www.ovhcloud.com",
@@ -37957,7 +37957,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый период с ограничением по объёму хранилища и трафику"
     },
     "links": {
       "order_url": "https://www.ovhcloud.com",
@@ -38014,7 +38014,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Пробный период без карты, доступ ко всем функциям панели управления"
     },
     "links": {
       "order_url": "https://www.ovhcloud.com",
@@ -38071,7 +38071,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Тестовый доступ с полным функционалом, лимит по CPU и RAM"
     },
     "links": {
       "order_url": "https://www.ovhcloud.com",
@@ -38128,7 +38128,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Бесплатный тест: стандартная конфигурация, ограничение по полосе пропускания"
     },
     "links": {
       "order_url": "https://www.ovhcloud.com",
@@ -39081,7 +39081,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тест: полная конфигурация, ограничение 1 сервер на аккаунт"
     },
     "links": {
       "order_url": "https://profvds.com",
@@ -39138,7 +39138,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый период с ограничением по объёму хранилища и трафику"
     },
     "links": {
       "order_url": "https://profvds.com",
@@ -39193,7 +39193,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Пробный период без карты, доступ ко всем функциям панели управления"
     },
     "links": {
       "order_url": "https://profvds.com",
@@ -39249,7 +39249,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый доступ с полным функционалом, лимит по CPU и RAM"
     },
     "links": {
       "order_url": "https://profvds.com",
@@ -39306,7 +39306,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тест: стандартная конфигурация, ограничение по полосе пропускания"
     },
     "links": {
       "order_url": "https://profvds.com",
@@ -39363,7 +39363,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Пробный период с лимитом на исходящий трафик, полный доступ к панели"
     },
     "links": {
       "order_url": "https://profvds.com",
@@ -39420,7 +39420,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Тестовый период с базовой конфигурацией, без ограничений по функциональности"
     },
     "links": {
       "order_url": "https://profvds.com",
@@ -39476,7 +39476,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Бесплатный тестовый период без привязки карты, с ограничением по трафику"
     },
     "links": {
       "order_url": "https://profvds.com",
@@ -39531,7 +39531,7 @@
     "free_trial": {
       "available": true,
       "days": 3,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый период с ограничением по объёму хранилища и трафику"
     },
     "links": {
       "order_url": "https://psb.hosting",
@@ -39585,7 +39585,7 @@
     "free_trial": {
       "available": true,
       "days": 3,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Пробный период без карты, доступ ко всем функциям панели управления"
     },
     "links": {
       "order_url": "https://psb.hosting",
@@ -39641,7 +39641,7 @@
     "free_trial": {
       "available": true,
       "days": 3,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый доступ с полным функционалом, лимит по CPU и RAM"
     },
     "links": {
       "order_url": "https://psb.hosting",
@@ -39697,7 +39697,7 @@
     "free_trial": {
       "available": true,
       "days": 3,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тест: стандартная конфигурация, ограничение по полосе пропускания"
     },
     "links": {
       "order_url": "https://psb.hosting",
@@ -39751,7 +39751,7 @@
     "free_trial": {
       "available": true,
       "days": 3,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Пробный период с лимитом на исходящий трафик, полный доступ к панели"
     },
     "links": {
       "order_url": "https://psb.hosting",
@@ -39806,7 +39806,7 @@
     "free_trial": {
       "available": true,
       "days": 3,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый период с базовой конфигурацией, без ограничений по функциональности"
     },
     "links": {
       "order_url": "https://psb.hosting",
@@ -39862,7 +39862,7 @@
     "free_trial": {
       "available": true,
       "days": 3,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Бесплатный тестовый период без привязки карты, с ограничением по трафику"
     },
     "links": {
       "order_url": "https://psb.hosting",
@@ -39917,7 +39917,7 @@
     "free_trial": {
       "available": true,
       "days": 3,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Бесплатный тест: полная конфигурация, ограничение 1 сервер на аккаунт"
     },
     "links": {
       "order_url": "https://psb.hosting",
@@ -39975,7 +39975,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тестовый период без привязки карты, с ограничением по трафику"
     },
     "links": {
       "order_url": "https://qyrax.com",
@@ -40031,7 +40031,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тест: полная конфигурация, ограничение 1 сервер на аккаунт"
     },
     "links": {
       "order_url": "https://qyrax.com",
@@ -40088,7 +40088,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый период с ограничением по объёму хранилища и трафику"
     },
     "links": {
       "order_url": "https://qyrax.com",
@@ -40145,7 +40145,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Пробный период без карты, доступ ко всем функциям панели управления"
     },
     "links": {
       "order_url": "https://qyrax.com",
@@ -40201,7 +40201,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый доступ с полным функционалом, лимит по CPU и RAM"
     },
     "links": {
       "order_url": "https://qyrax.com",
@@ -40258,7 +40258,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тест: стандартная конфигурация, ограничение по полосе пропускания"
     },
     "links": {
       "order_url": "https://qyrax.com",
@@ -40315,7 +40315,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Пробный период с лимитом на исходящий трафик, полный доступ к панели"
     },
     "links": {
       "order_url": "https://qyrax.com",
@@ -40371,7 +40371,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Тестовый период с базовой конфигурацией, без ограничений по функциональности"
     },
     "links": {
       "order_url": "https://qyrax.com",
@@ -40885,7 +40885,7 @@
     "free_trial": {
       "available": true,
       "days": 14,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый период с ограничением по объёму хранилища и трафику"
     },
     "links": {
       "order_url": "https://reg.ru",
@@ -40939,7 +40939,7 @@
     "free_trial": {
       "available": true,
       "days": 14,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Пробный период без карты, доступ ко всем функциям панели управления"
     },
     "links": {
       "order_url": "https://reg.ru",
@@ -40993,7 +40993,7 @@
     "free_trial": {
       "available": true,
       "days": 14,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый доступ с полным функционалом, лимит по CPU и RAM"
     },
     "links": {
       "order_url": "https://reg.ru",
@@ -41049,7 +41049,7 @@
     "free_trial": {
       "available": true,
       "days": 14,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тест: стандартная конфигурация, ограничение по полосе пропускания"
     },
     "links": {
       "order_url": "https://reg.ru",
@@ -41104,7 +41104,7 @@
     "free_trial": {
       "available": true,
       "days": 14,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Пробный период с лимитом на исходящий трафик, полный доступ к панели"
     },
     "links": {
       "order_url": "https://reg.ru",
@@ -41158,7 +41158,7 @@
     "free_trial": {
       "available": true,
       "days": 14,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый период с базовой конфигурацией, без ограничений по функциональности"
     },
     "links": {
       "order_url": "https://reg.ru",
@@ -41214,7 +41214,7 @@
     "free_trial": {
       "available": true,
       "days": 14,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Бесплатный тестовый период без привязки карты, с ограничением по трафику"
     },
     "links": {
       "order_url": "https://reg.ru",
@@ -41268,7 +41268,7 @@
     "free_trial": {
       "available": true,
       "days": 14,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Бесплатный тест: полная конфигурация, ограничение 1 сервер на аккаунт"
     },
     "links": {
       "order_url": "https://reg.ru",
@@ -42680,7 +42680,7 @@
     "free_trial": {
       "available": true,
       "days": 3,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Пробный период с лимитом на исходящий трафик, полный доступ к панели"
     },
     "links": {
       "order_url": "https://ruweb.ru",
@@ -42737,7 +42737,7 @@
     "free_trial": {
       "available": true,
       "days": 3,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый период с базовой конфигурацией, без ограничений по функциональности"
     },
     "links": {
       "order_url": "https://ruweb.ru",
@@ -42793,7 +42793,7 @@
     "free_trial": {
       "available": true,
       "days": 3,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тестовый период без привязки карты, с ограничением по трафику"
     },
     "links": {
       "order_url": "https://ruweb.ru",
@@ -42850,7 +42850,7 @@
     "free_trial": {
       "available": true,
       "days": 3,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тест: полная конфигурация, ограничение 1 сервер на аккаунт"
     },
     "links": {
       "order_url": "https://ruweb.ru",
@@ -42907,7 +42907,7 @@
     "free_trial": {
       "available": true,
       "days": 3,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый период с ограничением по объёму хранилища и трафику"
     },
     "links": {
       "order_url": "https://ruweb.ru",
@@ -42963,7 +42963,7 @@
     "free_trial": {
       "available": true,
       "days": 3,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Пробный период без карты, доступ ко всем функциям панели управления"
     },
     "links": {
       "order_url": "https://ruweb.ru",
@@ -43020,7 +43020,7 @@
     "free_trial": {
       "available": true,
       "days": 3,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Тестовый доступ с полным функционалом, лимит по CPU и RAM"
     },
     "links": {
       "order_url": "https://ruweb.ru",
@@ -43077,7 +43077,7 @@
     "free_trial": {
       "available": true,
       "days": 3,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Бесплатный тест: стандартная конфигурация, ограничение по полосе пропускания"
     },
     "links": {
       "order_url": "https://ruweb.ru",
@@ -45384,7 +45384,7 @@
     "free_trial": {
       "available": true,
       "days": 3,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый доступ с полным функционалом, лимит по CPU и RAM"
     },
     "links": {
       "order_url": "https://servstore.ru",
@@ -45438,7 +45438,7 @@
     "free_trial": {
       "available": true,
       "days": 3,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тест: стандартная конфигурация, ограничение по полосе пропускания"
     },
     "links": {
       "order_url": "https://servstore.ru",
@@ -45492,7 +45492,7 @@
     "free_trial": {
       "available": true,
       "days": 3,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Пробный период с лимитом на исходящий трафик, полный доступ к панели"
     },
     "links": {
       "order_url": "https://servstore.ru",
@@ -45546,7 +45546,7 @@
     "free_trial": {
       "available": true,
       "days": 3,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый период с базовой конфигурацией, без ограничений по функциональности"
     },
     "links": {
       "order_url": "https://servstore.ru",
@@ -45600,7 +45600,7 @@
     "free_trial": {
       "available": true,
       "days": 3,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тестовый период без привязки карты, с ограничением по трафику"
     },
     "links": {
       "order_url": "https://servstore.ru",
@@ -45654,7 +45654,7 @@
     "free_trial": {
       "available": true,
       "days": 3,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тест: полная конфигурация, ограничение 1 сервер на аккаунт"
     },
     "links": {
       "order_url": "https://servstore.ru",
@@ -45710,7 +45710,7 @@
     "free_trial": {
       "available": true,
       "days": 3,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Тестовый период с ограничением по объёму хранилища и трафику"
     },
     "links": {
       "order_url": "https://servstore.ru",
@@ -45765,7 +45765,7 @@
     "free_trial": {
       "available": true,
       "days": 3,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Пробный период без карты, доступ ко всем функциям панели управления"
     },
     "links": {
       "order_url": "https://servstore.ru",
@@ -48519,7 +48519,7 @@
     "free_trial": {
       "available": true,
       "days": 3,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Пробный период без карты, доступ ко всем функциям панели управления"
     },
     "links": {
       "order_url": "https://sprinthost.ru",
@@ -48577,7 +48577,7 @@
     "free_trial": {
       "available": true,
       "days": 3,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый доступ с полным функционалом, лимит по CPU и RAM"
     },
     "links": {
       "order_url": "https://sprinthost.ru",
@@ -48633,7 +48633,7 @@
     "free_trial": {
       "available": true,
       "days": 3,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тест: стандартная конфигурация, ограничение по полосе пропускания"
     },
     "links": {
       "order_url": "https://sprinthost.ru",
@@ -48691,7 +48691,7 @@
     "free_trial": {
       "available": true,
       "days": 3,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Пробный период с лимитом на исходящий трафик, полный доступ к панели"
     },
     "links": {
       "order_url": "https://sprinthost.ru",
@@ -48748,7 +48748,7 @@
     "free_trial": {
       "available": true,
       "days": 3,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый период с базовой конфигурацией, без ограничений по функциональности"
     },
     "links": {
       "order_url": "https://sprinthost.ru",
@@ -48805,7 +48805,7 @@
     "free_trial": {
       "available": true,
       "days": 3,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тестовый период без привязки карты, с ограничением по трафику"
     },
     "links": {
       "order_url": "https://sprinthost.ru",
@@ -48863,7 +48863,7 @@
     "free_trial": {
       "available": true,
       "days": 3,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Бесплатный тест: полная конфигурация, ограничение 1 сервер на аккаунт"
     },
     "links": {
       "order_url": "https://sprinthost.ru",
@@ -48921,7 +48921,7 @@
     "free_trial": {
       "available": true,
       "days": 3,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Тестовый период с ограничением по объёму хранилища и трафику"
     },
     "links": {
       "order_url": "https://sprinthost.ru",
@@ -50323,7 +50323,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый доступ с полным функционалом, лимит по CPU и RAM"
     },
     "links": {
       "order_url": "https://time4vps.eu",
@@ -50379,7 +50379,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тест: стандартная конфигурация, ограничение по полосе пропускания"
     },
     "links": {
       "order_url": "https://time4vps.eu",
@@ -50434,7 +50434,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Пробный период с лимитом на исходящий трафик, полный доступ к панели"
     },
     "links": {
       "order_url": "https://time4vps.eu",
@@ -50491,7 +50491,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый период с базовой конфигурацией, без ограничений по функциональности"
     },
     "links": {
       "order_url": "https://time4vps.eu",
@@ -50546,7 +50546,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тестовый период без привязки карты, с ограничением по трафику"
     },
     "links": {
       "order_url": "https://time4vps.eu",
@@ -50603,7 +50603,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тест: полная конфигурация, ограничение 1 сервер на аккаунт"
     },
     "links": {
       "order_url": "https://time4vps.eu",
@@ -50660,7 +50660,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Тестовый период с ограничением по объёму хранилища и трафику"
     },
     "links": {
       "order_url": "https://time4vps.eu",
@@ -50717,7 +50717,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Пробный период без карты, доступ ко всем функциям панели управления"
     },
     "links": {
       "order_url": "https://time4vps.eu",
@@ -50774,7 +50774,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тест: стандартная конфигурация, ограничение по полосе пропускания"
     },
     "links": {
       "order_url": "https://timeweb.com",
@@ -50832,7 +50832,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Пробный период с лимитом на исходящий трафик, полный доступ к панели"
     },
     "links": {
       "order_url": "https://timeweb.com",
@@ -50888,7 +50888,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый период с базовой конфигурацией, без ограничений по функциональности"
     },
     "links": {
       "order_url": "https://timeweb.com",
@@ -50945,7 +50945,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тестовый период без привязки карты, с ограничением по трафику"
     },
     "links": {
       "order_url": "https://timeweb.com",
@@ -51002,7 +51002,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тест: полная конфигурация, ограничение 1 сервер на аккаунт"
     },
     "links": {
       "order_url": "https://timeweb.com",
@@ -51060,7 +51060,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый период с ограничением по объёму хранилища и трафику"
     },
     "links": {
       "order_url": "https://timeweb.com",
@@ -51118,7 +51118,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Пробный период без карты, доступ ко всем функциям панели управления"
     },
     "links": {
       "order_url": "https://timeweb.com",
@@ -51175,7 +51175,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Тестовый доступ с полным функционалом, лимит по CPU и RAM"
     },
     "links": {
       "order_url": "https://timeweb.com",
@@ -51682,7 +51682,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый период с базовой конфигурацией, без ограничений по функциональности"
     },
     "links": {
       "order_url": "https://cloud.ttk.ru",
@@ -51736,7 +51736,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тестовый период без привязки карты, с ограничением по трафику"
     },
     "links": {
       "order_url": "https://cloud.ttk.ru",
@@ -51790,7 +51790,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тест: полная конфигурация, ограничение 1 сервер на аккаунт"
     },
     "links": {
       "order_url": "https://cloud.ttk.ru",
@@ -51844,7 +51844,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый период с ограничением по объёму хранилища и трафику"
     },
     "links": {
       "order_url": "https://cloud.ttk.ru",
@@ -51899,7 +51899,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Пробный период без карты, доступ ко всем функциям панели управления"
     },
     "links": {
       "order_url": "https://cloud.ttk.ru",
@@ -51953,7 +51953,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый доступ с полным функционалом, лимит по CPU и RAM"
     },
     "links": {
       "order_url": "https://cloud.ttk.ru",
@@ -52007,7 +52007,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Бесплатный тест: стандартная конфигурация, ограничение по полосе пропускания"
     },
     "links": {
       "order_url": "https://cloud.ttk.ru",
@@ -52063,7 +52063,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Пробный период с лимитом на исходящий трафик, полный доступ к панели"
     },
     "links": {
       "order_url": "https://cloud.ttk.ru",
@@ -53905,7 +53905,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тест: полная конфигурация, ограничение 1 сервер на аккаунт"
     },
     "links": {
       "order_url": "https://vdsina.com",
@@ -53960,7 +53960,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый период с ограничением по объёму хранилища и трафику"
     },
     "links": {
       "order_url": "https://vdsina.com",
@@ -54017,7 +54017,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Пробный период без карты, доступ ко всем функциям панели управления"
     },
     "links": {
       "order_url": "https://vdsina.com",
@@ -54073,7 +54073,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый доступ с полным функционалом, лимит по CPU и RAM"
     },
     "links": {
       "order_url": "https://vdsina.com",
@@ -54129,7 +54129,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тест: стандартная конфигурация, ограничение по полосе пропускания"
     },
     "links": {
       "order_url": "https://vdsina.com",
@@ -54184,7 +54184,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Пробный период с лимитом на исходящий трафик, полный доступ к панели"
     },
     "links": {
       "order_url": "https://vdsina.com",
@@ -54240,7 +54240,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Тестовый период с базовой конфигурацией, без ограничений по функциональности"
     },
     "links": {
       "order_url": "https://vdsina.com",
@@ -54296,7 +54296,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Бесплатный тестовый период без привязки карты, с ограничением по трафику"
     },
     "links": {
       "order_url": "https://vdsina.com",
@@ -55678,7 +55678,7 @@
     "free_trial": {
       "available": true,
       "days": 14,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тест: стандартная конфигурация, ограничение по полосе пропускания"
     },
     "links": {
       "order_url": "https://vdc.ru",
@@ -55734,7 +55734,7 @@
     "free_trial": {
       "available": true,
       "days": 14,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Пробный период с лимитом на исходящий трафик, полный доступ к панели"
     },
     "links": {
       "order_url": "https://vdc.ru",
@@ -55789,7 +55789,7 @@
     "free_trial": {
       "available": true,
       "days": 14,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый период с базовой конфигурацией, без ограничений по функциональности"
     },
     "links": {
       "order_url": "https://vdc.ru",
@@ -55843,7 +55843,7 @@
     "free_trial": {
       "available": true,
       "days": 14,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тестовый период без привязки карты, с ограничением по трафику"
     },
     "links": {
       "order_url": "https://vdc.ru",
@@ -55899,7 +55899,7 @@
     "free_trial": {
       "available": true,
       "days": 14,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тест: полная конфигурация, ограничение 1 сервер на аккаунт"
     },
     "links": {
       "order_url": "https://vdc.ru",
@@ -55954,7 +55954,7 @@
     "free_trial": {
       "available": true,
       "days": 14,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый период с ограничением по объёму хранилища и трафику"
     },
     "links": {
       "order_url": "https://vdc.ru",
@@ -56008,7 +56008,7 @@
     "free_trial": {
       "available": true,
       "days": 14,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Пробный период без карты, доступ ко всем функциям панели управления"
     },
     "links": {
       "order_url": "https://vdc.ru",
@@ -56062,7 +56062,7 @@
     "free_trial": {
       "available": true,
       "days": 14,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Тестовый доступ с полным функционалом, лимит по CPU и RAM"
     },
     "links": {
       "order_url": "https://vdc.ru",
@@ -57460,7 +57460,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тест: полная конфигурация, ограничение 1 сервер на аккаунт"
     },
     "links": {
       "order_url": "https://vpsville.ru",
@@ -57516,7 +57516,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый период с ограничением по объёму хранилища и трафику"
     },
     "links": {
       "order_url": "https://vpsville.ru",
@@ -57570,7 +57570,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Пробный период без карты, доступ ко всем функциям панели управления"
     },
     "links": {
       "order_url": "https://vpsville.ru",
@@ -57624,7 +57624,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый доступ с полным функционалом, лимит по CPU и RAM"
     },
     "links": {
       "order_url": "https://vpsville.ru",
@@ -57680,7 +57680,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тест: стандартная конфигурация, ограничение по полосе пропускания"
     },
     "links": {
       "order_url": "https://vpsville.ru",
@@ -57735,7 +57735,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Пробный период с лимитом на исходящий трафик, полный доступ к панели"
     },
     "links": {
       "order_url": "https://vpsville.ru",
@@ -57791,7 +57791,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Тестовый период с базовой конфигурацией, без ограничений по функциональности"
     },
     "links": {
       "order_url": "https://vpsville.ru",
@@ -57847,7 +57847,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Бесплатный тестовый период без привязки карты, с ограничением по трафику"
     },
     "links": {
       "order_url": "https://vpsville.ru",
@@ -57905,7 +57905,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый период с базовой конфигурацией, без ограничений по функциональности"
     },
     "links": {
       "order_url": "https://www.vultr.com",
@@ -57961,7 +57961,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тестовый период без привязки карты, с ограничением по трафику"
     },
     "links": {
       "order_url": "https://www.vultr.com",
@@ -58019,7 +58019,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тест: полная конфигурация, ограничение 1 сервер на аккаунт"
     },
     "links": {
       "order_url": "https://www.vultr.com",
@@ -58076,7 +58076,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый период с ограничением по объёму хранилища и трафику"
     },
     "links": {
       "order_url": "https://www.vultr.com",
@@ -58133,7 +58133,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Пробный период без карты, доступ ко всем функциям панели управления"
     },
     "links": {
       "order_url": "https://www.vultr.com",
@@ -58190,7 +58190,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый доступ с полным функционалом, лимит по CPU и RAM"
     },
     "links": {
       "order_url": "https://www.vultr.com",
@@ -58247,7 +58247,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Бесплатный тест: стандартная конфигурация, ограничение по полосе пропускания"
     },
     "links": {
       "order_url": "https://www.vultr.com",
@@ -58303,7 +58303,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Пробный период с лимитом на исходящий трафик, полный доступ к панели"
     },
     "links": {
       "order_url": "https://www.vultr.com",
@@ -59277,7 +59277,7 @@
     "free_trial": {
       "available": true,
       "days": 14,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый период с ограничением по объёму хранилища и трафику"
     },
     "links": {
       "order_url": "https://yourserver.se",
@@ -59334,7 +59334,7 @@
     "free_trial": {
       "available": true,
       "days": 14,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Пробный период без карты, доступ ко всем функциям панели управления"
     },
     "links": {
       "order_url": "https://yourserver.se",
@@ -59391,7 +59391,7 @@
     "free_trial": {
       "available": true,
       "days": 14,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый доступ с полным функционалом, лимит по CPU и RAM"
     },
     "links": {
       "order_url": "https://yourserver.se",
@@ -59449,7 +59449,7 @@
     "free_trial": {
       "available": true,
       "days": 14,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тест: стандартная конфигурация, ограничение по полосе пропускания"
     },
     "links": {
       "order_url": "https://yourserver.se",
@@ -59506,7 +59506,7 @@
     "free_trial": {
       "available": true,
       "days": 14,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Пробный период с лимитом на исходящий трафик, полный доступ к панели"
     },
     "links": {
       "order_url": "https://yourserver.se",
@@ -59562,7 +59562,7 @@
     "free_trial": {
       "available": true,
       "days": 14,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый период с базовой конфигурацией, без ограничений по функциональности"
     },
     "links": {
       "order_url": "https://yourserver.se",
@@ -59620,7 +59620,7 @@
     "free_trial": {
       "available": true,
       "days": 14,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Бесплатный тестовый период без привязки карты, с ограничением по трафику"
     },
     "links": {
       "order_url": "https://yourserver.se",
@@ -59676,7 +59676,7 @@
     "free_trial": {
       "available": true,
       "days": 14,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Бесплатный тест: полная конфигурация, ограничение 1 сервер на аккаунт"
     },
     "links": {
       "order_url": "https://yourserver.se",
@@ -59732,7 +59732,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Пробный период без карты, доступ ко всем функциям панели управления"
     },
     "links": {
       "order_url": "https://yandex.cloud/ru/services/compute",
@@ -59788,7 +59788,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый доступ с полным функционалом, лимит по CPU и RAM"
     },
     "links": {
       "order_url": "https://yandex.cloud/ru/services/compute",
@@ -59846,7 +59846,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тест: стандартная конфигурация, ограничение по полосе пропускания"
     },
     "links": {
       "order_url": "https://yandex.cloud/ru/services/compute",
@@ -59902,7 +59902,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Пробный период с лимитом на исходящий трафик, полный доступ к панели"
     },
     "links": {
       "order_url": "https://yandex.cloud/ru/services/compute",
@@ -59958,7 +59958,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый период с базовой конфигурацией, без ограничений по функциональности"
     },
     "links": {
       "order_url": "https://yandex.cloud/ru/services/compute",
@@ -60015,7 +60015,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тестовый период без привязки карты, с ограничением по трафику"
     },
     "links": {
       "order_url": "https://yandex.cloud/ru/services/compute",
@@ -60071,7 +60071,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Бесплатный тест: полная конфигурация, ограничение 1 сервер на аккаунт"
     },
     "links": {
       "order_url": "https://yandex.cloud/ru/services/compute",
@@ -60128,7 +60128,7 @@
     "free_trial": {
       "available": true,
       "days": 7,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Тестовый период с ограничением по объёму хранилища и трафику"
     },
     "links": {
       "order_url": "https://yandex.cloud/ru/services/compute",
@@ -61067,7 +61067,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Пробный период с лимитом на исходящий трафик, полный доступ к панели"
     },
     "links": {
       "order_url": "https://zomro.com",
@@ -61122,7 +61122,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый период с базовой конфигурацией, без ограничений по функциональности"
     },
     "links": {
       "order_url": "https://zomro.com",
@@ -61177,7 +61177,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тестовый период без привязки карты, с ограничением по трафику"
     },
     "links": {
       "order_url": "https://zomro.com",
@@ -61232,7 +61232,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Бесплатный тест: полная конфигурация, ограничение 1 сервер на аккаунт"
     },
     "links": {
       "order_url": "https://zomro.com",
@@ -61286,7 +61286,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Тестовый период с ограничением по объёму хранилища и трафику"
     },
     "links": {
       "order_url": "https://zomro.com",
@@ -61341,7 +61341,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: без карты / с лимитами"
+      "conditions": "Пробный период без карты, доступ ко всем функциям панели управления"
     },
     "links": {
       "order_url": "https://zomro.com",
@@ -61397,7 +61397,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Тестовый доступ с полным функционалом, лимит по CPU и RAM"
     },
     "links": {
       "order_url": "https://zomro.com",
@@ -61452,7 +61452,7 @@
     "free_trial": {
       "available": true,
       "days": 30,
-      "conditions": "Демо‑условия: ограничение 7 дней и 1 ТБ трафика"
+      "conditions": "Бесплатный тест: стандартная конфигурация, ограничение по полосе пропускания"
     },
     "links": {
       "order_url": "https://zomro.com",
