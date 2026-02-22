@@ -36,9 +36,9 @@ function getConfigParams() {
   const ipv4 = document.getElementById('cfg_ipv4').checked;
   const sort = document.getElementById('sortSelect').value;
 
-  if (parseInt(vcpu) > 1) params.set('vcpu', vcpu);
-  if (parseInt(ram) > 1) params.set('ram_gb', ram);
-  if (parseInt(diskSize) > 20) params.set('disk_size_gb', diskSize);
+  if (vcpu) params.set('vcpu', vcpu);
+  if (ram) params.set('ram_gb', ram);
+  if (diskSize) params.set('disk_size_gb', diskSize);
   if (diskType !== 'any') params.set('disk_type', diskType);
   if (cpuType !== 'any') params.set('cpu_type', cpuType);
   if (cpuBrand !== 'any') params.set('cpu_brand', cpuBrand);

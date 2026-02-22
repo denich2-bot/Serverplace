@@ -165,8 +165,8 @@ router.get('/offers/search', (req, res) => {
     let whereSql = ' WHERE 1=1';
     const params = [];
 
-    if (vcpu) { whereSql += ' AND o.vcpu >= ?'; params.push(parseInt(vcpu)); }
-    if (ram_gb) { whereSql += ' AND o.ram_gb >= ?'; params.push(parseInt(ram_gb)); }
+    if (vcpu) { whereSql += ' AND o.vcpu = ?'; params.push(parseInt(vcpu)); }
+    if (ram_gb) { whereSql += ' AND o.ram_gb = ?'; params.push(parseInt(ram_gb)); }
     if (disk_size_gb) { whereSql += ' AND o.disk_system_size_gb >= ?'; params.push(parseInt(disk_size_gb)); }
     if (disk_type && disk_type !== 'any') { whereSql += ' AND o.disk_system_type = ?'; params.push(disk_type); }
     if (cpu_type && cpu_type !== 'any') { whereSql += ' AND o.cpu_type = ?'; params.push(cpu_type); }
