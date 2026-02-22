@@ -139,7 +139,7 @@ function renderOfferCard(o) {
       <div class="offer-card__price">
         <span class="price-old">${Math.round(o.market_price_month)} ₽</span>
         <span class="price-promo">${Math.round(o.promo_price_month)} ₽/мес</span>
-        <span class="badge badge--promo">−20%</span>
+        <span class="badge badge--promo">Скидка от ServerPlace</span>
       </div>
       <div class="offer-card__actions">
         <button class="btn btn--primary btn--sm" onclick="openLeadModal('${o.provider_id}','${o.id}','${o.provider_name}','${o.name}','${Math.round(o.promo_price_month)}')">Заказать</button>
