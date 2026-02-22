@@ -20,6 +20,7 @@
                 <a href="/blog">Блог</a>
                 <a href="/faq">FAQ</a>
                 <a href="/contacts">Контакты</a>
+                <a href="/privacy">Политика конфиденциальности</a>
             </div>
         </div>
         <div class="footer__bottom">
@@ -52,6 +53,15 @@
                 <label for="leadPhone">Телефон</label>
                 <input type="tel" id="leadPhone" class="input" placeholder="+7 (___) ___-__-__" required>
                 <span class="form-error" id="phoneError"></span>
+            </div>
+            <div class="form-group" style="margin-top: 1rem; text-align: left;">
+                <label
+                    style="display: flex; align-items: flex-start; gap: 8px; font-size: 0.8rem; font-weight: normal; cursor: pointer; text-transform: none; line-height: 1.3;">
+                    <input type="checkbox" id="leadPrivacyAgree" checked style="margin-top: 2px;">
+                    <span style="color: var(--text-dim);">Нажимая кнопку, я принимаю <a href="/privacy" target="_blank"
+                            style="text-decoration: underline; color: var(--primary);">политику конфиденциальности</a> и
+                        даю согласие на обработку персональных данных.</span>
+                </label>
             </div>
             <button class="btn btn--primary btn--full" onclick="submitLead()">Заказать</button>
             <button class="btn btn--ghost" onclick="leadPrevStep()" style="margin-top:8px">&#8592; Назад</button>
@@ -108,6 +118,10 @@
             document.getElementById('phoneError').textContent = '\u0412\u0432\u0435\u0434\u0438\u0442\u0435 \u043D\u043E\u043C\u0435\u0440 \u0442\u0435\u043B\u0435\u0444\u043E\u043D\u0430';
             return;
         }
+        if (!document.getElementById('leadPrivacyAgree').checked) {
+            document.getElementById('phoneError').textContent = 'Необходимо согласие на обработку данных';
+            return;
+        }
         document.getElementById('phoneError').textContent = '';
         var body = Object.assign({}, _leadData, {
             email: document.getElementById('leadEmail').value.trim(),
@@ -144,6 +158,36 @@
         this.value = f;
     });
 </script>
+
+<!-- Cookie Banner -->
+<div id="cookieBanner" class="cookie-banner" style="display: none;">
+    <div class="cookie-banner__content">
+        <p>Мы используем Cookie для улучшения подбора серверов. Пожалуйста, дайте доступ.</p>
+        <div class="cookie-banner__actions">
+            <button class="btn btn--primary btn--sm" onclick="acceptCookies('all')">Все cookie</button>
+            <button class="btn btn--secondary btn--sm" onclick="acceptCookies('essential')">Только необходимые</button>
+            <button class="btn btn--ghost btn--sm" style="color: var(--text-muted);"
+                onclick="acceptCookies('none')">Запретить</button>
+        </div>
+    </div>
+</div>
+
+<script>
+    (function () {
+        if (!localStorage.getItem('sp_cookie_consent')) {
+            document.getElementById('cookieBanner').style.display = 'block';
+        }
+    })();
+
+    function acceptCookies(type) {
+        localStorage.setItem('sp_cookie_consent', type);
+        document.getElementById('cookieBanner').style.display = 'none';
+        if (type === 'all' && typeof ym === 'function') {
+            // Разрешили всё - переподключаем метрику если нужно
+        }
+    }
+</script>
+
 </body>
 
 </html>

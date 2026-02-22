@@ -2,18 +2,16 @@
     <div class="container">
         <div class="page-header">
             <h1>Провайдеры</h1>
-            <p>Сравните 5 регионов и 140+ хостинг-провайдеров РФ</p>
+            <p>Сравните 10 регионов и 140+ хостинг-провайдеров</p>
         </div>
         <div class="providers-filters">
             <input type="text" id="provSearch" placeholder="Поиск по названию..." class="input"
                 oninput="filterProviders()">
+            <select id="provCountry" class="select" onchange="updateProvCityFilter(); filterProviders()">
+                <option value="">Все страны</option>
+            </select>
             <select id="provRegion" class="select" onchange="filterProviders()">
-                <option value="">Все регионы</option>
-                <% regions.forEach(function(r) { %>
-                    <option value="<%= r.id %>">
-                        <%= r.name %>
-                    </option>
-                    <% }); %>
+                <option value="">Все города</option>
             </select>
             <select id="provRating" class="select" onchange="filterProviders()">
                 <option value="">Любой рейтинг</option>
@@ -27,6 +25,33 @@
         <div id="provPagination" class="pagination"></div>
     </div>
     <script>
+        var _provRegions = <% - JSON.stringify(regions) %>;
+        (function () {
+            var countries = [];
+            var seen = {};
+            _provRegions.forEach(function (r) {
+                if (!seen[r.country]) { seen[r.country] = true; countries.push(r.country); }
+            });
+            var sel = document.getElementById('provCountry');
+            countries.forEach(function (c) {
+                var opt = document.createElement('option');
+                opt.value = c;
+                opt.textContent = c;
+                sel.appendChild(opt);
+            });
+        })();
+        function updateProvCityFilter() {
+            var country = document.getElementById('provCountry').value;
+            var citySel = document.getElementById('provRegion');
+            citySel.innerHTML = '<option value="">Все города</option>';
+            var filtered = country ? _provRegions.filter(function (r) { return r.country === country; }) : _provRegions;
+            filtered.forEach(function (r) {
+                var opt = document.createElement('option');
+                opt.value = r.id;
+                opt.textContent = r.city;
+                citySel.appendChild(opt);
+            });
+        }
         var _provPage = 1;
         function filterProviders(page) {
             _provPage = page || 1;
@@ -46,7 +71,7 @@
                 if (!data.providers.length) { grid.innerHTML = '<div class="results__empty"><p>Провайдеры не найдены</p></div>'; document.getElementById('provPagination').innerHTML = ''; return; }
                 grid.innerHTML = data.providers.map(function (p) {
                     var hue = Math.abs(p.slug.charCodeAt(0) * 37) % 360;
-                    return '<a href="/providers/' + p.slug + '" class="provider-card"><div class="provider-card__logo" style="background:hsl(' + hue + ',70%,60%)">' + (p.logo_hint_text || p.name.substring(0, 2).toUpperCase()) + '</div><h3 class="provider-card__name">' + p.name + '</h3><div class="provider-card__rating">\u2B50 ' + (p.rating || 0).toFixed(1) + ' <span>(' + p.rating_count + ')</span></div>' + (p.min_price ? '<div class="provider-card__price">\u043E\u0442 ' + Math.round(p.min_price) + ' \u20BD/\u043C\u0435\u0441</div>' : '') + (p.has_free_trial ? '<span class="badge badge--trial">\u0411\u0435\u0441\u043F\u043B\u0430\u0442\u043D\u044B\u0439 \u0442\u0435\u0441\u0442</span>' : '') + '<span class="provider-card__regions">' + (p.regions || []).join(', ') + '</span></a>';
+                    return '<a href="/providers/' + p.slug + '" class="provider-card"><div class="provider-card__logo" style="background:hsl(' + hue + ',70%,60%)">' + (p.logo_hint_text || p.name.substring(0, 2).toUpperCase()) + '</div><h3 class="provider-card__name">' + p.name + '</h3><div class="provider-card__rating">\u2B50 ' + (p.rating || 0).toFixed(1) + ' <span>(' + p.rating_count + ')</span></div>' + (p.min_price ? '<div class="provider-card__price">\u043E\u0442 ' + Math.round(p.min_price) + ' \u20BD/\u043C\u0435\u0441</div>' : '') + (p.promo_label ? '<span class="badge badge--promo">' + p.promo_label + '</span>' : '') + (p.has_free_trial ? '<span class="badge badge--trial">\u0411\u0435\u0441\u043F\u043B\u0430\u0442\u043D\u044B\u0439 \u0442\u0435\u0441\u0442</span>' : '') + '<span class="provider-card__regions">' + (p.regions || []).join(', ') + '</span></a>';
                 }).join('');
                 var pagHtml = '';
                 for (var i = 1; i <= data.pages; i++) pagHtml += '<button class="pag-btn ' + (i === data.page ? 'pag-btn--active' : '') + '" onclick="filterProviders(' + i + ')">' + i + '</button>';

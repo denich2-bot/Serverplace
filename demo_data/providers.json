@@ -26,9 +26,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "until": "2026-12-31"
     },
     "about_short": "Российский облачный провайдер с гео-распределённой инфраструктурой. Серверы в Москве, Санкт-Петербурге и регионах.",
     "aliases": []
@@ -61,9 +61,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "until": "2026-12-31"
     },
     "about_short": "Платформа виртуализации для бизнес-приложений. 1С, CRM, ERP — оптимизированные конфигурации.",
     "aliases": []
@@ -94,9 +94,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "until": "2026-12-31"
     },
     "about_short": "Хостинг-провайдер с упором на безопасность. WAF, DDoS-защита, шифрование данных at rest и in transit.",
     "aliases": []
@@ -117,7 +117,8 @@
     "trial_days": 7,
     "regions": [
       "ekb",
-      "nsk"
+      "nsk",
+      "ams"
     ],
     "cpu_brands": [
       "AMD",
@@ -128,9 +129,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "until": "2026-12-31"
     },
     "about_short": "Российский облачный провайдер с собственными дата-центрами. Предлагает VPS/VDS серверы с NVMe-дисками и каналом от 100 Мбит/с.",
     "aliases": []
@@ -152,7 +153,8 @@
     "regions": [
       "spb",
       "nsk",
-      "kzn"
+      "kzn",
+      "fra"
     ],
     "cpu_brands": [
       "AMD",
@@ -163,9 +165,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "until": "2026-12-31"
     },
     "about_short": "Хостинг-платформа для бизнеса и разработчиков. Гибкие тарифы, выделенные ресурсы и техподдержка 24/7.",
     "aliases": []
@@ -197,9 +199,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "until": "2026-12-31"
     },
     "about_short": "Облачная инфраструктура для проектов любого масштаба. Быстрое развёртывание, API и удобная панель управления.",
     "aliases": []
@@ -231,9 +233,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "until": "2026-12-31"
     },
     "about_short": "VPS-хостинг на базе KVM с гарантированными ресурсами. Дата-центры в России, SLA от 99.9%.",
     "aliases": []
@@ -266,9 +268,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "until": "2026-12-31"
     },
     "about_short": "Провайдер облачных серверов с фокусом на производительность. NVMe SSD, бесперебойное питание, защита от DDoS.",
     "aliases": []
@@ -288,7 +290,8 @@
     "has_free_trial": false,
     "trial_days": 0,
     "regions": [
-      "nsk"
+      "nsk",
+      "ams"
     ],
     "cpu_brands": [
       "AMD",
@@ -299,9 +302,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "until": "2026-12-31"
     },
     "about_short": "Облачные серверы для веб-проектов, микросервисов и баз данных. Автоматическое масштабирование и резервное копирование.",
     "aliases": []
@@ -333,9 +336,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "until": "2026-12-31"
     },
     "about_short": "IaaS-провайдер для стартапов и enterprise. Гибкая тарификация, мониторинг, DNS-хостинг в комплекте.",
     "aliases": []
@@ -366,9 +369,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "until": "2026-12-31"
     },
     "about_short": "Облачный хостинг с акцентом на надёжность. Собственная сеть, пиринг с крупнейшими IX-площадками.",
     "aliases": []
@@ -400,9 +403,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "until": "2026-12-31"
     },
     "about_short": "VDS-хостинг для разработчиков. Готовые образы ОС, one-click приложения, бесплатный тестовый период.",
     "aliases": []
@@ -424,7 +427,8 @@
     "regions": [
       "spb",
       "nsk",
-      "ekb"
+      "ekb",
+      "ams"
     ],
     "cpu_brands": [
       "AMD",
@@ -435,9 +439,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "until": "2026-12-31"
     },
     "about_short": "Серверная платформа с возможностью кастомизации. Любые конфигурации: от 1 vCPU до выделенных кластеров.",
     "aliases": []
@@ -459,7 +463,8 @@
     "regions": [
       "ekb",
       "kzn",
-      "msk"
+      "msk",
+      "fra"
     ],
     "cpu_brands": [
       "AMD",
@@ -470,9 +475,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "until": "2026-12-31"
     },
     "about_short": "Российский IaaS-провайдер. Высокопроизводительные серверы на AMD EPYC и Intel Xeon, SSD/NVMe хранилище.",
     "aliases": []
@@ -503,9 +508,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "until": "2026-12-31"
     },
     "about_short": "Облачная инфраструктура для DevOps-команд. Terraform-провайдер, CI/CD интеграции, S3-совместимое хранилище.",
     "aliases": []
@@ -538,9 +543,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "until": "2026-12-31"
     },
     "about_short": "Надёжный хостинг с дата-центрами уровня Tier III. Резервированное электропитание, климат-контроль, физическая охрана.",
     "aliases": []
@@ -571,9 +576,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "until": "2026-12-31"
     },
     "about_short": "Провайдер виртуальных серверов с поминутной тарификацией. Быстрый деплой, снапшоты, приватные сети.",
     "aliases": []
@@ -595,7 +600,8 @@
     "regions": [
       "ekb",
       "msk",
-      "spb"
+      "spb",
+      "ams"
     ],
     "cpu_brands": [
       "AMD",
@@ -606,9 +612,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "until": "2026-12-31"
     },
     "about_short": "Облачная платформа для e-commerce и SaaS. Высокая доступность, CDN, балансировка нагрузки.",
     "aliases": []
@@ -629,7 +635,8 @@
     "trial_days": 0,
     "regions": [
       "kzn",
-      "nsk"
+      "nsk",
+      "fra"
     ],
     "cpu_brands": [
       "AMD",
@@ -640,9 +647,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "until": "2026-12-31"
     },
     "about_short": "VPS/VDS хостинг с гарантией uptime 99.95%. Круглосуточный мониторинг, проактивное уведомление о проблемах.",
     "aliases": []
@@ -673,9 +680,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "until": "2026-12-31"
     },
     "about_short": "Платформа виртуализации для бизнес-приложений. 1С, CRM, ERP — оптимизированные конфигурации.",
     "aliases": []
@@ -706,9 +713,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "until": "2026-12-31"
     },
     "about_short": "Хостинг-провайдер с упором на безопасность. WAF, DDoS-защита, шифрование данных at rest и in transit.",
     "aliases": []
@@ -728,7 +735,8 @@
     "has_free_trial": false,
     "trial_days": 0,
     "regions": [
-      "msk"
+      "msk",
+      "ams"
     ],
     "cpu_brands": [
       "AMD",
@@ -739,9 +747,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "until": "2026-12-31"
     },
     "about_short": "Российский облачный провайдер с собственными дата-центрами. Предлагает VPS/VDS серверы с NVMe-дисками и каналом от 100 Мбит/с.",
     "aliases": []
@@ -761,7 +769,8 @@
     "has_free_trial": false,
     "trial_days": 0,
     "regions": [
-      "nsk"
+      "nsk",
+      "fra"
     ],
     "cpu_brands": [
       "AMD",
@@ -772,9 +781,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "until": "2026-12-31"
     },
     "about_short": "Хостинг-платформа для бизнеса и разработчиков. Гибкие тарифы, выделенные ресурсы и техподдержка 24/7.",
     "aliases": []
@@ -806,9 +815,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "until": "2026-12-31"
     },
     "about_short": "Облачная инфраструктура для проектов любого масштаба. Быстрое развёртывание, API и удобная панель управления.",
     "aliases": []
@@ -839,9 +848,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "until": "2026-12-31"
     },
     "about_short": "VPS-хостинг на базе KVM с гарантированными ресурсами. Дата-центры в России, SLA от 99.9%.",
     "aliases": []
@@ -873,9 +882,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "until": "2026-12-31"
     },
     "about_short": "Провайдер облачных серверов с фокусом на производительность. NVMe SSD, бесперебойное питание, защита от DDoS.",
     "aliases": []
@@ -897,7 +906,8 @@
     "regions": [
       "spb",
       "ekb",
-      "kzn"
+      "kzn",
+      "ams"
     ],
     "cpu_brands": [
       "AMD",
@@ -908,9 +918,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "until": "2026-12-31"
     },
     "about_short": "Облачные серверы для веб-проектов, микросервисов и баз данных. Автоматическое масштабирование и резервное копирование.",
     "aliases": [
@@ -934,7 +944,8 @@
     "regions": [
       "msk",
       "kzn",
-      "ekb"
+      "ekb",
+      "fra"
     ],
     "cpu_brands": [
       "AMD",
@@ -945,9 +956,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "until": "2026-12-31"
     },
     "about_short": "Виртуальные серверы на быстром оборудовании. Intel Xeon, ECC RAM, RAID-массивы с горячей заменой.",
     "aliases": []
@@ -980,9 +991,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "until": "2026-12-31"
     },
     "about_short": "IaaS-провайдер для стартапов и enterprise. Гибкая тарификация, мониторинг, DNS-хостинг в комплекте.",
     "aliases": []
@@ -1014,9 +1025,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "until": "2026-12-31"
     },
     "about_short": "VDS-хостинг для разработчиков. Готовые образы ОС, one-click приложения, бесплатный тестовый период.",
     "aliases": []
@@ -1037,7 +1048,8 @@
     "trial_days": 30,
     "regions": [
       "spb",
-      "msk"
+      "msk",
+      "ams"
     ],
     "cpu_brands": [
       "AMD",
@@ -1048,9 +1060,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "until": "2026-12-31"
     },
     "about_short": "Серверная платформа с возможностью кастомизации. Любые конфигурации: от 1 vCPU до выделенных кластеров.",
     "aliases": []
@@ -1072,7 +1084,8 @@
     "regions": [
       "ekb",
       "kzn",
-      "spb"
+      "spb",
+      "fra"
     ],
     "cpu_brands": [
       "AMD",
@@ -1083,9 +1096,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "until": "2026-12-31"
     },
     "about_short": "Российский IaaS-провайдер. Высокопроизводительные серверы на AMD EPYC и Intel Xeon, SSD/NVMe хранилище.",
     "aliases": []
@@ -1117,9 +1130,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "until": "2026-12-31"
     },
     "about_short": "Облачная инфраструктура для DevOps-команд. Terraform-провайдер, CI/CD интеграции, S3-совместимое хранилище.",
     "aliases": []
@@ -1150,9 +1163,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "until": "2026-12-31"
     },
     "about_short": "Надёжный хостинг с дата-центрами уровня Tier III. Резервированное электропитание, климат-контроль, физическая охрана.",
     "aliases": []
@@ -1183,9 +1196,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "until": "2026-12-31"
     },
     "about_short": "Провайдер виртуальных серверов с поминутной тарификацией. Быстрый деплой, снапшоты, приватные сети.",
     "aliases": []
@@ -1205,7 +1218,8 @@
     "has_free_trial": false,
     "trial_days": 0,
     "regions": [
-      "nsk"
+      "nsk",
+      "ams"
     ],
     "cpu_brands": [
       "AMD",
@@ -1216,9 +1230,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "until": "2026-12-31"
     },
     "about_short": "Облачная платформа для e-commerce и SaaS. Высокая доступность, CDN, балансировка нагрузки.",
     "aliases": []
@@ -1238,7 +1252,8 @@
     "has_free_trial": false,
     "trial_days": 0,
     "regions": [
-      "spb"
+      "spb",
+      "fra"
     ],
     "cpu_brands": [
       "AMD",
@@ -1249,9 +1264,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "until": "2026-12-31"
     },
     "about_short": "VPS/VDS хостинг с гарантией uptime 99.95%. Круглосуточный мониторинг, проактивное уведомление о проблемах.",
     "aliases": []
@@ -1284,9 +1299,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "until": "2026-12-31"
     },
     "about_short": "Российский облачный провайдер с гео-распределённой инфраструктурой. Серверы в Москве, Санкт-Петербурге и регионах.",
     "aliases": []
@@ -1318,9 +1333,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "until": "2026-12-31"
     },
     "about_short": "Платформа виртуализации для бизнес-приложений. 1С, CRM, ERP — оптимизированные конфигурации.",
     "aliases": []
@@ -1341,7 +1356,8 @@
     "trial_days": 0,
     "regions": [
       "kzn",
-      "ekb"
+      "ekb",
+      "ams"
     ],
     "cpu_brands": [
       "Intel"
@@ -1351,9 +1367,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "until": "2026-12-31"
     },
     "about_short": "Российский облачный провайдер с собственными дата-центрами. Предлагает VPS/VDS серверы с NVMe-дисками и каналом от 100 Мбит/с.",
     "aliases": []
@@ -1373,7 +1389,8 @@
     "has_free_trial": true,
     "trial_days": 14,
     "regions": [
-      "spb"
+      "spb",
+      "fra"
     ],
     "cpu_brands": [
       "AMD",
@@ -1384,9 +1401,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "until": "2026-12-31"
     },
     "about_short": "Хостинг-платформа для бизнеса и разработчиков. Гибкие тарифы, выделенные ресурсы и техподдержка 24/7.",
     "aliases": []
@@ -1419,9 +1436,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "until": "2026-12-31"
     },
     "about_short": "Облачная инфраструктура для проектов любого масштаба. Быстрое развёртывание, API и удобная панель управления.",
     "aliases": []
@@ -1452,9 +1469,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "until": "2026-12-31"
     },
     "about_short": "VPS-хостинг на базе KVM с гарантированными ресурсами. Дата-центры в России, SLA от 99.9%.",
     "aliases": []
@@ -1487,9 +1504,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "until": "2026-12-31"
     },
     "about_short": "Провайдер облачных серверов с фокусом на производительность. NVMe SSD, бесперебойное питание, защита от DDoS.",
     "aliases": []
@@ -1511,7 +1528,8 @@
     "regions": [
       "kzn",
       "msk",
-      "ekb"
+      "ekb",
+      "ams"
     ],
     "cpu_brands": [
       "AMD",
@@ -1522,9 +1540,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "until": "2026-12-31"
     },
     "about_short": "Облачные серверы для веб-проектов, микросервисов и баз данных. Автоматическое масштабирование и резервное копирование.",
     "aliases": []
@@ -1545,7 +1563,8 @@
     "trial_days": 0,
     "regions": [
       "ekb",
-      "msk"
+      "msk",
+      "fra"
     ],
     "cpu_brands": [
       "Intel"
@@ -1555,9 +1574,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "until": "2026-12-31"
     },
     "about_short": "Виртуальные серверы на быстром оборудовании. Intel Xeon, ECC RAM, RAID-массивы с горячей заменой.",
     "aliases": []
@@ -1587,9 +1606,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "until": "2026-12-31"
     },
     "about_short": "IaaS-провайдер для стартапов и enterprise. Гибкая тарификация, мониторинг, DNS-хостинг в комплекте.",
     "aliases": []
@@ -1621,9 +1640,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "until": "2026-12-31"
     },
     "about_short": "Облачный хостинг с акцентом на надёжность. Собственная сеть, пиринг с крупнейшими IX-площадками.",
     "aliases": []
@@ -1654,9 +1673,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "until": "2026-12-31"
     },
     "about_short": "VDS-хостинг для разработчиков. Готовые образы ОС, one-click приложения, бесплатный тестовый период.",
     "aliases": []
@@ -1676,7 +1695,8 @@
     "has_free_trial": false,
     "trial_days": 0,
     "regions": [
-      "spb"
+      "spb",
+      "fra"
     ],
     "cpu_brands": [
       "AMD",
@@ -1687,9 +1707,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "until": "2026-12-31"
     },
     "about_short": "Российский IaaS-провайдер. Высокопроизводительные серверы на AMD EPYC и Intel Xeon, SSD/NVMe хранилище.",
     "aliases": []
@@ -1720,9 +1740,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "until": "2026-12-31"
     },
     "about_short": "Облачная инфраструктура для DevOps-команд. Terraform-провайдер, CI/CD интеграции, S3-совместимое хранилище.",
     "aliases": []
@@ -1754,9 +1774,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "until": "2026-12-31"
     },
     "about_short": "Надёжный хостинг с дата-центрами уровня Tier III. Резервированное электропитание, климат-контроль, физическая охрана.",
     "aliases": []
@@ -1789,9 +1809,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "until": "2026-12-31"
     },
     "about_short": "Провайдер виртуальных серверов с поминутной тарификацией. Быстрый деплой, снапшоты, приватные сети.",
     "aliases": []
@@ -1813,7 +1833,8 @@
     "regions": [
       "nsk",
       "msk",
-      "spb"
+      "spb",
+      "ams"
     ],
     "cpu_brands": [
       "AMD",
@@ -1824,9 +1845,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "until": "2026-12-31"
     },
     "about_short": "Облачная платформа для e-commerce и SaaS. Высокая доступность, CDN, балансировка нагрузки.",
     "aliases": []
@@ -1848,7 +1869,8 @@
     "regions": [
       "msk",
       "kzn",
-      "nsk"
+      "nsk",
+      "fra"
     ],
     "cpu_brands": [
       "AMD",
@@ -1859,9 +1881,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "until": "2026-12-31"
     },
     "about_short": "VPS/VDS хостинг с гарантией uptime 99.95%. Круглосуточный мониторинг, проактивное уведомление о проблемах.",
     "aliases": []
@@ -1894,9 +1916,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "until": "2026-12-31"
     },
     "about_short": "Российский облачный провайдер с гео-распределённой инфраструктурой. Серверы в Москве, Санкт-Петербурге и регионах.",
     "aliases": []
@@ -1929,9 +1951,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "until": "2026-12-31"
     },
     "about_short": "Платформа виртуализации для бизнес-приложений. 1С, CRM, ERP — оптимизированные конфигурации.",
     "aliases": []
@@ -1964,9 +1986,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "until": "2026-12-31"
     },
     "about_short": "Хостинг-провайдер с упором на безопасность. WAF, DDoS-защита, шифрование данных at rest и in transit.",
     "aliases": []
@@ -1987,7 +2009,8 @@
     "trial_days": 0,
     "regions": [
       "kzn",
-      "spb"
+      "spb",
+      "ams"
     ],
     "cpu_brands": [
       "AMD"
@@ -1997,9 +2020,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "until": "2026-12-31"
     },
     "about_short": "Российский облачный провайдер с собственными дата-центрами. Предлагает VPS/VDS серверы с NVMe-дисками и каналом от 100 Мбит/с.",
     "aliases": []
@@ -2032,9 +2055,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "until": "2026-12-31"
     },
     "about_short": "Облачная инфраструктура для проектов любого масштаба. Быстрое развёртывание, API и удобная панель управления.",
     "aliases": []
@@ -2065,9 +2088,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "until": "2026-12-31"
     },
     "about_short": "VPS-хостинг на базе KVM с гарантированными ресурсами. Дата-центры в России, SLA от 99.9%.",
     "aliases": []
@@ -2098,9 +2121,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "until": "2026-12-31"
     },
     "about_short": "Провайдер облачных серверов с фокусом на производительность. NVMe SSD, бесперебойное питание, защита от DDoS.",
     "aliases": []
@@ -2121,7 +2144,8 @@
     "trial_days": 0,
     "regions": [
       "spb",
-      "msk"
+      "msk",
+      "ams"
     ],
     "cpu_brands": [
       "AMD",
@@ -2132,9 +2156,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "until": "2026-12-31"
     },
     "about_short": "Облачные серверы для веб-проектов, микросервисов и баз данных. Автоматическое масштабирование и резервное копирование.",
     "aliases": []
@@ -2154,7 +2178,8 @@
     "has_free_trial": false,
     "trial_days": 0,
     "regions": [
-      "kzn"
+      "kzn",
+      "fra"
     ],
     "cpu_brands": [
       "Intel"
@@ -2164,9 +2189,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "until": "2026-12-31"
     },
     "about_short": "Виртуальные серверы на быстром оборудовании. Intel Xeon, ECC RAM, RAID-массивы с горячей заменой.",
     "aliases": []
@@ -2199,9 +2224,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "until": "2026-12-31"
     },
     "about_short": "IaaS-провайдер для стартапов и enterprise. Гибкая тарификация, мониторинг, DNS-хостинг в комплекте.",
     "aliases": []
@@ -2234,9 +2259,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "until": "2026-12-31"
     },
     "about_short": "Облачный хостинг с акцентом на надёжность. Собственная сеть, пиринг с крупнейшими IX-площадками.",
     "aliases": []
@@ -2268,9 +2293,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "until": "2026-12-31"
     },
     "about_short": "VDS-хостинг для разработчиков. Готовые образы ОС, one-click приложения, бесплатный тестовый период.",
     "aliases": []
@@ -2291,7 +2316,8 @@
     "trial_days": 30,
     "regions": [
       "msk",
-      "ekb"
+      "ekb",
+      "ams"
     ],
     "cpu_brands": [
       "AMD",
@@ -2302,9 +2328,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "until": "2026-12-31"
     },
     "about_short": "Серверная платформа с возможностью кастомизации. Любые конфигурации: от 1 vCPU до выделенных кластеров.",
     "aliases": []
@@ -2324,7 +2350,8 @@
     "has_free_trial": true,
     "trial_days": 30,
     "regions": [
-      "msk"
+      "msk",
+      "fra"
     ],
     "cpu_brands": [
       "AMD",
@@ -2335,9 +2362,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "until": "2026-12-31"
     },
     "about_short": "Российский IaaS-провайдер. Высокопроизводительные серверы на AMD EPYC и Intel Xeon, SSD/NVMe хранилище.",
     "aliases": []
@@ -2369,9 +2396,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "-50% от ServerPlace",
+      "discount_percent": 50,
+      "until": "2026-12-31"
     },
     "about_short": "Надёжный хостинг с дата-центрами уровня Tier III. Резервированное электропитание, климат-контроль, физическая охрана.",
     "aliases": []
@@ -2404,9 +2431,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "",
+      "discount_percent": 0,
+      "until": ""
     },
     "about_short": "Провайдер виртуальных серверов с поминутной тарификацией. Быстрый деплой, снапшоты, приватные сети.",
     "aliases": []
@@ -2427,7 +2454,8 @@
     "trial_days": 0,
     "regions": [
       "nsk",
-      "ekb"
+      "ekb",
+      "ams"
     ],
     "cpu_brands": [
       "AMD",
@@ -2438,9 +2466,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "",
+      "discount_percent": 0,
+      "until": ""
     },
     "about_short": "Облачная платформа для e-commerce и SaaS. Высокая доступность, CDN, балансировка нагрузки.",
     "aliases": []
@@ -2461,7 +2489,8 @@
     "trial_days": 30,
     "regions": [
       "spb",
-      "nsk"
+      "nsk",
+      "fra"
     ],
     "cpu_brands": [
       "AMD",
@@ -2472,9 +2501,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "",
+      "discount_percent": 0,
+      "until": ""
     },
     "about_short": "VPS/VDS хостинг с гарантией uptime 99.95%. Круглосуточный мониторинг, проактивное уведомление о проблемах.",
     "aliases": []
@@ -2507,9 +2536,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "",
+      "discount_percent": 0,
+      "until": ""
     },
     "about_short": "Российский облачный провайдер с гео-распределённой инфраструктурой. Серверы в Москве, Санкт-Петербурге и регионах.",
     "aliases": []
@@ -2540,9 +2569,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "",
+      "discount_percent": 0,
+      "until": ""
     },
     "about_short": "Платформа виртуализации для бизнес-приложений. 1С, CRM, ERP — оптимизированные конфигурации.",
     "aliases": []
@@ -2573,9 +2602,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "",
+      "discount_percent": 0,
+      "until": ""
     },
     "about_short": "Хостинг-провайдер с упором на безопасность. WAF, DDoS-защита, шифрование данных at rest и in transit.",
     "aliases": []
@@ -2595,7 +2624,8 @@
     "has_free_trial": false,
     "trial_days": 0,
     "regions": [
-      "msk"
+      "msk",
+      "ams"
     ],
     "cpu_brands": [
       "AMD",
@@ -2606,9 +2636,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "",
+      "discount_percent": 0,
+      "until": ""
     },
     "about_short": "Российский облачный провайдер с собственными дата-центрами. Предлагает VPS/VDS серверы с NVMe-дисками и каналом от 100 Мбит/с.",
     "aliases": []
@@ -2629,7 +2659,8 @@
     "trial_days": 0,
     "regions": [
       "ekb",
-      "spb"
+      "spb",
+      "fra"
     ],
     "cpu_brands": [
       "AMD",
@@ -2640,9 +2671,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "",
+      "discount_percent": 0,
+      "until": ""
     },
     "about_short": "Хостинг-платформа для бизнеса и разработчиков. Гибкие тарифы, выделенные ресурсы и техподдержка 24/7.",
     "aliases": []
@@ -2673,9 +2704,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "",
+      "discount_percent": 0,
+      "until": ""
     },
     "about_short": "Облачная инфраструктура для проектов любого масштаба. Быстрое развёртывание, API и удобная панель управления.",
     "aliases": []
@@ -2708,9 +2739,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "",
+      "discount_percent": 0,
+      "until": ""
     },
     "about_short": "Провайдер облачных серверов с фокусом на производительность. NVMe SSD, бесперебойное питание, защита от DDoS.",
     "aliases": []
@@ -2732,7 +2763,8 @@
     "regions": [
       "spb",
       "kzn",
-      "msk"
+      "msk",
+      "ams"
     ],
     "cpu_brands": [
       "AMD",
@@ -2743,9 +2775,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "",
+      "discount_percent": 0,
+      "until": ""
     },
     "about_short": "Облачные серверы для веб-проектов, микросервисов и баз данных. Автоматическое масштабирование и резервное копирование.",
     "aliases": []
@@ -2767,7 +2799,8 @@
     "regions": [
       "ekb",
       "nsk",
-      "msk"
+      "msk",
+      "fra"
     ],
     "cpu_brands": [
       "AMD",
@@ -2778,9 +2811,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "",
+      "discount_percent": 0,
+      "until": ""
     },
     "about_short": "Виртуальные серверы на быстром оборудовании. Intel Xeon, ECC RAM, RAID-массивы с горячей заменой.",
     "aliases": []
@@ -2812,9 +2845,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "",
+      "discount_percent": 0,
+      "until": ""
     },
     "about_short": "IaaS-провайдер для стартапов и enterprise. Гибкая тарификация, мониторинг, DNS-хостинг в комплекте.",
     "aliases": []
@@ -2846,9 +2879,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "",
+      "discount_percent": 0,
+      "until": ""
     },
     "about_short": "Облачный хостинг с акцентом на надёжность. Собственная сеть, пиринг с крупнейшими IX-площадками.",
     "aliases": []
@@ -2881,9 +2914,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "",
+      "discount_percent": 0,
+      "until": ""
     },
     "about_short": "VDS-хостинг для разработчиков. Готовые образы ОС, one-click приложения, бесплатный тестовый период.",
     "aliases": []
@@ -2904,7 +2937,8 @@
     "trial_days": 0,
     "regions": [
       "kzn",
-      "ekb"
+      "ekb",
+      "ams"
     ],
     "cpu_brands": [
       "AMD",
@@ -2915,9 +2949,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "",
+      "discount_percent": 0,
+      "until": ""
     },
     "about_short": "Серверная платформа с возможностью кастомизации. Любые конфигурации: от 1 vCPU до выделенных кластеров.",
     "aliases": []
@@ -2939,7 +2973,8 @@
     "regions": [
       "nsk",
       "ekb",
-      "msk"
+      "msk",
+      "fra"
     ],
     "cpu_brands": [
       "AMD",
@@ -2950,9 +2985,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "",
+      "discount_percent": 0,
+      "until": ""
     },
     "about_short": "Российский IaaS-провайдер. Высокопроизводительные серверы на AMD EPYC и Intel Xeon, SSD/NVMe хранилище.",
     "aliases": []
@@ -2983,9 +3018,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "",
+      "discount_percent": 0,
+      "until": ""
     },
     "about_short": "Облачная инфраструктура для DevOps-команд. Terraform-провайдер, CI/CD интеграции, S3-совместимое хранилище.",
     "aliases": []
@@ -3016,9 +3051,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "",
+      "discount_percent": 0,
+      "until": ""
     },
     "about_short": "Надёжный хостинг с дата-центрами уровня Tier III. Резервированное электропитание, климат-контроль, физическая охрана.",
     "aliases": []
@@ -3040,7 +3075,8 @@
     "regions": [
       "msk",
       "kzn",
-      "ekb"
+      "ekb",
+      "ams"
     ],
     "cpu_brands": [
       "AMD",
@@ -3051,9 +3087,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "",
+      "discount_percent": 0,
+      "until": ""
     },
     "about_short": "Облачная платформа для e-commerce и SaaS. Высокая доступность, CDN, балансировка нагрузки.",
     "aliases": []
@@ -3075,7 +3111,8 @@
     "regions": [
       "msk",
       "ekb",
-      "nsk"
+      "nsk",
+      "fra"
     ],
     "cpu_brands": [
       "AMD",
@@ -3086,9 +3123,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "",
+      "discount_percent": 0,
+      "until": ""
     },
     "about_short": "VPS/VDS хостинг с гарантией uptime 99.95%. Круглосуточный мониторинг, проактивное уведомление о проблемах.",
     "aliases": []
@@ -3119,9 +3156,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "",
+      "discount_percent": 0,
+      "until": ""
     },
     "about_short": "Российский облачный провайдер с гео-распределённой инфраструктурой. Серверы в Москве, Санкт-Петербурге и регионах.",
     "aliases": []
@@ -3154,9 +3191,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "",
+      "discount_percent": 0,
+      "until": ""
     },
     "about_short": "Платформа виртуализации для бизнес-приложений. 1С, CRM, ERP — оптимизированные конфигурации.",
     "aliases": []
@@ -3188,9 +3225,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "",
+      "discount_percent": 0,
+      "until": ""
     },
     "about_short": "Хостинг-провайдер с упором на безопасность. WAF, DDoS-защита, шифрование данных at rest и in transit.",
     "aliases": []
@@ -3212,7 +3249,8 @@
     "regions": [
       "msk",
       "ekb",
-      "nsk"
+      "nsk",
+      "ams"
     ],
     "cpu_brands": [
       "AMD",
@@ -3223,9 +3261,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "",
+      "discount_percent": 0,
+      "until": ""
     },
     "about_short": "Российский облачный провайдер с собственными дата-центрами. Предлагает VPS/VDS серверы с NVMe-дисками и каналом от 100 Мбит/с.",
     "aliases": []
@@ -3247,7 +3285,8 @@
     "regions": [
       "spb",
       "ekb",
-      "msk"
+      "msk",
+      "fra"
     ],
     "cpu_brands": [
       "Intel"
@@ -3257,9 +3296,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "",
+      "discount_percent": 0,
+      "until": ""
     },
     "about_short": "Хостинг-платформа для бизнеса и разработчиков. Гибкие тарифы, выделенные ресурсы и техподдержка 24/7.",
     "aliases": []
@@ -3292,9 +3331,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "",
+      "discount_percent": 0,
+      "until": ""
     },
     "about_short": "Облачная инфраструктура для проектов любого масштаба. Быстрое развёртывание, API и удобная панель управления.",
     "aliases": []
@@ -3327,9 +3366,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "",
+      "discount_percent": 0,
+      "until": ""
     },
     "about_short": "VPS-хостинг на базе KVM с гарантированными ресурсами. Дата-центры в России, SLA от 99.9%.",
     "aliases": []
@@ -3362,9 +3401,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "",
+      "discount_percent": 0,
+      "until": ""
     },
     "about_short": "Провайдер облачных серверов с фокусом на производительность. NVMe SSD, бесперебойное питание, защита от DDoS.",
     "aliases": []
@@ -3395,9 +3434,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "",
+      "discount_percent": 0,
+      "until": ""
     },
     "about_short": "Российский облачный провайдер с гео-распределённой инфраструктурой. Серверы в Москве, Санкт-Петербурге и регионах.",
     "aliases": []
@@ -3428,9 +3467,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "",
+      "discount_percent": 0,
+      "until": ""
     },
     "about_short": "Платформа виртуализации для бизнес-приложений. 1С, CRM, ERP — оптимизированные конфигурации.",
     "aliases": []
@@ -3461,9 +3500,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "",
+      "discount_percent": 0,
+      "until": ""
     },
     "about_short": "Хостинг-провайдер с упором на безопасность. WAF, DDoS-защита, шифрование данных at rest и in transit.",
     "aliases": []
@@ -3485,7 +3524,8 @@
     "regions": [
       "spb",
       "kzn",
-      "msk"
+      "msk",
+      "ams"
     ],
     "cpu_brands": [
       "AMD",
@@ -3496,9 +3536,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "",
+      "discount_percent": 0,
+      "until": ""
     },
     "about_short": "Российский облачный провайдер с собственными дата-центрами. Предлагает VPS/VDS серверы с NVMe-дисками и каналом от 100 Мбит/с.",
     "aliases": []
@@ -3520,7 +3560,8 @@
     "regions": [
       "kzn",
       "ekb",
-      "spb"
+      "spb",
+      "fra"
     ],
     "cpu_brands": [
       "AMD",
@@ -3531,9 +3572,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "",
+      "discount_percent": 0,
+      "until": ""
     },
     "about_short": "Хостинг-платформа для бизнеса и разработчиков. Гибкие тарифы, выделенные ресурсы и техподдержка 24/7.",
     "aliases": []
@@ -3565,9 +3606,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "",
+      "discount_percent": 0,
+      "until": ""
     },
     "about_short": "Облачная инфраструктура для проектов любого масштаба. Быстрое развёртывание, API и удобная панель управления.",
     "aliases": []
@@ -3598,9 +3639,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "",
+      "discount_percent": 0,
+      "until": ""
     },
     "about_short": "VPS-хостинг на базе KVM с гарантированными ресурсами. Дата-центры в России, SLA от 99.9%.",
     "aliases": []
@@ -3633,9 +3674,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "",
+      "discount_percent": 0,
+      "until": ""
     },
     "about_short": "Провайдер облачных серверов с фокусом на производительность. NVMe SSD, бесперебойное питание, защита от DDoS.",
     "aliases": []
@@ -3655,7 +3696,8 @@
     "has_free_trial": false,
     "trial_days": 0,
     "regions": [
-      "ekb"
+      "ekb",
+      "ams"
     ],
     "cpu_brands": [
       "AMD",
@@ -3666,9 +3708,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "",
+      "discount_percent": 0,
+      "until": ""
     },
     "about_short": "Облачные серверы для веб-проектов, микросервисов и баз данных. Автоматическое масштабирование и резервное копирование.",
     "aliases": []
@@ -3690,7 +3732,8 @@
     "regions": [
       "ekb",
       "nsk",
-      "kzn"
+      "kzn",
+      "fra"
     ],
     "cpu_brands": [
       "AMD",
@@ -3701,9 +3744,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "",
+      "discount_percent": 0,
+      "until": ""
     },
     "about_short": "Виртуальные серверы на быстром оборудовании. Intel Xeon, ECC RAM, RAID-массивы с горячей заменой.",
     "aliases": []
@@ -3735,9 +3778,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "",
+      "discount_percent": 0,
+      "until": ""
     },
     "about_short": "Облачный хостинг с акцентом на надёжность. Собственная сеть, пиринг с крупнейшими IX-площадками.",
     "aliases": []
@@ -3768,9 +3811,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "",
+      "discount_percent": 0,
+      "until": ""
     },
     "about_short": "VDS-хостинг для разработчиков. Готовые образы ОС, one-click приложения, бесплатный тестовый период.",
     "aliases": []
@@ -3792,7 +3835,8 @@
     "regions": [
       "nsk",
       "ekb",
-      "msk"
+      "msk",
+      "ams"
     ],
     "cpu_brands": [
       "AMD",
@@ -3803,9 +3847,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "",
+      "discount_percent": 0,
+      "until": ""
     },
     "about_short": "Серверная платформа с возможностью кастомизации. Любые конфигурации: от 1 vCPU до выделенных кластеров.",
     "aliases": []
@@ -3826,7 +3870,8 @@
     "trial_days": 30,
     "regions": [
       "msk",
-      "ekb"
+      "ekb",
+      "fra"
     ],
     "cpu_brands": [
       "AMD",
@@ -3837,9 +3882,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "",
+      "discount_percent": 0,
+      "until": ""
     },
     "about_short": "Российский IaaS-провайдер. Высокопроизводительные серверы на AMD EPYC и Intel Xeon, SSD/NVMe хранилище.",
     "aliases": []
@@ -3872,9 +3917,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "",
+      "discount_percent": 0,
+      "until": ""
     },
     "about_short": "Облачная инфраструктура для DevOps-команд. Terraform-провайдер, CI/CD интеграции, S3-совместимое хранилище.",
     "aliases": []
@@ -3906,9 +3951,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "",
+      "discount_percent": 0,
+      "until": ""
     },
     "about_short": "Надёжный хостинг с дата-центрами уровня Tier III. Резервированное электропитание, климат-контроль, физическая охрана.",
     "aliases": []
@@ -3939,9 +3984,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "",
+      "discount_percent": 0,
+      "until": ""
     },
     "about_short": "Провайдер виртуальных серверов с поминутной тарификацией. Быстрый деплой, снапшоты, приватные сети.",
     "aliases": []
@@ -3961,7 +4006,8 @@
     "has_free_trial": false,
     "trial_days": 0,
     "regions": [
-      "spb"
+      "spb",
+      "ams"
     ],
     "cpu_brands": [
       "Intel"
@@ -3971,9 +4017,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "",
+      "discount_percent": 0,
+      "until": ""
     },
     "about_short": "Облачная платформа для e-commerce и SaaS. Высокая доступность, CDN, балансировка нагрузки.",
     "aliases": []
@@ -3994,7 +4040,8 @@
     "trial_days": 0,
     "regions": [
       "ekb",
-      "msk"
+      "msk",
+      "fra"
     ],
     "cpu_brands": [
       "AMD",
@@ -4005,9 +4052,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "",
+      "discount_percent": 0,
+      "until": ""
     },
     "about_short": "VPS/VDS хостинг с гарантией uptime 99.95%. Круглосуточный мониторинг, проактивное уведомление о проблемах.",
     "aliases": []
@@ -4039,9 +4086,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "",
+      "discount_percent": 0,
+      "until": ""
     },
     "about_short": "Российский облачный провайдер с гео-распределённой инфраструктурой. Серверы в Москве, Санкт-Петербурге и регионах.",
     "aliases": []
@@ -4072,9 +4119,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "",
+      "discount_percent": 0,
+      "until": ""
     },
     "about_short": "Хостинг-провайдер с упором на безопасность. WAF, DDoS-защита, шифрование данных at rest и in transit.",
     "aliases": []
@@ -4095,7 +4142,8 @@
     "trial_days": 30,
     "regions": [
       "spb",
-      "ekb"
+      "ekb",
+      "ams"
     ],
     "cpu_brands": [
       "AMD",
@@ -4106,9 +4154,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "",
+      "discount_percent": 0,
+      "until": ""
     },
     "about_short": "Российский облачный провайдер с собственными дата-центрами. Предлагает VPS/VDS серверы с NVMe-дисками и каналом от 100 Мбит/с.",
     "aliases": []
@@ -4129,7 +4177,8 @@
     "trial_days": 0,
     "regions": [
       "kzn",
-      "ekb"
+      "ekb",
+      "fra"
     ],
     "cpu_brands": [
       "AMD",
@@ -4140,9 +4189,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "",
+      "discount_percent": 0,
+      "until": ""
     },
     "about_short": "Хостинг-платформа для бизнеса и разработчиков. Гибкие тарифы, выделенные ресурсы и техподдержка 24/7.",
     "aliases": []
@@ -4173,9 +4222,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "",
+      "discount_percent": 0,
+      "until": ""
     },
     "about_short": "Облачная инфраструктура для проектов любого масштаба. Быстрое развёртывание, API и удобная панель управления.",
     "aliases": []
@@ -4206,9 +4255,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "",
+      "discount_percent": 0,
+      "until": ""
     },
     "about_short": "VPS-хостинг на базе KVM с гарантированными ресурсами. Дата-центры в России, SLA от 99.9%.",
     "aliases": []
@@ -4239,9 +4288,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "",
+      "discount_percent": 0,
+      "until": ""
     },
     "about_short": "Провайдер облачных серверов с фокусом на производительность. NVMe SSD, бесперебойное питание, защита от DDoS.",
     "aliases": []
@@ -4263,7 +4312,8 @@
     "regions": [
       "nsk",
       "ekb",
-      "msk"
+      "msk",
+      "ams"
     ],
     "cpu_brands": [
       "AMD",
@@ -4274,9 +4324,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "",
+      "discount_percent": 0,
+      "until": ""
     },
     "about_short": "Облачные серверы для веб-проектов, микросервисов и баз данных. Автоматическое масштабирование и резервное копирование.",
     "aliases": []
@@ -4297,7 +4347,8 @@
     "trial_days": 0,
     "regions": [
       "nsk",
-      "msk"
+      "msk",
+      "fra"
     ],
     "cpu_brands": [
       "AMD",
@@ -4308,9 +4359,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "",
+      "discount_percent": 0,
+      "until": ""
     },
     "about_short": "Виртуальные серверы на быстром оборудовании. Intel Xeon, ECC RAM, RAID-массивы с горячей заменой.",
     "aliases": []
@@ -4341,9 +4392,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "",
+      "discount_percent": 0,
+      "until": ""
     },
     "about_short": "IaaS-провайдер для стартапов и enterprise. Гибкая тарификация, мониторинг, DNS-хостинг в комплекте.",
     "aliases": []
@@ -4374,9 +4425,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "",
+      "discount_percent": 0,
+      "until": ""
     },
     "about_short": "Облачный хостинг с акцентом на надёжность. Собственная сеть, пиринг с крупнейшими IX-площадками.",
     "aliases": []
@@ -4398,7 +4449,8 @@
     "regions": [
       "spb",
       "kzn",
-      "msk"
+      "msk",
+      "ams"
     ],
     "cpu_brands": [
       "AMD",
@@ -4409,9 +4461,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "",
+      "discount_percent": 0,
+      "until": ""
     },
     "about_short": "Серверная платформа с возможностью кастомизации. Любые конфигурации: от 1 vCPU до выделенных кластеров.",
     "aliases": []
@@ -4433,7 +4485,8 @@
     "regions": [
       "kzn",
       "msk",
-      "nsk"
+      "nsk",
+      "fra"
     ],
     "cpu_brands": [
       "AMD",
@@ -4444,9 +4497,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "",
+      "discount_percent": 0,
+      "until": ""
     },
     "about_short": "Российский IaaS-провайдер. Высокопроизводительные серверы на AMD EPYC и Intel Xeon, SSD/NVMe хранилище.",
     "aliases": []
@@ -4478,9 +4531,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "",
+      "discount_percent": 0,
+      "until": ""
     },
     "about_short": "Облачная инфраструктура для DevOps-команд. Terraform-провайдер, CI/CD интеграции, S3-совместимое хранилище.",
     "aliases": []
@@ -4513,9 +4566,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "",
+      "discount_percent": 0,
+      "until": ""
     },
     "about_short": "Надёжный хостинг с дата-центрами уровня Tier III. Резервированное электропитание, климат-контроль, физическая охрана.",
     "aliases": []
@@ -4548,9 +4601,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "",
+      "discount_percent": 0,
+      "until": ""
     },
     "about_short": "Провайдер виртуальных серверов с поминутной тарификацией. Быстрый деплой, снапшоты, приватные сети.",
     "aliases": []
@@ -4571,7 +4624,8 @@
     "trial_days": 0,
     "regions": [
       "msk",
-      "spb"
+      "spb",
+      "ams"
     ],
     "cpu_brands": [
       "AMD",
@@ -4582,9 +4636,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "",
+      "discount_percent": 0,
+      "until": ""
     },
     "about_short": "Облачная платформа для e-commerce и SaaS. Высокая доступность, CDN, балансировка нагрузки.",
     "aliases": []
@@ -4604,7 +4658,8 @@
     "has_free_trial": false,
     "trial_days": 0,
     "regions": [
-      "spb"
+      "spb",
+      "fra"
     ],
     "cpu_brands": [
       "AMD",
@@ -4615,9 +4670,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "",
+      "discount_percent": 0,
+      "until": ""
     },
     "about_short": "VPS/VDS хостинг с гарантией uptime 99.95%. Круглосуточный мониторинг, проактивное уведомление о проблемах.",
     "aliases": []
@@ -4647,9 +4702,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "",
+      "discount_percent": 0,
+      "until": ""
     },
     "about_short": "Российский облачный провайдер с гео-распределённой инфраструктурой. Серверы в Москве, Санкт-Петербурге и регионах.",
     "aliases": []
@@ -4680,9 +4735,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "",
+      "discount_percent": 0,
+      "until": ""
     },
     "about_short": "Платформа виртуализации для бизнес-приложений. 1С, CRM, ERP — оптимизированные конфигурации.",
     "aliases": []
@@ -4714,9 +4769,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "",
+      "discount_percent": 0,
+      "until": ""
     },
     "about_short": "Хостинг-провайдер с упором на безопасность. WAF, DDoS-защита, шифрование данных at rest и in transit.",
     "aliases": []
@@ -4736,7 +4791,8 @@
     "has_free_trial": false,
     "trial_days": 0,
     "regions": [
-      "ekb"
+      "ekb",
+      "fra"
     ],
     "cpu_brands": [
       "Intel"
@@ -4746,9 +4802,9 @@
       "phone": "+7 (999) 000-00-00"
     },
     "promo": {
-      "label": "Акция −20%",
-      "discount_percent": 20,
-      "until": "2026-04-06"
+      "label": "",
+      "discount_percent": 0,
+      "until": ""
     },
     "about_short": "Хостинг-платформа для бизнеса и разработчиков. Гибкие тарифы, выделенные ресурсы и техподдержка 24/7.",
     "aliases": []

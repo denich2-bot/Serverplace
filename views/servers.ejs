@@ -62,13 +62,12 @@
             </div>
             <div class="config-group">
                 <h4>География</h4>
-                <div class="form-group"><label>Регион</label><select id="cfg_region" class="select">
-                        <option value="">Все регионы</option>
-                        <% regions.forEach(function(r) { %>
-                            <option value="<%= r.id %>">
-                                <%= r.name %>
-                            </option>
-                            <% }); %>
+                <div class="form-group"><label>Страна</label><select id="cfg_country" class="select"
+                        onchange="updateCityFilter()">
+                        <option value="">Все страны</option>
+                    </select></div>
+                <div class="form-group"><label>Город</label><select id="cfg_region" class="select">
+                        <option value="">Все города</option>
                     </select></div>
                 <div class="form-group"><label>Виртуализация</label><select id="cfg_virt" class="select">
                         <option value="any">Любая</option>
@@ -115,6 +114,36 @@
         </div>
     </div>
 
-    <script src="/js/configurator.js?v=1.1.0"></script>
+    <script>
+        var _allRegions = <% - JSON.stringify(regions) %>;
+        function initCountryFilter() {
+            var countries = [];
+            var seen = {};
+            _allRegions.forEach(function (r) {
+                if (!seen[r.country]) { seen[r.country] = true; countries.push(r.country); }
+            });
+            var sel = document.getElementById('cfg_country');
+            countries.forEach(function (c) {
+                var opt = document.createElement('option');
+                opt.value = c;
+                opt.textContent = c;
+                sel.appendChild(opt);
+            });
+        }
+        function updateCityFilter() {
+            var country = document.getElementById('cfg_country').value;
+            var citySel = document.getElementById('cfg_region');
+            citySel.innerHTML = '<option value="">Все города</option>';
+            var filtered = country ? _allRegions.filter(function (r) { return r.country === country; }) : _allRegions;
+            filtered.forEach(function (r) {
+                var opt = document.createElement('option');
+                opt.value = r.id;
+                opt.textContent = r.city;
+                citySel.appendChild(opt);
+            });
+        }
+        initCountryFilter();
+    </script>
+    <script src="/js/configurator.js?v=1.1.1"></script>
 
     <%- include('footer') %>

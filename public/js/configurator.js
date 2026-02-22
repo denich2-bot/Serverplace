@@ -218,7 +218,7 @@ function initAutoSearch() {
 
   // Selects: immediate search on change
   ['cfg_cpu_type', 'cfg_cpu_brand', 'cfg_disk_type', 'cfg_bandwidth',
-    'cfg_traffic', 'cfg_region', 'cfg_virt'].forEach(function (id) {
+    'cfg_traffic', 'cfg_region', 'cfg_virt', 'cfg_country'].forEach(function (id) {
       var el = document.getElementById(id);
       if (el) el.addEventListener('change', function () { searchOffers(); });
     });

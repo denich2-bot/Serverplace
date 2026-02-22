@@ -136,6 +136,10 @@ router.get('/contacts', (req, res) => {
     res.render('contacts', { title: 'Контакты — ServerPlace', currentPage: 'contacts' });
 });
 
+router.get('/privacy', (req, res) => {
+    res.render('privacy', { title: 'Политика конфиденциальности — ServerPlace', currentPage: '' });
+});
+
 // ─── ADMIN PAGES ───
 
 router.get('/admin/login', (req, res) => {

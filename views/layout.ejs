@@ -113,6 +113,15 @@
           <input type="tel" id="leadPhone" placeholder="+7 (___) ___-__-__" required>
           <span class="form-error" id="phoneError"></span>
         </div>
+        <div class="form-group" style="margin-top: 1rem; text-align: left;">
+          <label
+            style="display: flex; align-items: flex-start; gap: 8px; font-size: 0.8rem; font-weight: normal; cursor: pointer; text-transform: none; line-height: 1.3;">
+            <input type="checkbox" id="leadPrivacyAgree" checked style="margin-top: 2px;">
+            <span style="color: var(--text-dim);">Нажимая кнопку, я принимаю <a href="/privacy" target="_blank"
+                style="text-decoration: underline; color: var(--primary);">политику конфиденциальности</a> и даю
+              согласие на обработку персональных данных.</span>
+          </label>
+        </div>
         <button class="btn btn--primary btn--full" onclick="submitLead()">Заказать</button>
         <button class="btn btn--ghost" onclick="leadPrevStep()">← Назад</button>
       </div>
@@ -175,6 +184,10 @@
       const phone = document.getElementById('leadPhone').value.trim();
       if (phone.length < 5) {
         document.getElementById('phoneError').textContent = 'Введите номер телефона';
+        return;
+      }
+      if (!document.getElementById('leadPrivacyAgree').checked) {
+        document.getElementById('phoneError').textContent = 'Необходимо согласие на обработку данных';
         return;
       }
       document.getElementById('phoneError').textContent = '';
