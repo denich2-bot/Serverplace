@@ -165,13 +165,29 @@ router.get('/offers/search', (req, res) => {
     let whereSql = ' WHERE 1=1';
     const params = [];
 
-    if (vcpu) { whereSql += ' AND o.vcpu = ?'; params.push(parseInt(vcpu)); }
-    if (ram_gb) { whereSql += ' AND o.ram_gb = ?'; params.push(parseInt(ram_gb)); }
-    if (disk_size_gb) { whereSql += ' AND o.disk_system_size_gb >= ?'; params.push(parseInt(disk_size_gb)); }
+    if (vcpu) {
+        const v = parseInt(vcpu);
+        whereSql += ' AND o.vcpu >= ? AND o.vcpu <= ?';
+        params.push(v, v * 2 - 1);
+    }
+    if (ram_gb) {
+        const r = parseInt(ram_gb);
+        whereSql += ' AND o.ram_gb >= ? AND o.ram_gb <= ?';
+        params.push(r, r * 2 - 1);
+    }
+    if (disk_size_gb) {
+        const d = parseInt(disk_size_gb);
+        whereSql += ' AND o.disk_system_size_gb >= ? AND o.disk_system_size_gb <= ?';
+        params.push(d, d * 2 - 1);
+    }
     if (disk_type && disk_type !== 'any') { whereSql += ' AND o.disk_system_type = ?'; params.push(disk_type); }
     if (cpu_type && cpu_type !== 'any') { whereSql += ' AND o.cpu_type = ?'; params.push(cpu_type); }
     if (cpu_brand && cpu_brand !== 'any') { whereSql += ' AND o.cpu_brand = ?'; params.push(cpu_brand); }
-    if (bandwidth_mbps) { whereSql += ' AND o.bandwidth_mbps >= ?'; params.push(parseInt(bandwidth_mbps)); }
+    if (bandwidth_mbps) {
+        const b = parseInt(bandwidth_mbps);
+        whereSql += ' AND o.bandwidth_mbps >= ? AND o.bandwidth_mbps <= ?';
+        params.push(b, b * 3); // For bandwidth, matching wider (e.g. 100 finds 100-300)
+    }
     if (traffic_limit_tb) { whereSql += ' AND o.traffic_limit_tb >= ?'; params.push(parseFloat(traffic_limit_tb)); }
     if (region) { whereSql += ' AND o.regions LIKE ?'; params.push(`%"${region}"%`); }
     if (virtualization && virtualization !== 'any') { whereSql += ' AND o.virtualization = ?'; params.push(virtualization); }
