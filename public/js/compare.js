@@ -40,7 +40,7 @@ function loadCompare() {
                 { label: 'Диск', fn: o => (o.disk_system_type || 'ssd').toUpperCase() + ' ' + o.disk_system_size_gb + ' ГБ' },
                 { label: 'CPU', fn: o => o.cpu_type + ' / ' + o.cpu_brand + ' ' + o.cpu_model },
                 { label: 'Канал', fn: o => o.bandwidth_mbps >= 1000 ? (o.bandwidth_mbps / 1000) + ' Gbps' : o.bandwidth_mbps + ' Mbps' },
-                { label: 'Трафик', fn: o => o.traffic_limit_tb + ' TB' },
+                { label: 'Трафик', fn: o => o.traffic_limit_tb >= 999999 ? 'Безлимит' : o.traffic_limit_tb + ' TB' },
                 { label: 'SLA', fn: o => o.sla_percent + '%' },
                 { label: 'Бесплатный тест', fn: o => o.free_trial_available ? o.free_trial_days + ' дней' : '—' },
                 { label: 'Рейтинг', fn: o => '⭐ ' + (o.provider_rating || 0).toFixed(1) },

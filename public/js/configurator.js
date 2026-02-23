@@ -167,7 +167,7 @@ function renderOfferCard(o) {
           <span class="spec-badge">${(o.disk_system_type || 'ssd').toUpperCase()} ${o.disk_system_size_gb} ГБ</span>
           <span class="spec-badge">${o.cpu_type} / ${o.cpu_brand}</span>
           <span class="spec-badge">${bwLabel}</span>
-          <span class="spec-badge">${o.traffic_limit_tb} TB</span>
+          <span class="spec-badge">${o.traffic_limit_tb >= 999999 ? 'Безлимит' : o.traffic_limit_tb + ' TB'}</span>
         </div>
         <div class="offer-card__flags">
           ${o.ipv4_included ? '<span class="badge">IPv4</span>' : ''}

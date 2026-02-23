@@ -197,7 +197,14 @@ router.get('/offers/search', (req, res) => {
         whereSql += ' AND o.bandwidth_mbps >= ? AND o.bandwidth_mbps <= ?';
         params.push(b, b * 5); // For bandwidth, matching wider (e.g. 100 finds 100-500)
     }
-    if (traffic_limit_tb) { whereSql += ' AND o.traffic_limit_tb >= ?'; params.push(parseFloat(traffic_limit_tb)); }
+    if (traffic_limit_tb) {
+        if (traffic_limit_tb === 'unlimited') {
+            whereSql += ' AND o.traffic_limit_tb >= 999999';
+        } else {
+            whereSql += ' AND (o.traffic_limit_tb >= ? OR o.traffic_limit_tb >= 999999)';
+            params.push(parseFloat(traffic_limit_tb));
+        }
+    }
     if (region) {
         const rArr = region.split(',');
         if (rArr.length === 1) {
