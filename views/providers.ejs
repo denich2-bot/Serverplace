@@ -48,10 +48,15 @@
             var citySel = document.getElementById('provRegion');
             citySel.innerHTML = '<option value="">Все города</option>';
             var filtered = country ? _provRegions.filter(function (r) { return r.country === country; }) : _provRegions;
+            var cityGroups = {};
             filtered.forEach(function (r) {
+                if (!cityGroups[r.city]) cityGroups[r.city] = [];
+                cityGroups[r.city].push(r.id);
+            });
+            Object.keys(cityGroups).sort().forEach(function (city) {
                 var opt = document.createElement('option');
-                opt.value = r.id;
-                opt.textContent = r.city;
+                opt.value = cityGroups[city].join(',');
+                opt.textContent = city;
                 citySel.appendChild(opt);
             });
         }
@@ -60,11 +65,24 @@
             _provPage = page || 1;
             var params = new URLSearchParams();
             var q = document.getElementById('provSearch').value.trim();
+            var country = document.getElementById('provCountry').value;
             var region = document.getElementById('provRegion').value;
             var rating = document.getElementById('provRating').value;
             var trial = document.getElementById('provTrial').checked;
             if (q) params.set('query', q);
-            if (region) params.set('region', region);
+            if (region) {
+                params.set('region', region);
+            } else if (country && window._provRegions) {
+                var rIds = [];
+                window._provRegions.forEach(function (r) {
+                    if (r.country === country) rIds.push(r.id);
+                });
+                if (rIds.length > 0) {
+                    params.set('region', rIds.join(','));
+                } else {
+                    params.set('region', 'NONE');
+                }
+            }
             if (rating) params.set('min_rating', rating);
             if (trial) params.set('trial', 'true');
             params.set('page', _provPage);

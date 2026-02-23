@@ -29,12 +29,16 @@ function getConfigParams() {
   const cpuBrand = document.getElementById('cfg_cpu_brand').value;
   const bandwidth = document.getElementById('cfg_bandwidth').value;
   const traffic = document.getElementById('cfg_traffic').value;
-  const region = document.getElementById('cfg_region').value;
   const virt = document.getElementById('cfg_virt').value;
   const trial = document.getElementById('cfg_trial').checked;
   const ddos = document.getElementById('cfg_ddos').checked;
   const ipv4 = document.getElementById('cfg_ipv4').checked;
   const sort = document.getElementById('sortSelect').value;
+
+  const countryEl = document.getElementById('cfg_country');
+  const regionEl = document.getElementById('cfg_region');
+  const country = countryEl ? countryEl.value : '';
+  const region = regionEl ? regionEl.value : '';
 
   if (vcpu) params.set('vcpu', vcpu);
   if (ram) params.set('ram_gb', ram);
@@ -44,7 +48,21 @@ function getConfigParams() {
   if (cpuBrand !== 'any') params.set('cpu_brand', cpuBrand);
   if (bandwidth) params.set('bandwidth_mbps', bandwidth);
   if (traffic) params.set('traffic_limit_tb', traffic);
-  if (region) params.set('region', region);
+
+  if (region) {
+    params.set('region', region);
+  } else if (country && window._allRegions) {
+    const rIds = [];
+    window._allRegions.forEach(r => {
+      if (r.country === country) rIds.push(r.id);
+    });
+    if (rIds.length > 0) {
+      params.set('region', rIds.join(','));
+    } else {
+      params.set('region', 'NONE');
+    }
+  }
+
   if (virt !== 'any') params.set('virtualization', virt);
   if (trial) params.set('trial', 'true');
   if (ddos) params.set('ddos', 'true');

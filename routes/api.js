@@ -90,8 +90,14 @@ router.get('/providers', (req, res) => {
         params.push(`%${query}%`, `%${query}%`);
     }
     if (region) {
-        sql += ' AND regions LIKE ?';
-        params.push(`%"${region}"%`);
+        const rArr = region.split(',');
+        if (rArr.length === 1) {
+            sql += ' AND regions LIKE ?';
+            params.push(`%"${rArr[0]}"%`);
+        } else {
+            sql += ' AND (' + rArr.map(() => 'regions LIKE ?').join(' OR ') + ')';
+            rArr.forEach(r => params.push(`%"${r}"%`));
+        }
     }
     if (trial === 'true' || trial === '1') {
         sql += ' AND has_free_trial = 1';
