@@ -174,17 +174,17 @@ router.get('/offers/search', (req, res) => {
     if (vcpu) {
         const v = parseInt(vcpu);
         whereSql += ' AND o.vcpu >= ? AND o.vcpu <= ?';
-        params.push(v, v * 2 - 1);
+        params.push(v, v * 2 + 1); // e.g. 1 -> 3
     }
     if (ram_gb) {
         const r = parseInt(ram_gb);
         whereSql += ' AND o.ram_gb >= ? AND o.ram_gb <= ?';
-        params.push(r, r * 2 - 1);
+        params.push(r, r * 2 + 1); // e.g. 2 -> 5
     }
     if (disk_size_gb) {
         const d = parseInt(disk_size_gb);
         whereSql += ' AND o.disk_system_size_gb >= ? AND o.disk_system_size_gb <= ?';
-        params.push(d, d * 2 - 1);
+        params.push(d, d * 4 - 1); // e.g. 20 -> 79
     }
     if (disk_type && disk_type !== 'any') { whereSql += ' AND o.disk_system_type = ?'; params.push(disk_type); }
     if (cpu_type && cpu_type !== 'any') { whereSql += ' AND o.cpu_type = ?'; params.push(cpu_type); }
@@ -192,7 +192,7 @@ router.get('/offers/search', (req, res) => {
     if (bandwidth_mbps) {
         const b = parseInt(bandwidth_mbps);
         whereSql += ' AND o.bandwidth_mbps >= ? AND o.bandwidth_mbps <= ?';
-        params.push(b, b * 3); // For bandwidth, matching wider (e.g. 100 finds 100-300)
+        params.push(b, b * 5); // For bandwidth, matching wider (e.g. 100 finds 100-500)
     }
     if (traffic_limit_tb) { whereSql += ' AND o.traffic_limit_tb >= ?'; params.push(parseFloat(traffic_limit_tb)); }
     if (region) {
