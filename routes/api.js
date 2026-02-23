@@ -156,6 +156,7 @@ router.get('/providers/:slug', (req, res) => {
 router.get('/offers/search', (req, res) => {
     const db = getDb();
     const {
+        service_type,
         vcpu, ram_gb, disk_size_gb, disk_type,
         cpu_type, cpu_brand,
         bandwidth_mbps, traffic_limit_tb,
@@ -170,6 +171,8 @@ router.get('/offers/search', (req, res) => {
 
     let whereSql = ' WHERE 1=1';
     const params = [];
+
+    if (service_type && service_type !== 'any') { whereSql += ' AND o.service_type = ?'; params.push(service_type); }
 
     if (vcpu) {
         const v = parseInt(vcpu);

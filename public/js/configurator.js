@@ -21,6 +21,7 @@ function initSliders() {
 
 function getConfigParams() {
   const params = new URLSearchParams();
+  const serviceType = document.getElementById('cfg_service_type') ? document.getElementById('cfg_service_type').value : 'any';
   const vcpu = document.getElementById('cfg_vcpu').value;
   const ram = document.getElementById('cfg_ram').value;
   const diskSize = document.getElementById('cfg_disk_size').value;
@@ -40,6 +41,7 @@ function getConfigParams() {
   const country = countryEl ? countryEl.value : '';
   const region = regionEl ? regionEl.value : '';
 
+  if (serviceType !== 'any') params.set('service_type', serviceType);
   if (vcpu) params.set('vcpu', vcpu);
   if (ram) params.set('ram_gb', ram);
   if (diskSize) params.set('disk_size_gb', diskSize);
@@ -204,6 +206,7 @@ function renderPagination(current, total) {
 }
 
 function resetConfig() {
+  if (document.getElementById('cfg_service_type')) document.getElementById('cfg_service_type').value = 'any';
   document.getElementById('cfg_vcpu').value = 1;
   document.getElementById('cfg_ram').value = 1;
   document.getElementById('cfg_disk_size').value = 20;
@@ -255,7 +258,7 @@ function initAutoSearch() {
   });
 
   // Selects: immediate search on change
-  ['cfg_cpu_type', 'cfg_cpu_brand', 'cfg_disk_type', 'cfg_bandwidth',
+  ['cfg_service_type', 'cfg_cpu_type', 'cfg_cpu_brand', 'cfg_disk_type', 'cfg_bandwidth',
     'cfg_traffic', 'cfg_region', 'cfg_virt', 'cfg_country'].forEach(function (id) {
       var el = document.getElementById(id);
       if (el) el.addEventListener('change', function () { searchOffers(); });

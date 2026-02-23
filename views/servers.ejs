@@ -11,6 +11,17 @@
         <aside class="configurator" id="configurator">
             <h3 class="configurator__title">⚙ Конфигуратор</h3>
             <div class="config-group">
+                <h4>Тип услуги</h4>
+                <div class="form-group"><select id="cfg_service_type" class="select">
+                        <option value="any">Любая</option>
+                        <option value="vds">VDS / VPS</option>
+                        <option value="dedicated">Выделенный сервер</option>
+                        <option value="cloud">Облачный сервер</option>
+                        <option value="hosting">Виртуальный хостинг</option>
+                        <option value="s3">S3 хранилище</option>
+                    </select></div>
+            </div>
+            <div class="config-group">
                 <h4>Вычисления</h4>
                 <div class="form-group"><label>vCPU: <strong id="vcpuVal">1</strong></label><input type="range"
                         id="cfg_vcpu" min="1" max="64" value="1" class="slider"></div>
